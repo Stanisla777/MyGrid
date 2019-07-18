@@ -196,6 +196,11 @@ img {
 
 /*Стили для ряда*/
 
+.justify-center{
+  justify-content: center;
+}
+
+
 /*margin 0*/
 
 .row-2-col{
@@ -311,6 +316,7 @@ img {
 
 /*margin 5px*/
 
+
 .row-2-col.mar-5{
   display: flex;
   flex-wrap: wrap;
@@ -318,7 +324,7 @@ img {
   margin-right:-@margin5;
 }
 .row-2-col.mar-5{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/2 - @margin5*2);
     margin-left: @margin5;
@@ -327,6 +333,40 @@ img {
   }
 }
 
+/*Пробую сделать меняющуюся */
+.row-2-col.mar-5{
+  .col-flex-10{
+    position: relative;
+    width: calc(10% - @margin5*2);
+    margin-left: @margin5;
+    margin-right: @margin5;
+    margin-bottom: 2*@margin5;
+    ~.col-flex{
+      width: calc((100% - 10%) - @margin5*2);
+    }
+  }
+}
+
+
+
+
+
+
+.row-3-col.mar-5{
+  .col-flex-test{
+    position: relative;
+    width: calc(10% - @margin5*2);
+    margin-left: @margin5;
+    margin-right: @margin5;
+    margin-bottom: 2*@margin5;
+    ~.col-flex{
+      width: calc((100% - 10%)/2 - @margin5*2);
+    }
+  }
+}
+
+
+
 .row-3-col.mar-5{
   display: flex;
   flex-wrap: wrap;
@@ -334,7 +374,7 @@ img {
   margin-right:-@margin5;
 }
 .row-3-col.mar-5{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/3 - @margin5*2);
     margin-left: @margin5;
@@ -352,7 +392,7 @@ img {
 
 }
 .row-4-col.mar-5{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/4 - @margin5*2);
     margin-left: @margin5;
@@ -368,7 +408,7 @@ img {
   margin-right:-@margin5;
 }
 .row-5-col.mar-5{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/5 - @margin5*2);
     margin-left: @margin5;
@@ -384,7 +424,7 @@ img {
   margin-right:-@margin5;
 }
 .row-6-col.mar-5{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/6 - @margin5*2);
     margin-left: @margin5;
@@ -400,7 +440,7 @@ img {
   margin-right:-@margin5;
 }
 .row-7-col.mar-5{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/7 - @margin5*2);
     margin-left: @margin5;
@@ -416,7 +456,7 @@ img {
   margin-right:-@margin5;
 }
 .row-8-col.mar-5{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/8 - @margin5*2);
     margin-left: @margin5;
@@ -432,7 +472,7 @@ img {
   margin-right:-@margin5;
 }
 .row-9-col.mar-5{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/9 - @margin5*2);
     margin-left: @margin5;
@@ -448,7 +488,7 @@ img {
   margin-right:-@margin5;
 }
 .row-10-col.mar-5{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/10 - @margin5*2);
     margin-left: @margin5;
@@ -465,7 +505,7 @@ img {
   margin-right:-@margin10;
 }
 .row-2-col.mar-10{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/2 - @margin10*2);
     margin-left: @margin10;
@@ -481,7 +521,7 @@ img {
   margin-right:-@margin10;
 }
 .row-3-col.mar-10{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/3 - @margin10*2);
     margin-left: @margin10;
@@ -499,7 +539,7 @@ img {
 
 }
 .row-4-col.mar-10{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/4 - @margin10*2);
     margin-left: @margin10;
@@ -515,7 +555,7 @@ img {
   margin-right:-@margin10;
 }
 .row-5-col.mar-10{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/5 - @margin10*2);
     margin-left: @margin10;
@@ -531,7 +571,7 @@ img {
   margin-right:-@margin10;
 }
 .row-6-col.mar-10{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/6 - @margin10*2);
     margin-left: @margin10;
@@ -547,7 +587,7 @@ img {
   margin-right:-@margin10;
 }
 .row-7-col.mar-10{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/7 - @margin10*2);
     margin-left: @margin10;
@@ -563,7 +603,7 @@ img {
   margin-right:-@margin10;
 }
 .row-8-col.mar-10{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/8 - @margin10*2);
     margin-left: @margin10;
@@ -579,7 +619,7 @@ img {
   margin-right:-@margin10;
 }
 .row-9-col.mar-10{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/9 - @margin10);
     margin-left: @margin10;
@@ -595,12 +635,122 @@ img {
   margin-right:-@margin10;
 }
 .row-10-col.mar-10{
-  .col-flex{
+  > .col-flex{
     position: relative;
     width: calc(100%/10 - @margin10*2);
     margin-left: @margin10;
     margin-right: @margin10;
     margin-bottom: 2*@margin10;
+  }
+}
+
+
+/*Сетка в ячейке*/
+
+/*---------mar5--------------*/
+.row-2-in-col.mar-5{
+  display: flex;
+  flex-wrap: wrap;
+  > .col-flex{
+    position: relative;
+    width: calc(100%/2 - @margin5);
+    &:nth-child(even){
+      margin-left: @margin5;
+    }
+    &:nth-child(odd){
+      margin-right: @margin5;
+    }
+
+  }
+}
+
+.row-3-in-col.mar-5{
+  display: flex;
+  flex-wrap: wrap;
+  > .col-flex{
+    position: relative;
+    width: calc((100% - @margin5*4)/3);
+    &:nth-child(3n+2){
+      margin-left: @margin5*2;
+    }
+    &:nth-child(3n+2){
+      margin-right: @margin5*2;
+    }
+
+  }
+}
+
+.row-4-in-col.mar-5{
+  display: flex;
+  flex-wrap: wrap;
+  > .col-flex{
+    position: relative;
+    width: calc((100% - @margin5*6)/4);
+    &:nth-child(4n+2){
+      margin-left: @margin5*2;
+      margin-right: @margin5;
+
+    }
+    &:nth-child(4n+3){
+      margin-right: @margin5*2;
+      margin-left: @margin5;
+
+    }
+
+  }
+}
+
+/*---------mar10--------------*/
+
+.row-2-in-col.mar-10{
+  display: flex;
+  flex-wrap: wrap;
+  > .col-flex{
+    position: relative;
+    width: calc(100%/2 - @margin10);
+    &:nth-child(even){
+      margin-left: @margin10;
+    }
+    &:nth-child(odd){
+      margin-right: @margin10;
+    }
+
+  }
+}
+
+.row-3-in-col.mar-10{
+  display: flex;
+  flex-wrap: wrap;
+  > .col-flex{
+    position: relative;
+    width: calc((100% - @margin10*4)/3);
+    &:nth-child(3n+2){
+      margin-left: @margin10*2;
+    }
+    &:nth-child(3n+2){
+      margin-right: @margin10*2;
+    }
+
+  }
+}
+
+.row-4-in-col.mar-10{
+  display: flex;
+  flex-wrap: wrap;
+  > .col-flex{
+    position: relative;
+    width: calc((100% - @margin10*6)/4);
+    &:nth-child(4n+2){
+      margin-left: @margin10*2;
+      margin-right: @margin10;
+
+    }
+    &:nth-child(4n+3){
+      margin-right: @margin10*2;
+      margin-left: @margin10;
+
+    }
+
   }
 }
 
@@ -861,3 +1011,6 @@ img {
     }
   }
 }
+
+
+
