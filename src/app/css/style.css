@@ -1185,6 +1185,11 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 30px;
 }
 /*Колонки разной ширины */
+/*mar-0*/
+.row-col {
+  display: flex;
+  flex-wrap: wrap;
+}
 /*mar-5*/
 .row-col.mar-5 {
   display: flex;
@@ -1221,6 +1226,82 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   flex-wrap: wrap;
   margin-left: -30px;
   margin-right: -30px;
+}
+.row-col > .col-flex-5 {
+  position: relative;
+  width: calc(100% - 95%);
+}
+.row-col > .col-flex-10 {
+  position: relative;
+  width: calc(100% - 90%);
+}
+.row-col > .col-flex-15 {
+  position: relative;
+  width: calc(100% - 85%);
+}
+.row-col > .col-flex-20 {
+  position: relative;
+  width: calc(100% - 80%);
+}
+.row-col > .col-flex-25 {
+  position: relative;
+  width: calc(100% - 75%);
+}
+.row-col > .col-flex-30 {
+  position: relative;
+  width: calc(100% - 70%);
+}
+.row-col > .col-flex-35 {
+  position: relative;
+  width: calc(100% - 65%);
+}
+.row-col > .col-flex-40 {
+  position: relative;
+  width: calc(100% - 60%);
+}
+.row-col > .col-flex-45 {
+  position: relative;
+  width: calc(100% - 55%);
+}
+.row-col > .col-flex-50 {
+  position: relative;
+  width: calc(100% - 50%);
+}
+.row-col > .col-flex-55 {
+  position: relative;
+  width: calc(100% - 45%);
+}
+.row-col > .col-flex-60 {
+  position: relative;
+  width: calc(100% - 40%);
+}
+.row-col > .col-flex-65 {
+  position: relative;
+  width: calc(100% - 35%);
+}
+.row-col > .col-flex-70 {
+  position: relative;
+  width: calc(100% - 30%);
+}
+.row-col > .col-flex-75 {
+  position: relative;
+  width: calc(100% - 25%);
+}
+.row-col > .col-flex-80 {
+  position: relative;
+  width: calc(100% - 20%);
+}
+.row-col > .col-flex-85 {
+  position: relative;
+  width: calc(100% - 15%);
+}
+.row-col > .col-flex-90 {
+  position: relative;
+  width: calc(100% - 10%);
+}
+.row-col > .col-flex-95 {
+  position: relative;
+  width: calc(100% - 5%);
 }
 .row-col.mar-5 > .col-flex-5 {
   position: relative;
@@ -2029,163 +2110,30 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 /*------------------Медиа запросы--------------------*/
 /*экран шириной меньшей 992px*/
 @media screen and (max-width: 992px) {
-  /*меняю отступы при медиа запросе*/
-  /*на margin 10*/
-  .mar-5.col-lg-2.col-lg-mar-10,
-  .mar-15.col-lg-2.col-lg-mar-10,
-  .mar-20.col-lg-2.col-lg-mar-10,
-  .mar-25.col-lg-2.col-lg-mar-10,
-  .mar-30.col-lg-2.col-lg-mar-10 {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-  .mar-5.col-lg-2.col-lg-mar-10 .col-flex,
-  .mar-15.col-lg-2.col-lg-mar-10 .col-flex,
-  .mar-20.col-lg-2.col-lg-mar-10 .col-flex,
-  .mar-25.col-lg-2.col-lg-mar-10 .col-flex,
-  .mar-30.col-lg-2.col-lg-mar-10 .col-flex {
-    width: calc(100% / 2 - 10px * 2);
+  [class*="mar-"].row-2-col.col-lg-mar-10 .col-flex {
+    width: calc(100/2 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
   }
-  .mar-5.col-lg-3.col-lg-mar-10,
-  .mar-15.col-lg-3.col-lg-mar-10,
-  .mar-20.col-lg-3.col-lg-mar-10,
-  .mar-25.col-lg-3.col-lg-mar-10,
-  .mar-30.col-lg-3.col-lg-mar-10 {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-  .mar-5.col-lg-3.col-lg-mar-10 .col-flex,
-  .mar-15.col-lg-3.col-lg-mar-10 .col-flex,
-  .mar-20.col-lg-3.col-lg-mar-10 .col-flex,
-  .mar-25.col-lg-3.col-lg-mar-10 .col-flex,
-  .mar-30.col-lg-3.col-lg-mar-10 .col-flex {
-    width: calc(100% / 3 - 10px * 2);
+  [class*="mar-"].row-3-col.col-lg-mar-10 .col-flex {
+    width: calc(100/3 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 20px;
   }
-  .mar-5.col-lg-4.col-lg-mar-10,
-  .mar-15.col-lg-4.col-lg-mar-10,
-  .mar-20.col-lg-4.col-lg-mar-10,
-  .mar-25.col-lg-4.col-lg-mar-10,
-  .mar-30.col-lg-4.col-lg-mar-10 {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-  .mar-5.col-lg-4.col-lg-mar-10 .col-flex,
-  .mar-15.col-lg-4.col-lg-mar-10 .col-flex,
-  .mar-20.col-lg-4.col-lg-mar-10 .col-flex,
-  .mar-25.col-lg-4.col-lg-mar-10 .col-flex,
-  .mar-30.col-lg-4.col-lg-mar-10 .col-flex {
-    width: calc(100% / 4 - 10px * 2);
+  [class*="mar-"].row-4-col.col-lg-mar-10 .col-flex {
+    width: calc(100/2 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 20px;
   }
-  .mar-5.col-lg-5.col-lg-mar-10,
-  .mar-15.col-lg-5.col-lg-mar-10,
-  .mar-20.col-lg-5.col-lg-mar-10,
-  .mar-25.col-lg-5.col-lg-mar-10,
-  .mar-30.col-lg-5.col-lg-mar-10 {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-  .mar-5.col-lg-5.col-lg-mar-10 .col-flex,
-  .mar-15.col-lg-5.col-lg-mar-10 .col-flex,
-  .mar-20.col-lg-5.col-lg-mar-10 .col-flex,
-  .mar-25.col-lg-5.col-lg-mar-10 .col-flex,
-  .mar-30.col-lg-5.col-lg-mar-10 .col-flex {
-    width: calc(100% / 5 - 10px * 2);
+  [class*="mar-"].row-5-col.col-lg-mar-10 .col-flex {
+    width: calc(100/5 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 20px;
   }
-  .mar-5.col-lg-6.col-lg-mar-10,
-  .mar-15.col-lg-6.col-lg-mar-10,
-  .mar-20.col-lg-6.col-lg-mar-10,
-  .mar-25.col-lg-6.col-lg-mar-10,
-  .mar-30.col-lg-6.col-lg-mar-10 {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-  .mar-5.col-lg-6.col-lg-mar-10 .col-flex,
-  .mar-15.col-lg-6.col-lg-mar-10 .col-flex,
-  .mar-20.col-lg-6.col-lg-mar-10 .col-flex,
-  .mar-25.col-lg-6.col-lg-mar-10 .col-flex,
-  .mar-30.col-lg-6.col-lg-mar-10 .col-flex {
-    width: calc(100% / 6 - 10px * 2);
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .mar-5.col-lg-7.col-lg-mar-10,
-  .mar-15.col-lg-7.col-lg-mar-10,
-  .mar-20.col-lg-7.col-lg-mar-10,
-  .mar-25.col-lg-7.col-lg-mar-10,
-  .mar-30.col-lg-7.col-lg-mar-10 {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-  .mar-5.col-lg-7.col-lg-mar-10 .col-flex,
-  .mar-15.col-lg-7.col-lg-mar-10 .col-flex,
-  .mar-20.col-lg-7.col-lg-mar-10 .col-flex,
-  .mar-25.col-lg-7.col-lg-mar-10 .col-flex,
-  .mar-30.col-lg-7.col-lg-mar-10 .col-flex {
-    width: calc(100% / 7 - 10px * 2);
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .mar-5.col-lg-8.col-lg-mar-10,
-  .mar-15.col-lg-8.col-lg-mar-10,
-  .mar-20.col-lg-8.col-lg-mar-10,
-  .mar-25.col-lg-8.col-lg-mar-10,
-  .mar-30.col-lg-8.col-lg-mar-10 {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-  .mar-5.col-lg-8.col-lg-mar-10 .col-flex,
-  .mar-15.col-lg-8.col-lg-mar-10 .col-flex,
-  .mar-20.col-lg-8.col-lg-mar-10 .col-flex,
-  .mar-25.col-lg-8.col-lg-mar-10 .col-flex,
-  .mar-30.col-lg-8.col-lg-mar-10 .col-flex {
-    width: calc(100% / 8 - 10px * 2);
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .mar-5.col-lg-9.col-lg-mar-10,
-  .mar-15.col-lg-9.col-lg-mar-10,
-  .mar-20.col-lg-9.col-lg-mar-10,
-  .mar-25.col-lg-9.col-lg-mar-10,
-  .mar-30.col-lg-9.col-lg-mar-10 {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-  .mar-5.col-lg-9.col-lg-mar-10 .col-flex,
-  .mar-15.col-lg-9.col-lg-mar-10 .col-flex,
-  .mar-20.col-lg-9.col-lg-mar-10 .col-flex,
-  .mar-25.col-lg-9.col-lg-mar-10 .col-flex,
-  .mar-30.col-lg-9.col-lg-mar-10 .col-flex {
-    width: calc(100% / 9 - 10px * 2);
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .mar-5.col-lg-10.col-lg-mar-10,
-  .mar-15.col-lg-10.col-lg-mar-10,
-  .mar-20.col-lg-10.col-lg-mar-10,
-  .mar-25.col-lg-10.col-lg-mar-10,
-  .mar-30.col-lg-10.col-lg-mar-10 {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-  .mar-5.col-lg-10.col-lg-mar-10 .col-flex,
-  .mar-15.col-lg-10.col-lg-mar-10 .col-flex,
-  .mar-20.col-lg-10.col-lg-mar-10 .col-flex,
-  .mar-25.col-lg-10.col-lg-mar-10 .col-flex,
-  .mar-30.col-lg-10.col-lg-mar-10 .col-flex {
-    width: calc(100% / 10 - 10px * 2);
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  /*-----------------------------*/
   /*---mar5-----*/
   .mar-5.col-lg-9 .col-flex {
     width: calc(100%/9 - 5px*2);
@@ -4700,13 +4648,13 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-right: -30px;
     margin-left: -30px;
   }
-  .row-col.mar-30 .col-flex-lg-5,
-  .row-col.mar-5.col-lg-mar-30 .col-flex-lg-5,
-  .row-col.mar-10.col-lg-mar-30 .col-flex-lg-5,
-  .row-col.mar-15.col-lg-mar-30 .col-flex-lg-5,
-  .row-col.mar-20.col-lg-mar-30 .col-flex-lg-5,
-  .row-col.mar-25.col-lg-mar-30 .col-flex-lg-5,
-  .row-col.mar-30.col-lg-mar-30 .col-flex-lg-5 {
+  .row-col.mar-30 .col-flex-lg-95,
+  .row-col.mar-5.col-lg-mar-30 .col-flex-lg-95,
+  .row-col.mar-10.col-lg-mar-30 .col-flex-lg-95,
+  .row-col.mar-15.col-lg-mar-30 .col-flex-lg-95,
+  .row-col.mar-20.col-lg-mar-30 .col-flex-lg-95,
+  .row-col.mar-25.col-lg-mar-30 .col-flex-lg-95,
+  .row-col.mar-30.col-lg-mar-30 .col-flex-lg-95 {
     width: calc((100% - 5%) - 30px * 2);
     margin-right: 30px;
     margin-left: 30px;
@@ -4829,6 +4777,11 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 }
 /*экран шириной меньшей 768px - md*/
 @media screen and (max-width: 768px) {
+  [class*='mar-'].col-lg-3.col-md-mar-10 .col-flex {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(100%/3 - 10px*2);
+  }
   /*-------отступ 5px---------------*/
   .mar-5.col-md-9 .col-flex {
     width: calc(100%/9 - 5px*2);
