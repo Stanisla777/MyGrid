@@ -781,8 +781,6 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 }
 /*----------------------------------------------------------*/
 .row-10-col-mar-25 {
-  /*display: flex;
-  flex-wrap: wrap;*/
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -1197,7 +1195,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   flex-wrap: wrap;
 }
 /*mar-5*/
-.row-col.mar-5 {
+.row-col-mar-5 {
   display: flex;
   flex-wrap: wrap;
   margin-left: -5px;
@@ -1233,11 +1231,11 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: -30px;
   margin-right: -30px;
 }
-.row-col > .col-flex-5 {
+[class*='row-col'] > .col-flex-5 {
   position: relative;
   width: calc(100% - 95%);
 }
-.row-col > .col-flex-10 {
+[class*='row-col'] > .col-flex-10 {
   position: relative;
   width: calc(100% - 90%);
 }
@@ -1245,11 +1243,11 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   position: relative;
   width: calc(100% - 85%);
 }
-.row-col > .col-flex-20 {
+[class*='row-col'] > .col-flex-20 {
   position: relative;
   width: calc(100% - 80%);
 }
-.row-col > .col-flex-25 {
+[class*='row-col'] > .col-flex-25 {
   position: relative;
   width: calc(100% - 75%);
 }
@@ -1309,133 +1307,133 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   position: relative;
   width: calc(100% - 5%);
 }
-.row-col.mar-5 > .col-flex-5 {
+.row-col-mar-5 > .col-flex-5 {
   position: relative;
   width: calc((100% - 95%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-10 {
+.row-col-mar-5 > .col-flex-10 {
   position: relative;
   width: calc((100% - 90%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-15 {
+.row-col-mar-5 > .col-flex-15 {
   position: relative;
   width: calc((100% - 85%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-20 {
+.row-col-mar-5 > .col-flex-20 {
   position: relative;
   width: calc((100% - 80%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-25 {
+.row-col-mar-5 > .col-flex-25 {
   position: relative;
   width: calc((100% - 75%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-30 {
+.row-col-mar-5 > .col-flex-30 {
   position: relative;
   width: calc((100% - 70%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-35 {
+.row-col-mar-5 > .col-flex-35 {
   position: relative;
   width: calc((100% - 65%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-40 {
+.row-col-mar-5 > .col-flex-40 {
   position: relative;
   width: calc((100% - 60%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-45 {
+.row-col-mar-5 > .col-flex-45 {
   position: relative;
   width: calc((100% - 55%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-50 {
+.row-col-mar-5 > .col-flex-50 {
   position: relative;
   width: calc((100% - 50%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-55 {
+.row-col-mar-5 > .col-flex-55 {
   position: relative;
   width: calc((100% - 45%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-60 {
+.row-col-mar-5 > .col-flex-60 {
   position: relative;
   width: calc((100% - 40%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-65 {
+.row-col-mar-5 > .col-flex-65 {
   position: relative;
   width: calc((100% - 35%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-70 {
+.row-col-mar-5 > .col-flex-70 {
   position: relative;
   width: calc((100% - 30%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-75 {
+.row-col-mar-5 > .col-flex-75 {
   position: relative;
   width: calc((100% - 25%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-80 {
+.row-col-mar-5 > .col-flex-80 {
   position: relative;
   width: calc((100% - 20%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-85 {
+.row-col-mar-5 > .col-flex-85 {
   position: relative;
   width: calc((100% - 15%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-90 {
+.row-col-mar-5 > .col-flex-90 {
   position: relative;
   width: calc((100% - 10%) - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-.row-col.mar-5 > .col-flex-95 {
+.row-col-mar-5 > .col-flex-95 {
   position: relative;
   width: calc((100% - 5%) - 5px*2);
   margin-left: 5px;
@@ -1443,133 +1441,133 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-bottom: 10px;
 }
 /*mar-10*/
-.row-col.mar-10 > .col-flex-5 {
+.row-col-mar-10 > .col-flex-5 {
   position: relative;
   width: calc((100% - 95%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-10 {
+.row-col-mar-10 > .col-flex-10 {
   position: relative;
   width: calc((100% - 90%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-15 {
+.row-col-mar-10 > .col-flex-15 {
   position: relative;
   width: calc((100% - 85%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-20 {
+.row-col-mar-10 > .col-flex-20 {
   position: relative;
   width: calc((100% - 80%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-25 {
+.row-col-mar-10 > .col-flex-25 {
   position: relative;
   width: calc((100% - 75%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-30 {
+.row-col-mar-10 > .col-flex-30 {
   position: relative;
   width: calc((100% - 70%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-35 {
+.row-col-mar-10 > .col-flex-35 {
   position: relative;
   width: calc((100% - 65%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-40 {
+.row-col-mar-10 > .col-flex-40 {
   position: relative;
   width: calc((100% - 60%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-45 {
+.row-col-mar-10 > .col-flex-45 {
   position: relative;
   width: calc((100% - 55%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-50 {
+.row-col-mar-10 > .col-flex-50 {
   position: relative;
   width: calc((100% - 50%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-55 {
+.row-col-mar-10 > .col-flex-55 {
   position: relative;
   width: calc((100% - 45%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-60 {
+.row-col-mar-10 > .col-flex-60 {
   position: relative;
   width: calc((100% - 40%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-65 {
+.row-col-mar-10 > .col-flex-65 {
   position: relative;
   width: calc((100% - 35%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-70 {
+.row-col-mar-10 > .col-flex-70 {
   position: relative;
   width: calc((100% - 30%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-75 {
+.row-col-mar-10 > .col-flex-75 {
   position: relative;
   width: calc((100% - 25%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-80 {
+.row-col-mar-10 > .col-flex-80 {
   position: relative;
   width: calc((100% - 20%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-85 {
+.row-col-mar-10 > .col-flex-85 {
   position: relative;
   width: calc((100% - 15%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-90 {
+.row-col-mar-10 > .col-flex-90 {
   position: relative;
   width: calc((100% - 10%) - 10px*2);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-.row-col.mar-10 > .col-flex-95 {
+.row-col-mar-10 > .col-flex-95 {
   position: relative;
   width: calc((100% - 5%) - 10px*2);
   margin-left: 10px;
@@ -1577,133 +1575,133 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-bottom: 20px;
 }
 /*mar-15*/
-.row-col.mar-15 > .col-flex-5 {
+.row-col-mar-15 > .col-flex-5 {
   position: relative;
   width: calc((100% - 95%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-10 {
+.row-col-mar-15 > .col-flex-10 {
   position: relative;
   width: calc((100% - 90%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-15 {
+.row-col-mar-15 > .col-flex-15 {
   position: relative;
   width: calc((100% - 85%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-20 {
+.row-col-mar-15 > .col-flex-20 {
   position: relative;
   width: calc((100% - 80%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-25 {
+.row-col-mar-15 > .col-flex-25 {
   position: relative;
   width: calc((100% - 75%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-30 {
+.row-col-mar-15 > .col-flex-30 {
   position: relative;
   width: calc((100% - 70%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-35 {
+.row-col-mar-15 > .col-flex-35 {
   position: relative;
   width: calc((100% - 65%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-40 {
+.row-col-mar-15 > .col-flex-40 {
   position: relative;
   width: calc((100% - 60%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-45 {
+.row-col-mar-15 > .col-flex-45 {
   position: relative;
   width: calc((100% - 55%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-50 {
+.row-col-mar-15 > .col-flex-50 {
   position: relative;
   width: calc((100% - 50%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-55 {
+.row-col-mar-15 > .col-flex-55 {
   position: relative;
   width: calc((100% - 45%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-60 {
+.row-col-mar-15 > .col-flex-60 {
   position: relative;
   width: calc((100% - 40%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-65 {
+.row-col-mar-15 > .col-flex-65 {
   position: relative;
   width: calc((100% - 35%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-70 {
+.row-col-mar-15 > .col-flex-70 {
   position: relative;
   width: calc((100% - 30%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-75 {
+.row-col-mar-15 > .col-flex-75 {
   position: relative;
   width: calc((100% - 25%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-80 {
+.row-col-mar-15 > .col-flex-80 {
   position: relative;
   width: calc((100% - 20%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-85 {
+.row-col-mar-15 > .col-flex-85 {
   position: relative;
   width: calc((100% - 15%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-90 {
+.row-col-mar-15 > .col-flex-90 {
   position: relative;
   width: calc((100% - 10%) - 15px*2);
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
-.row-col.mar-15 > .col-flex-95 {
+.row-col-mar-15 > .col-flex-95 {
   position: relative;
   width: calc((100% - 5%) - 15px*2);
   margin-left: 15px;
@@ -1711,133 +1709,133 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-bottom: 30px;
 }
 /*mar-20*/
-.row-col.mar-20 > .col-flex-5 {
+.row-col-mar-20 > .col-flex-5 {
   position: relative;
   width: calc((100% - 95%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-10 {
+.row-col-mar-20 > .col-flex-10 {
   position: relative;
   width: calc((100% - 90%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-15 {
+.row-col-mar-20 > .col-flex-15 {
   position: relative;
   width: calc((100% - 85%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-20 {
+.row-col-mar-20 > .col-flex-20 {
   position: relative;
   width: calc((100% - 80%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-25 {
+.row-col-mar-20 > .col-flex-25 {
   position: relative;
   width: calc((100% - 75%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-30 {
+.row-col-mar-20 > .col-flex-30 {
   position: relative;
   width: calc((100% - 70%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-35 {
+.row-col-mar-20 > .col-flex-35 {
   position: relative;
   width: calc((100% - 65%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-40 {
+.row-col-mar-20 > .col-flex-40 {
   position: relative;
   width: calc((100% - 60%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-45 {
+.row-col-mar-20 > .col-flex-45 {
   position: relative;
   width: calc((100% - 55%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-50 {
+.row-col-mar-20 > .col-flex-50 {
   position: relative;
   width: calc((100% - 50%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-55 {
+.row-col-mar-20 > .col-flex-55 {
   position: relative;
   width: calc((100% - 45%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-60 {
+.row-col-mar-20 > .col-flex-60 {
   position: relative;
   width: calc((100% - 40%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-65 {
+.row-col-mar-20 > .col-flex-65 {
   position: relative;
   width: calc((100% - 35%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-70 {
+.row-col-mar-20 > .col-flex-70 {
   position: relative;
   width: calc((100% - 30%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-75 {
+.row-col-mar-20 > .col-flex-75 {
   position: relative;
   width: calc((100% - 25%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-80 {
+.row-col-mar-20 > .col-flex-80 {
   position: relative;
   width: calc((100% - 20%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-85 {
+.row-col-mar-20 > .col-flex-85 {
   position: relative;
   width: calc((100% - 15%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-90 {
+.row-col-mar-20 > .col-flex-90 {
   position: relative;
   width: calc((100% - 10%) - 20px*2);
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.row-col.mar-20 > .col-flex-95 {
+.row-col-mar-20 > .col-flex-95 {
   position: relative;
   width: calc((100% - 5%) - 20px*2);
   margin-left: 20px;
@@ -1845,133 +1843,133 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-bottom: 40px;
 }
 /*mar-25*/
-.row-col.mar-25 > .col-flex-5 {
+.row-col-mar-25 > .col-flex-5 {
   position: relative;
   width: calc((100% - 95%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-10 {
+.row-col-mar-25 > .col-flex-10 {
   position: relative;
   width: calc((100% - 90%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-15 {
+.row-col-mar-25 > .col-flex-15 {
   position: relative;
   width: calc((100% - 85%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-20 {
+.row-col-mar-25 > .col-flex-20 {
   position: relative;
   width: calc((100% - 80%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-25 {
+.row-col-mar-25 > .col-flex-25 {
   position: relative;
   width: calc((100% - 75%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-30 {
+.row-col-mar-25 > .col-flex-30 {
   position: relative;
   width: calc((100% - 70%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-35 {
+.row-col-mar-25 > .col-flex-35 {
   position: relative;
   width: calc((100% - 65%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-40 {
+.row-col-mar-25 > .col-flex-40 {
   position: relative;
   width: calc((100% - 60%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-45 {
+.row-col-mar-25 > .col-flex-45 {
   position: relative;
   width: calc((100% - 55%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-50 {
+.row-col-mar-25 > .col-flex-50 {
   position: relative;
   width: calc((100% - 50%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-55 {
+.row-col-mar-25 > .col-flex-55 {
   position: relative;
   width: calc((100% - 45%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-60 {
+.row-col-mar-25 > .col-flex-60 {
   position: relative;
   width: calc((100% - 40%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-65 {
+.row-col-mar-25 > .col-flex-65 {
   position: relative;
   width: calc((100% - 35%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-70 {
+.row-col-mar-25 > .col-flex-70 {
   position: relative;
   width: calc((100% - 30%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-75 {
+.row-col-mar-25 > .col-flex-75 {
   position: relative;
   width: calc((100% - 25%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-80 {
+.row-col-mar-25 > .col-flex-80 {
   position: relative;
   width: calc((100% - 20%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-85 {
+.row-col-mar-25 > .col-flex-85 {
   position: relative;
   width: calc((100% - 15%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-90 {
+.row-col-mar-25 > .col-flex-90 {
   position: relative;
   width: calc((100% - 10%) - 25px*2);
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 50px;
 }
-.row-col.mar-25 > .col-flex-95 {
+.row-col-mar-25 > .col-flex-95 {
   position: relative;
   width: calc((100% - 5%) - 25px*2);
   margin-left: 25px;
@@ -1979,133 +1977,133 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-bottom: 50px;
 }
 /*mar-30*/
-.row-col.mar-30 > .col-flex-5 {
+.row-col-mar-30 > .col-flex-5 {
   position: relative;
   width: calc((100% - 95%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-10 {
+.row-col-mar-30 > .col-flex-10 {
   position: relative;
   width: calc((100% - 90%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-15 {
+.row-col-mar-30 > .col-flex-15 {
   position: relative;
   width: calc((100% - 85%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-20 {
+.row-col-mar-30 > .col-flex-20 {
   position: relative;
   width: calc((100% - 80%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-25 {
+.row-col-mar-30 > .col-flex-25 {
   position: relative;
   width: calc((100% - 75%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-30 {
+.row-col-mar-30 > .col-flex-30 {
   position: relative;
   width: calc((100% - 70%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-35 {
+.row-col-mar-30 > .col-flex-35 {
   position: relative;
   width: calc((100% - 65%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-40 {
+.row-col-mar-30 > .col-flex-40 {
   position: relative;
   width: calc((100% - 60%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-45 {
+.row-col-mar-30 > .col-flex-45 {
   position: relative;
   width: calc((100% - 55%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-50 {
+.row-col-mar-30 > .col-flex-50 {
   position: relative;
   width: calc((100% - 50%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-55 {
+.row-col-mar-30 > .col-flex-55 {
   position: relative;
   width: calc((100% - 45%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-60 {
+.row-col-mar-30 > .col-flex-60 {
   position: relative;
   width: calc((100% - 40%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-65 {
+.row-col-mar-30 > .col-flex-65 {
   position: relative;
   width: calc((100% - 35%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-70 {
+.row-col-mar-30 > .col-flex-70 {
   position: relative;
   width: calc((100% - 30%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-75 {
+.row-col-mar-30 > .col-flex-75 {
   position: relative;
   width: calc((100% - 25%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-80 {
+.row-col-mar-30 > .col-flex-80 {
   position: relative;
   width: calc((100% - 20%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-85 {
+.row-col-mar-30 > .col-flex-85 {
   position: relative;
   width: calc((100% - 15%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-90 {
+.row-col-mar-30 > .col-flex-90 {
   position: relative;
   width: calc((100% - 10%) - 30px*2);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 60px;
 }
-.row-col.mar-30 > .col-flex-95 {
+.row-col-mar-30 > .col-flex-95 {
   position: relative;
   width: calc((100% - 5%) - 30px*2);
   margin-left: 30px;
@@ -2954,6 +2952,30 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   /*mar10*/
   /*не одинаковые колонки*/
   /*mar 5px*/
+  [class*="row-col-mar"].col-lg-mar-5 {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+  [class*="row-col-mar"].col-lg-mar-5 .col-flex-lg-5 {
+    width: calc((100% - 95%) - 5px * 2);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  [class*="row-col-mar"].col-lg-mar-5 .col-flex-lg-10 {
+    width: calc((100% - 90%) - 5px * 2);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  [class*="row-col-mar"].col-lg-mar-5 .col-flex-lg-20 {
+    width: calc((100% - 80%) - 5px * 2);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  [class*="row-col-mar"].col-lg-mar-5 .col-flex-lg-30 {
+    width: calc((100% - 70%) - 5px * 2);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
   .row-col.mar-5,
   .row-col.mar-5.col-lg-mar-5,
   .row-col.mar-10.col-lg-mar-5,
@@ -5896,6 +5918,30 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     width: calc(100%/1);
   }
   /*не одинаковые колонки*/
+  [class*="row-col-mar"].col-md-mar-5 {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+  [class*="row-col-mar"].col-md-mar-5 .col-flex-md-5 {
+    width: calc((100% - 95%) - 5px * 2);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  [class*="row-col-mar"].col-md-mar-5 .col-flex-md-10 {
+    width: calc((100% - 90%) - 5px * 2);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  [class*="row-col-mar"].col-md-mar-5 .col-flex-md-20 {
+    width: calc((100% - 80%) - 5px * 2);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  [class*="row-col-mar"].col-md-mar-5 .col-flex-md-30 {
+    width: calc((100% - 70%) - 5px * 2);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
   /*mar 5px*/
   .row-col.mar-5 .col-flex-md-10 {
     width: calc((100% - 90%) - 5px*2);
@@ -6615,6 +6661,30 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     width: calc(100%/1);
   }
   /*не одинаковые колонки*/
+  [class*="row-col-mar"].col-sm-mar-5 {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+  [class*="row-col-mar"].col-sm-mar-5 .col-flex-sm-5 {
+    width: calc((100% - 95%) - 5px * 2);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  [class*="row-col-mar"].col-sm-mar-5 .col-flex-sm-10 {
+    width: calc((100% - 90%) - 5px * 2);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  [class*="row-col-mar"].col-sm-mar-5 .col-flex-sm-20 {
+    width: calc((100% - 80%) - 5px * 2);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  [class*="row-col-mar"].col-sm-mar-5 .col-flex-sm-30 {
+    width: calc((100% - 70%) - 5px * 2);
+    margin-right: 5px;
+    margin-left: 5px;
+  }
   /*mar 5px*/
   .row-col.mar-5 .col-flex-sm-10 {
     width: calc((100% - 90%) - 5px*2);
