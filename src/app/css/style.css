@@ -78,11 +78,17 @@ col-lg-(1-6)-mar-(5-30) - медиа сколько будет колонок и
 col-lg-mar-(5-30) - изменение отсупа в медиа запросах
 
 
-
-
-
-
  */
+/*если вдруг отступы будут не кратные 5*/
+.my-class[class*='row-'] {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.my-class[class*='row-'] .col-flex {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: calc(100%/4 - 16px);
+}
 /*Стили для ряда*/
 .justify-center {
   justify-content: center;
@@ -1030,6 +1036,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-right: 5px;
 }
 .row-2-in-col-mar-5.mar-bottom .col-flex:not(:nth-last-child(-1n+2)) {
+  /*Остановился тут делаю чтобы у последних колонок не было нижнего отступа*/
   margin-bottom: 10px;
 }
 .row-3-in-col-mar-5 {
@@ -2211,6 +2218,36 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 }
 /*---------------------------------------------------------------------*/
 /*------------------Медиа запросы--------------------*/
+/*Если нужны другие медиа, нужно учитывать какие отступы были*/
+/*одинаковые колонки*/
+@media screen and (max-width: 800px) {
+  [class*="row-"].my-class {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  [class*="row-"].my-class .col-flex {
+    width: calc(100%/2 - 10px*2);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+/*разные колонки*/
+@media screen and (max-width: 700px) {
+  [class*='row-col-mar'].my-class {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+  [class*='row-col-mar'].my-class .col-flex-media-35 {
+    width: calc(35% - 30px*2);
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  [class*='row-col-mar'].my-class .col-flex-media-30 {
+    width: calc(30% - 30px*2);
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
 /*экран шириной меньшей 992px*/
 @media screen and (max-width: 992px) {
   /*Для колонок с одинаковой шириной меняю отступ*/
@@ -8436,26 +8473,5 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-right: 30px;
     margin-left: 30px;
     margin-bottom: 60px;
-  }
-}
-[class$='my'] {
-  color: red;
-}
-/*Когда я пользуюсь своими отступами и шириной экрана*/
-/*если вдруг отступы будут не кратные 5*/
-.my-class.row-4-col {
-  margin-left: -8px;
-  margin-right: -8px;
-}
-.my-class.row-4-col .col-flex {
-  margin-left: 8px;
-  margin-right: 8px;
-  width: calc(100%/4 - 16px);
-}
-/*если вдруг будет не бутстраповская сетка*/
-@media screen and (max-width: 800px) {
-  .row-4-col.my-class .col-flex {
-    position: relative;
-    width: calc(100%/2 - 10px);
   }
 }
