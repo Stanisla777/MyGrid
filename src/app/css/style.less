@@ -75,13 +75,13 @@ section,header,footer{
 одинаковые колонки
 .row-(1-10)-col - записывается в ряду сколько будет колонок
 .row-(2-4)-in-col - записывается в ряду сколько будет колонок
-.mar-(5-10) - записывается в ряду отступ колонок
+.row-(1-10)-col-mar-(5-30) - записывается в ряду отступ колонок
 .justify-center - записывается в ряду центрирование колонок
 .col-lg-(1-4) - записывается в ряду сколько будет одинаковых при медиа колонок, при этом перебивает неодинаковые колонки и делает одинаковыми
 .col-md-(1-4) -
 .col-sm-(1-4) -
 
-col-lg-(1-4)-mar-(5-30) - медиа сколько будет колонок и какой отступ
+col-lg-(1-6)-mar-(5-30) - медиа сколько будет колонок и какой отступ
 
 
 .col-flex - записывается в колонке
@@ -115,113 +115,90 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 /*если ячейки имеют одинаковые размеры*/
 /*margin 0*/
 
-.row-2-col{
-  display: flex;
-  flex-wrap: wrap;
-}
-.row-2-col{
+
+.row-2-col,.row-2-col-mar-0{
   .col-flex{
     position: relative;
     width: calc(100%/2);
   }
 }
 
-.row-3-col{
-  display: flex;
-  flex-wrap: wrap;
 
-}
-.row-3-col{
+.row-3-col,.row-3-col-mar-0{
   .col-flex{
     position: relative;
     width: calc(100%/3);
   }
 }
 
-.row-4-col{
-  display: flex;
-  flex-wrap: wrap;
 
-}
-.row-4-col{
+.row-4-col,.row-4-col-mar-0{
   .col-flex{
     position: relative;
     width: calc(100%/4);
   }
 }
 
-.row-5-col{
-  display: flex;
-  flex-wrap: wrap;
 
-
-}
-.row-5-col{
+.row-5-col,.row-5-col-mar-0{
   .col-flex{
     position: relative;
     width: calc(100%/5);
   }
 }
 
-.row-6-col{
-  display: flex;
-  flex-wrap: wrap;
-}
-.row-6-col{
+
+.row-6-col,.row-6-col-mar-0{
   .col-flex{
     position: relative;
     width: calc(100%/6);
   }
 }
 
-.row-7-col{
-  display: flex;
-  flex-wrap: wrap;
 
-
-}
-.row-7-col{
+.row-7-col,.row-7-col-mar-0{
   .col-flex{
     position: relative;
     width: calc(100%/7);
   }
 }
 
-.row-8-col{
-  display: flex;
-  flex-wrap: wrap;
-}
-.row-8-col{
+
+.row-8-col,.row-8-col-mar-0{
   .col-flex{
     position: relative;
     width: calc(100%/8);
   }
 }
 
-.row-9-col{
-  display: flex;
-  flex-wrap: wrap;
 
-}
-.row-9-col{
+.row-9-col,.row-9-col-mar-0{
   .col-flex{
     position: relative;
     width: calc(100%/9);
   }
 }
 
-.row-10-col{
-  display: flex;
-  flex-wrap: wrap;
 
-}
-.row-10-col{
+.row-10-col,.row-10-col-mar-0{
   .col-flex{
     position: relative;
     width: calc(100%/10);
   }
 }
 
+.row-11-col,.row-11-col-mar-0{
+  .col-flex{
+    position: relative;
+    width: calc(100%/11);
+  }
+}
+.row-12-col,.row-12-col-mar-0{
+  .col-flex{
+    position: relative;
+    width: calc(100%/12);
+  }
+}
 
 
 /*margin 5px*/
@@ -230,6 +207,11 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   display: flex;
   flex-wrap: wrap;
 }
+
+
+
+
+
 .row-2-col-mar-5{
   //display: flex;
   //flex-wrap: wrap;
@@ -315,6 +297,8 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
+
+
 /*----------------------------------------------------------*/
 
 .row-7-col-mar-5{
@@ -372,12 +356,38 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 /*----------------------------------------------------------*/
 
 .row-10-col-mar-5{
-  /*display: flex;
-  flex-wrap: wrap;*/
   margin-left: -@margin5;
   margin-right:-@margin5;
 }
 .row-10-col-mar-5{
+  > .col-flex{
+    position: relative;
+    width: calc(100%/10 - @margin5*2);
+    margin-left: @margin5;
+    margin-right: @margin5;
+    margin-bottom: 2*@margin5;
+  }
+}
+
+.row-11-col-mar-5{
+  margin-left: -@margin5;
+  margin-right:-@margin5;
+}
+.row-11-col-mar-5{
+  > .col-flex{
+    position: relative;
+    width: calc(100%/11 - @margin5*2);
+    margin-left: @margin5;
+    margin-right: @margin5;
+    margin-bottom: 2*@margin5;
+  }
+}
+
+.row-12-col-mar-5{
+  margin-left: -@margin5;
+  margin-right:-@margin5;
+}
+.row-12-col-mar-5{
   > .col-flex{
     position: relative;
     width: calc(100%/10 - @margin5*2);
@@ -536,8 +546,6 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 /*----------------------------------------------------------*/
 
 .row-10-col-mar-10{
-  /*display: flex;
-  flex-wrap: wrap;*/
   margin-left: -@margin10;
   margin-right:-@margin10;
 }
@@ -550,6 +558,37 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-bottom: 2*@margin10;
   }
 }
+
+
+
+.row-11-col-mar-10{
+  margin-left: -@margin10;
+  margin-right:-@margin10;
+}
+.row-11-col-mar-10{
+  > .col-flex{
+    position: relative;
+    width: calc(100%/11 - @margin10*2);
+    margin-left: @margin10;
+    margin-right: @margin10;
+    margin-bottom: 2*@margin10;
+  }
+}
+
+.row-12-col-mar-10{
+  margin-left: -@margin10;
+  margin-right:-@margin10;
+}
+.row-12-col-mar-10{
+  > .col-flex{
+    position: relative;
+    width: calc(100%/12 - @margin10*2);
+    margin-left: @margin10;
+    margin-right: @margin10;
+    margin-bottom: 2*@margin10;
+  }
+}
+
 
 /*margin 15px*/
 
@@ -701,8 +740,6 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 /*----------------------------------------------------------*/
 
 .row-10-col-mar-15{
-  /*display: flex;
-  flex-wrap: wrap;*/
   margin-left: -@margin10;
   margin-right:-@margin10;
 }
@@ -710,6 +747,36 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   > .col-flex{
     position: relative;
     width: calc(100%/10 - @margin15*2);
+    margin-left: @margin15;
+    margin-right: @margin15;
+    margin-bottom: 2*@margin15;
+  }
+}
+
+
+
+.row-11-col-mar-15{
+  margin-left: -@margin10;
+  margin-right:-@margin10;
+}
+.row-11-col-mar-15{
+  > .col-flex{
+    position: relative;
+    width: calc(100%/11 - @margin15*2);
+    margin-left: @margin15;
+    margin-right: @margin15;
+    margin-bottom: 2*@margin15;
+  }
+}
+
+.row-12-col-mar-15{
+  margin-left: -@margin10;
+  margin-right:-@margin10;
+}
+.row-12-col-mar-15{
+  > .col-flex{
+    position: relative;
+    width: calc(100%/12 - @margin15*2);
     margin-left: @margin15;
     margin-right: @margin15;
     margin-bottom: 2*@margin15;
@@ -866,8 +933,6 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 /*----------------------------------------------------------*/
 
 .row-10-col-mar-20{
-  /*display: flex;
-  flex-wrap: wrap;*/
   margin-left: -@margin10;
   margin-right:-@margin10;
 }
@@ -875,6 +940,21 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   > .col-flex{
     position: relative;
     width: calc(100%/10 - @margin20*2);
+    margin-left: @margin20;
+    margin-right: @margin20;
+    margin-bottom: 2*@margin20;
+  }
+}
+
+
+.row-11-col-mar-20{
+  margin-left: -@margin10;
+  margin-right:-@margin10;
+}
+.row-11-col-mar-20{
+  > .col-flex{
+    position: relative;
+    width: calc(100%/11 - @margin20*2);
     margin-left: @margin20;
     margin-right: @margin20;
     margin-bottom: 2*@margin20;
@@ -1044,7 +1124,36 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
-/*margin 25px*/
+
+
+.row-11-col-mar-25{
+  margin-left: -@margin10;
+  margin-right:-@margin10;
+}
+.row-11-col-mar-25{
+  > .col-flex{
+    position: relative;
+    width: calc(100%/11 - @margin25*2);
+    margin-left: @margin25;
+    margin-right: @margin25;
+    margin-bottom: 2*@margin25;
+  }
+}
+
+.row-12-col-mar-25{
+  margin-left: -@margin10;
+  margin-right:-@margin10;
+}
+.row-12-col-mar-25{
+  > .col-flex{
+    position: relative;
+    width: calc(100%/12 - @margin25*2);
+    margin-left: @margin25;
+    margin-right: @margin25;
+    margin-bottom: 2*@margin25;
+  }
+}
+/*margin 30px*/
 
 .row-2-col-mar-30{
   /*display: flex;
@@ -1210,12 +1319,38 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 }
 
 
+.row-11-col-mar-30{
+  margin-left: -@margin10;
+  margin-right:-@margin10;
+}
+.row-11-col-mar-30{
+  > .col-flex{
+    position: relative;
+    width: calc(100%/11 - @margin30*2);
+    margin-left: @margin30;
+    margin-right: @margin30;
+    margin-bottom: 2*@margin30;
+  }
+}
 
+.row-12-col-mar-30{
+  margin-left: -@margin10;
+  margin-right:-@margin10;
+}
+.row-12-col-mar-30{
+  > .col-flex{
+    position: relative;
+    width: calc(100%/12 - @margin30*2);
+    margin-left: @margin30;
+    margin-right: @margin30;
+    margin-bottom: 2*@margin30;
+  }
+}
 
 /*Сетка в ячейке*/
 
 /*---------mar5--------------*/
-.row-2-in-col.mar-5{
+.row-2-in-col-mar-5{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1227,11 +1362,17 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     &:nth-child(odd){
       margin-right: @margin5;
     }
-
+  }
+  &.mar-bottom{
+    .col-flex{
+      &:not(:nth-last-child(-1n+2)){
+        margin-bottom: @margin5*2;
+      }
+    }
   }
 }
 
-.row-3-in-col.mar-5{
+.row-3-in-col-mar-5{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1247,7 +1388,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
-.row-4-in-col.mar-5{
+.row-4-in-col-mar-5{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1269,7 +1410,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 /*---------mar10--------------*/
 
-.row-2-in-col.mar-10{
+.row-2-in-col-mar-10{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1285,7 +1426,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
-.row-3-in-col.mar-10{
+.row-3-in-col-mar-10{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1301,7 +1442,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
-.row-4-in-col.mar-10{
+.row-4-in-col-mar-10{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1323,7 +1464,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 /*---------mar15--------------*/
 
-.row-2-in-col.mar-15{
+.row-2-in-col-mar-15{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1339,7 +1480,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
-.row-3-in-col.mar-15{
+.row-3-in-col-mar-15{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1355,7 +1496,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
-.row-4-in-col.mar-15{
+.row-4-in-col-mar-15{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1377,7 +1518,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 /*---------mar20--------------*/
 
-.row-2-in-col.mar-20{
+.row-2-in-col-mar-20{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1393,7 +1534,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
-.row-3-in-col.mar-20{
+.row-3-in-col-mar-20{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1409,7 +1550,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
-.row-4-in-col.mar-20{
+.row-4-in-col-mar-20{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1431,7 +1572,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 /*---------mar25--------------*/
 
-.row-2-in-col.mar-25{
+.row-2-in-col-mar-25{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1447,7 +1588,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
-.row-3-in-col.mar-25{
+.row-3-in-col-mar-25{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1463,7 +1604,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
-.row-4-in-col.mar-25{
+.row-4-in-col-mar-25{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1485,7 +1626,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 /*---------mar30--------------*/
 
-.row-2-in-col.mar-30{
+.row-2-in-col-mar-30{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1501,7 +1642,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
-.row-3-in-col.mar-30{
+.row-3-in-col-mar-30{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -1517,7 +1658,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 }
 
-.row-4-in-col.mar-30{
+.row-4-in-col-mar-30{
   display: flex;
   flex-wrap: wrap;
   > .col-flex{
@@ -5641,8 +5782,6 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 
 
-
-
   [class*="mar-"].col-md-3-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
@@ -7871,8 +8010,6 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
       margin-bottom: 2*@margin30;
     }
   }
-
-
 
 
   [class*="mar-"].col-sm-6-mar-5{
