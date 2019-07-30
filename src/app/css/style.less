@@ -74,7 +74,8 @@ section,header,footer{
 
 одинаковые колонки
 .row-(1-10)-col - записывается в ряду сколько будет колонок
-.row-(2-4)-in-col - записывается в ряду сколько будет колонок
+.row-(2-4)-in-col-mar(5-30) - записывается в ряду сколько будет колонок c отступом
+.mar-bottom - записывается в ряду отменяем отступ с низу у встроенных колонок
 .row-(1-10)-col-mar-(5-30) - записывается в ряду отступ колонок
 .justify-center - записывается в ряду центрирование колонок
 .col-lg-(1-4) - записывается в ряду сколько будет одинаковых при медиа колонок, при этом перебивает неодинаковые колонки и делает одинаковыми
@@ -101,13 +102,14 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 /*если вдруг отступы будут не кратные 5*/
 .my-class[class*='row-']{
+  margin-left: -8px;
+  margin-right: -8px;
   .col-flex{
     margin-left: 8px;
     margin-right: 8px;
     width: calc(100%/4 - 16px);
   }
-  margin-left: -8px;
-  margin-right: -8px;
+
 }
 
 /*Стили для ряда*/
@@ -1357,6 +1359,59 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 /*Сетка в ячейке*/
 
+
+.row-2-in-col,.row-2-in-col-mar-0 {
+  display: flex;
+  flex-wrap: wrap;
+  > .col-flex{
+    position: relative;
+    width: calc(100%/2);
+    &:nth-child(even){
+
+
+    }
+    &:nth-child(odd){
+
+    }
+  }
+
+}
+
+.row-3-in-col,.row-3-in-col-mar-0{
+  display: flex;
+  flex-wrap: wrap;
+  > .col-flex{
+    position: relative;
+    width: calc(100%/3);
+    &:nth-child(3n+2){
+
+    }
+    &:nth-child(3n+2){
+
+    }
+
+  }
+}
+
+.row-4-in-col,.row-4-in-col-mar-0{
+  display: flex;
+  flex-wrap: wrap;
+  > .col-flex{
+    position: relative;
+    width: calc(100%/4);
+    &:nth-child(4n+2){
+
+
+    }
+    &:nth-child(4n+3){
+
+
+    }
+
+  }
+}
+
+
 /*---------mar5--------------*/
 .row-2-in-col-mar-5{
   display: flex;
@@ -1392,7 +1447,13 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     &:nth-child(3n+2){
       margin-right: @margin5*2;
     }
-
+  }
+  &.mar-bottom{
+    .col-flex{
+      &:not(:nth-last-child(-1n+3)){/*Остановился тут делаю чтобы у последних колонок не было нижнего отступа*/
+        margin-bottom: @margin5*2;
+      }
+    }
   }
 }
 
@@ -1414,6 +1475,13 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
 
   }
+  &.mar-bottom{
+    .col-flex{
+      &:not(:nth-last-child(-1n+4)){/*Остановился тут делаю чтобы у последних колонок не было нижнего отступа*/
+        margin-bottom: @margin5*2;
+      }
+    }
+  }
 }
 
 /*---------mar10--------------*/
@@ -1430,7 +1498,13 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     &:nth-child(odd){
       margin-right: @margin10;
     }
-
+  }
+  &.mar-bottom{
+    .col-flex{
+      &:not(:nth-last-child(-1n+2)){/*Остановился тут делаю чтобы у последних колонок не было нижнего отступа*/
+        margin-bottom: @margin10*2;
+      }
+    }
   }
 }
 
@@ -1446,7 +1520,13 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     &:nth-child(3n+2){
       margin-right: @margin10*2;
     }
-
+  }
+  &.mar-bottom{
+    .col-flex{
+      &:not(:nth-last-child(-1n+3)){/*Остановился тут делаю чтобы у последних колонок не было нижнего отступа*/
+        margin-bottom: @margin10*2;
+      }
+    }
   }
 }
 
@@ -1464,9 +1544,14 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     &:nth-child(4n+3){
       margin-right: @margin10*2;
       margin-left: @margin10;
-
     }
-
+  }
+  &.mar-bottom{
+    .col-flex{
+      &:not(:nth-last-child(-1n+4)){/*Остановился тут делаю чтобы у последних колонок не было нижнего отступа*/
+        margin-bottom: @margin10*2;
+      }
+    }
   }
 }
 
