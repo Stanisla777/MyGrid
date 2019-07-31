@@ -81,6 +81,7 @@ col-sm-(1-6)-mar-(5-30)
 
 разные колонки
 .row-col - записывается в ряду
+.row-col-mar-5 - задаются отступы
 .col-flex-(10-90) - записывается в колонке её размер в процентах
 .col-flex-lg-(10-90) - записывается в колонке сколько будет её размер при экране 992px
 .col-flex-md-(10-90) - записывается в колонке сколько будет её размер при экране 768px
@@ -167,6 +168,9 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   display: flex;
   flex-wrap: wrap;
 }
+[class$='-5'] .mar-bottom .col-flex {
+  margin-bottom: 10px;
+}
 .row-2-col-mar-5 {
   margin-left: -5px;
   margin-right: -5px;
@@ -176,12 +180,9 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   width: calc(100%/2 - 5px*2);
   margin-left: 5px;
   margin-right: 5px;
-  margin-bottom: 10px;
 }
 /*-------------------------------------------------------*/
 .row-3-col-mar-5 {
-  /*display: flex;
-  flex-wrap: wrap;*/
   margin-left: -5px;
   margin-right: -5px;
 }
@@ -193,8 +194,6 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-bottom: 10px;
 }
 .row-4-col-mar-5 {
-  /*display: flex;
-  flex-wrap: wrap;*/
   margin-left: -5px;
   margin-right: -5px;
 }
@@ -3130,7 +3129,9 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-right: 30px;
     margin-bottom: 60px;
   }
-  /*Для колонок с одинаковой шириной, не меняющейся ни при каких медиа отступов, меняю кол-во колонок*/
+  /*Для колонок с одинаковой шириной  меняю кол-во колонок, у которых не меняющтся при медиа отступы
+  которые задавались в row-n-col-mar-n
+  */
   /*---mar5-----*/
   [class*="-col-mar-5"].col-lg-12 {
     margin-left: -5px;
@@ -3847,713 +3848,119 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     width: calc(100% / 1);
   }
   /*меняю ширину колонок с неизменным отступом*/
-  .row-col-mar-5 {
-    margin-right: -5px;
-    margin-left: -5px;
-  }
-  .row-col-mar-5 .col-flex-lg-5 {
+  [class*="row-col-"] .col-flex-lg-5 {
     width: calc((100% - 95%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-10 {
+  [class*="row-col-"] .col-flex-lg-10 {
     width: calc((100% - 90%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-15 {
+  [class*="row-col-"] .col-flex-lg-15 {
     width: calc((100% - 85%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-20 {
+  [class*="row-col-"] .col-flex-lg-20 {
     width: calc((100% - 80%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-25 {
+  [class*="row-col-"] .col-flex-lg-25 {
     width: calc((100% - 75%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-30 {
+  [class*="row-col-"] .col-flex-lg-30 {
     width: calc((100% - 70%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-35 {
+  [class*="row-col-"] .col-flex-lg-35 {
     width: calc((100% - 65%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-40 {
+  [class*="row-col-"] .col-flex-lg-40 {
     width: calc((100% - 60%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-45 {
+  [class*="row-col-"] .col-flex-lg-45 {
     width: calc((100% - 55%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-50 {
+  [class*="row-col-"] .col-flex-lg-50 {
     width: calc((100% - 50%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-55 {
+  [class*="row-col-"] .col-flex-lg-55 {
     width: calc((100% - 45%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-60 {
+  [class*="row-col-"] .col-flex-lg-60 {
     width: calc((100% - 40%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-65 {
+  [class*="row-col-"] .col-flex-lg-65 {
     width: calc((100% - 35%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-70 {
+  [class*="row-col-"] .col-flex-lg-70 {
     width: calc((100% - 30%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-75 {
+  [class*="row-col-"] .col-flex-lg-75 {
     width: calc((100% - 25%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-80 {
+  [class*="row-col-"] .col-flex-lg-80 {
     width: calc((100% - 20%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-85 {
+  [class*="row-col-"] .col-flex-lg-85 {
     width: calc((100% - 15%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-90 {
+  [class*="row-col-"] .col-flex-lg-90 {
     width: calc((100% - 10%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-lg-95 {
+  [class*="row-col-"] .col-flex-lg-95 {
     width: calc((100% - 5%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
-  }
-  .row-col-mar-10 {
-    margin-right: -10px;
-    margin-left: -10px;
-  }
-  .row-col-mar-10 .col-flex-lg-5 {
-    width: calc((100% - 95%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-10 {
-    width: calc((100% - 90%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-15 {
-    width: calc((100% - 85%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-20 {
-    width: calc((100% - 80%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-25 {
-    width: calc((100% - 75%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-30 {
-    width: calc((100% - 70%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-35 {
-    width: calc((100% - 65%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-40 {
-    width: calc((100% - 60%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-45 {
-    width: calc((100% - 55%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-50 {
-    width: calc((100% - 50%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-55 {
-    width: calc((100% - 45%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-60 {
-    width: calc((100% - 40%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-65 {
-    width: calc((100% - 35%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-70 {
-    width: calc((100% - 30%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-75 {
-    width: calc((100% - 25%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-80 {
-    width: calc((100% - 20%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-85 {
-    width: calc((100% - 15%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-90 {
-    width: calc((100% - 10%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-lg-95 {
-    width: calc((100% - 5%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-15 {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  .row-col-mar-15 .col-flex-lg-5 {
-    width: calc((100% - 95%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-10 {
-    width: calc((100% - 90%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-15 {
-    width: calc((100% - 85%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-20 {
-    width: calc((100% - 80%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-25 {
-    width: calc((100% - 75%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-30 {
-    width: calc((100% - 70%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-35 {
-    width: calc((100% - 65%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-40 {
-    width: calc((100% - 60%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-45 {
-    width: calc((100% - 55%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-50 {
-    width: calc((100% - 50%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-55 {
-    width: calc((100% - 45%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-60 {
-    width: calc((100% - 40%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-65 {
-    width: calc((100% - 35%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-70 {
-    width: calc((100% - 30%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-75 {
-    width: calc((100% - 25%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-80 {
-    width: calc((100% - 20%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-85 {
-    width: calc((100% - 15%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-90 {
-    width: calc((100% - 10%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-lg-95 {
-    width: calc((100% - 5%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-20 {
-    margin-right: -20px;
-    margin-left: -20px;
-  }
-  .row-col-mar-20 .col-flex-lg-5 {
-    width: calc((100% - 95%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-10 {
-    width: calc((100% - 90%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-15 {
-    width: calc((100% - 85%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-20 {
-    width: calc((100% - 80%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-25 {
-    width: calc((100% - 75%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-30 {
-    width: calc((100% - 70%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-35 {
-    width: calc((100% - 65%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-40 {
-    width: calc((100% - 60%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-45 {
-    width: calc((100% - 55%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-50 {
-    width: calc((100% - 50%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-55 {
-    width: calc((100% - 45%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-60 {
-    width: calc((100% - 40%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-65 {
-    width: calc((100% - 35%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-70 {
-    width: calc((100% - 30%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-75 {
-    width: calc((100% - 25%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-80 {
-    width: calc((100% - 20%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-85 {
-    width: calc((100% - 15%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-90 {
-    width: calc((100% - 10%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-lg-95 {
-    width: calc((100% - 5%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-25 {
-    margin-right: -25px;
-    margin-left: -25px;
-  }
-  .row-col-mar-25 .col-flex-lg-5 {
-    width: calc((100% - 95%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-10 {
-    width: calc((100% - 90%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-15 {
-    width: calc((100% - 85%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-20 {
-    width: calc((100% - 80%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-25 {
-    width: calc((100% - 75%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-30 {
-    width: calc((100% - 70%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-35 {
-    width: calc((100% - 65%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-40 {
-    width: calc((100% - 60%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-45 {
-    width: calc((100% - 55%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-50 {
-    width: calc((100% - 50%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-55 {
-    width: calc((100% - 45%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-60 {
-    width: calc((100% - 40%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-65 {
-    width: calc((100% - 35%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-70 {
-    width: calc((100% - 30%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-75 {
-    width: calc((100% - 25%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-80 {
-    width: calc((100% - 20%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-85 {
-    width: calc((100% - 15%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-90 {
-    width: calc((100% - 10%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-lg-95 {
-    width: calc((100% - 5%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-30 {
-    margin-right: -30px;
-    margin-left: -30px;
-  }
-  .row-col-mar-30 .col-flex-lg-5 {
-    width: calc((100% - 95%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-10 {
-    width: calc((100% - 90%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-15 {
-    width: calc((100% - 85%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-20 {
-    width: calc((100% - 80%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-25 {
-    width: calc((100% - 75%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-30 {
-    width: calc((100% - 70%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-35 {
-    width: calc((100% - 65%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-40 {
-    width: calc((100% - 60%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-45 {
-    width: calc((100% - 55%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-50 {
-    width: calc((100% - 50%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-55 {
-    width: calc((100% - 45%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-60 {
-    width: calc((100% - 40%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-65 {
-    width: calc((100% - 35%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-70 {
-    width: calc((100% - 30%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-75 {
-    width: calc((100% - 25%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-80 {
-    width: calc((100% - 20%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-85 {
-    width: calc((100% - 15%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-90 {
-    width: calc((100% - 10%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-lg-95 {
-    width: calc((100% - 5%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
   }
   /*не одинаковые колонки меняю отступы*/
   [class*="row-col-mar"].col-lg-mar-5 {
@@ -6874,713 +6281,119 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
   /*-------отступ 5px---------------*/
   /*меняю ширину колонок с неизменным отступом*/
-  .row-col-mar-5 {
-    margin-right: -5px;
-    margin-left: -5px;
-  }
-  .row-col-mar-5 .col-flex-md-5 {
+  [class*="row-col-"] .col-flex-md-5 {
     width: calc((100% - 95%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-10 {
+  [class*="row-col-"] .col-flex-md-10 {
     width: calc((100% - 90%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-15 {
+  [class*="row-col-"] .col-flex-md-15 {
     width: calc((100% - 85%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-20 {
+  [class*="row-col-"] .col-flex-md-20 {
     width: calc((100% - 80%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-25 {
+  [class*="row-col-"] .col-flex-md-25 {
     width: calc((100% - 75%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-30 {
+  [class*="row-col-"] .col-flex-md-30 {
     width: calc((100% - 70%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-35 {
+  [class*="row-col-"] .col-flex-md-35 {
     width: calc((100% - 65%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-40 {
+  [class*="row-col-"] .col-flex-md-40 {
     width: calc((100% - 60%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-45 {
+  [class*="row-col-"] .col-flex-md-45 {
     width: calc((100% - 55%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-50 {
+  [class*="row-col-"] .col-flex-md-50 {
     width: calc((100% - 50%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-55 {
+  [class*="row-col-"] .col-flex-md-55 {
     width: calc((100% - 45%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-60 {
+  [class*="row-col-"] .col-flex-md-60 {
     width: calc((100% - 40%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-65 {
+  [class*="row-col-"] .col-flex-md-65 {
     width: calc((100% - 35%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-70 {
+  [class*="row-col-"] .col-flex-md-70 {
     width: calc((100% - 30%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-75 {
+  [class*="row-col-"] .col-flex-md-75 {
     width: calc((100% - 25%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-80 {
+  [class*="row-col-"] .col-flex-md-80 {
     width: calc((100% - 20%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-85 {
+  [class*="row-col-"] .col-flex-md-85 {
     width: calc((100% - 15%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-90 {
+  [class*="row-col-"] .col-flex-md-90 {
     width: calc((100% - 10%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-md-95 {
+  [class*="row-col-"] .col-flex-md-95 {
     width: calc((100% - 5%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
-  }
-  .row-col-mar-10 {
-    margin-right: -10px;
-    margin-left: -10px;
-  }
-  .row-col-mar-10 .col-flex-md-5 {
-    width: calc((100% - 95%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-10 {
-    width: calc((100% - 90%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-15 {
-    width: calc((100% - 85%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-20 {
-    width: calc((100% - 80%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-25 {
-    width: calc((100% - 75%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-30 {
-    width: calc((100% - 70%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-35 {
-    width: calc((100% - 65%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-40 {
-    width: calc((100% - 60%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-45 {
-    width: calc((100% - 55%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-50 {
-    width: calc((100% - 50%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-55 {
-    width: calc((100% - 45%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-60 {
-    width: calc((100% - 40%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-65 {
-    width: calc((100% - 35%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-70 {
-    width: calc((100% - 30%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-75 {
-    width: calc((100% - 25%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-80 {
-    width: calc((100% - 20%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-85 {
-    width: calc((100% - 15%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-90 {
-    width: calc((100% - 10%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-md-95 {
-    width: calc((100% - 5%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-15 {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  .row-col-mar-15 .col-flex-md-5 {
-    width: calc((100% - 95%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-10 {
-    width: calc((100% - 90%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-15 {
-    width: calc((100% - 85%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-20 {
-    width: calc((100% - 80%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-25 {
-    width: calc((100% - 75%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-30 {
-    width: calc((100% - 70%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-35 {
-    width: calc((100% - 65%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-40 {
-    width: calc((100% - 60%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-45 {
-    width: calc((100% - 55%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-50 {
-    width: calc((100% - 50%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-55 {
-    width: calc((100% - 45%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-60 {
-    width: calc((100% - 40%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-65 {
-    width: calc((100% - 35%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-70 {
-    width: calc((100% - 30%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-75 {
-    width: calc((100% - 25%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-80 {
-    width: calc((100% - 20%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-85 {
-    width: calc((100% - 15%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-90 {
-    width: calc((100% - 10%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-md-95 {
-    width: calc((100% - 5%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-20 {
-    margin-right: -20px;
-    margin-left: -20px;
-  }
-  .row-col-mar-20 .col-flex-md-5 {
-    width: calc((100% - 95%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-10 {
-    width: calc((100% - 90%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-15 {
-    width: calc((100% - 85%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-20 {
-    width: calc((100% - 80%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-25 {
-    width: calc((100% - 75%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-30 {
-    width: calc((100% - 70%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-35 {
-    width: calc((100% - 65%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-40 {
-    width: calc((100% - 60%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-45 {
-    width: calc((100% - 55%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-50 {
-    width: calc((100% - 50%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-55 {
-    width: calc((100% - 45%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-60 {
-    width: calc((100% - 40%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-65 {
-    width: calc((100% - 35%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-70 {
-    width: calc((100% - 30%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-75 {
-    width: calc((100% - 25%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-80 {
-    width: calc((100% - 20%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-85 {
-    width: calc((100% - 15%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-90 {
-    width: calc((100% - 10%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-md-95 {
-    width: calc((100% - 5%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-25 {
-    margin-right: -25px;
-    margin-left: -25px;
-  }
-  .row-col-mar-25 .col-flex-md-5 {
-    width: calc((100% - 95%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-10 {
-    width: calc((100% - 90%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-15 {
-    width: calc((100% - 85%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-20 {
-    width: calc((100% - 80%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-25 {
-    width: calc((100% - 75%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-30 {
-    width: calc((100% - 70%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-35 {
-    width: calc((100% - 65%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-40 {
-    width: calc((100% - 60%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-45 {
-    width: calc((100% - 55%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-50 {
-    width: calc((100% - 50%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-55 {
-    width: calc((100% - 45%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-60 {
-    width: calc((100% - 40%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-65 {
-    width: calc((100% - 35%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-70 {
-    width: calc((100% - 30%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-75 {
-    width: calc((100% - 25%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-80 {
-    width: calc((100% - 20%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-85 {
-    width: calc((100% - 15%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-90 {
-    width: calc((100% - 10%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-md-95 {
-    width: calc((100% - 5%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-30 {
-    margin-right: -30px;
-    margin-left: -30px;
-  }
-  .row-col-mar-30 .col-flex-md-5 {
-    width: calc((100% - 95%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-10 {
-    width: calc((100% - 90%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-15 {
-    width: calc((100% - 85%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-20 {
-    width: calc((100% - 80%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-25 {
-    width: calc((100% - 75%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-30 {
-    width: calc((100% - 70%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-35 {
-    width: calc((100% - 65%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-40 {
-    width: calc((100% - 60%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-45 {
-    width: calc((100% - 55%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-50 {
-    width: calc((100% - 50%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-55 {
-    width: calc((100% - 45%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-60 {
-    width: calc((100% - 40%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-65 {
-    width: calc((100% - 35%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-70 {
-    width: calc((100% - 30%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-75 {
-    width: calc((100% - 25%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-80 {
-    width: calc((100% - 20%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-85 {
-    width: calc((100% - 15%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-90 {
-    width: calc((100% - 10%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-md-95 {
-    width: calc((100% - 5%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
   }
   /*не одинаковые колонки меняю отступы*/
   [class*="row-col-mar"].col-md-mar-5 {
@@ -9785,713 +8598,119 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-bottom: 60px;
   }
   /*меняю ширину колонок с неизменным отступом*/
-  .row-col-mar-5 {
-    margin-right: -5px;
-    margin-left: -5px;
-  }
-  .row-col-mar-5 .col-flex-sm-5 {
+  [class*="row-col-"] .col-flex-sm-5 {
     width: calc((100% - 95%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-10 {
+  [class*="row-col-"] .col-flex-sm-10 {
     width: calc((100% - 90%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-15 {
+  [class*="row-col-"] .col-flex-sm-15 {
     width: calc((100% - 85%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-20 {
+  [class*="row-col-"] .col-flex-sm-20 {
     width: calc((100% - 80%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-25 {
+  [class*="row-col-"] .col-flex-sm-25 {
     width: calc((100% - 75%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-30 {
+  [class*="row-col-"] .col-flex-sm-30 {
     width: calc((100% - 70%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-35 {
+  [class*="row-col-"] .col-flex-sm-35 {
     width: calc((100% - 65%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-40 {
+  [class*="row-col-"] .col-flex-sm-40 {
     width: calc((100% - 60%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-45 {
+  [class*="row-col-"] .col-flex-sm-45 {
     width: calc((100% - 55%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-50 {
+  [class*="row-col-"] .col-flex-sm-50 {
     width: calc((100% - 50%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-55 {
+  [class*="row-col-"] .col-flex-sm-55 {
     width: calc((100% - 45%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-60 {
+  [class*="row-col-"] .col-flex-sm-60 {
     width: calc((100% - 40%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-65 {
+  [class*="row-col-"] .col-flex-sm-65 {
     width: calc((100% - 35%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-70 {
+  [class*="row-col-"] .col-flex-sm-70 {
     width: calc((100% - 30%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-75 {
+  [class*="row-col-"] .col-flex-sm-75 {
     width: calc((100% - 25%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-80 {
+  [class*="row-col-"] .col-flex-sm-80 {
     width: calc((100% - 20%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-85 {
+  [class*="row-col-"] .col-flex-sm-85 {
     width: calc((100% - 15%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-90 {
+  [class*="row-col-"] .col-flex-sm-90 {
     width: calc((100% - 10%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
   }
-  .row-col-mar-5 .col-flex-sm-95 {
+  [class*="row-col-"] .col-flex-sm-95 {
     width: calc((100% - 5%) - 5px * 2);
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
-  }
-  .row-col-mar-10 {
-    margin-right: -10px;
-    margin-left: -10px;
-  }
-  .row-col-mar-10 .col-flex-sm-5 {
-    width: calc((100% - 95%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-10 {
-    width: calc((100% - 90%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-15 {
-    width: calc((100% - 85%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-20 {
-    width: calc((100% - 80%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-25 {
-    width: calc((100% - 75%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-30 {
-    width: calc((100% - 70%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-35 {
-    width: calc((100% - 65%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-40 {
-    width: calc((100% - 60%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-45 {
-    width: calc((100% - 55%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-50 {
-    width: calc((100% - 50%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-55 {
-    width: calc((100% - 45%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-60 {
-    width: calc((100% - 40%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-65 {
-    width: calc((100% - 35%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-70 {
-    width: calc((100% - 30%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-75 {
-    width: calc((100% - 25%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-80 {
-    width: calc((100% - 20%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-85 {
-    width: calc((100% - 15%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-90 {
-    width: calc((100% - 10%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-10 .col-flex-sm-95 {
-    width: calc((100% - 5%) - 10px * 2);
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  .row-col-mar-15 {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  .row-col-mar-15 .col-flex-sm-5 {
-    width: calc((100% - 95%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-10 {
-    width: calc((100% - 90%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-15 {
-    width: calc((100% - 85%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-20 {
-    width: calc((100% - 80%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-25 {
-    width: calc((100% - 75%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-30 {
-    width: calc((100% - 70%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-35 {
-    width: calc((100% - 65%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-40 {
-    width: calc((100% - 60%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-45 {
-    width: calc((100% - 55%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-50 {
-    width: calc((100% - 50%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-55 {
-    width: calc((100% - 45%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-60 {
-    width: calc((100% - 40%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-65 {
-    width: calc((100% - 35%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-70 {
-    width: calc((100% - 30%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-75 {
-    width: calc((100% - 25%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-80 {
-    width: calc((100% - 20%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-85 {
-    width: calc((100% - 15%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-90 {
-    width: calc((100% - 10%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-15 .col-flex-sm-95 {
-    width: calc((100% - 5%) - 15px * 2);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-  }
-  .row-col-mar-20 {
-    margin-right: -20px;
-    margin-left: -20px;
-  }
-  .row-col-mar-20 .col-flex-sm-5 {
-    width: calc((100% - 95%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-10 {
-    width: calc((100% - 90%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-15 {
-    width: calc((100% - 85%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-20 {
-    width: calc((100% - 80%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-25 {
-    width: calc((100% - 75%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-30 {
-    width: calc((100% - 70%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-35 {
-    width: calc((100% - 65%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-40 {
-    width: calc((100% - 60%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-45 {
-    width: calc((100% - 55%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-50 {
-    width: calc((100% - 50%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-55 {
-    width: calc((100% - 45%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-60 {
-    width: calc((100% - 40%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-65 {
-    width: calc((100% - 35%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-70 {
-    width: calc((100% - 30%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-75 {
-    width: calc((100% - 25%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-80 {
-    width: calc((100% - 20%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-85 {
-    width: calc((100% - 15%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-90 {
-    width: calc((100% - 10%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-20 .col-flex-sm-95 {
-    width: calc((100% - 5%) - 20px * 2);
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .row-col-mar-25 {
-    margin-right: -25px;
-    margin-left: -25px;
-  }
-  .row-col-mar-25 .col-flex-sm-5 {
-    width: calc((100% - 95%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-10 {
-    width: calc((100% - 90%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-15 {
-    width: calc((100% - 85%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-20 {
-    width: calc((100% - 80%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-25 {
-    width: calc((100% - 75%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-30 {
-    width: calc((100% - 70%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-35 {
-    width: calc((100% - 65%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-40 {
-    width: calc((100% - 60%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-45 {
-    width: calc((100% - 55%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-50 {
-    width: calc((100% - 50%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-55 {
-    width: calc((100% - 45%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-60 {
-    width: calc((100% - 40%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-65 {
-    width: calc((100% - 35%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-70 {
-    width: calc((100% - 30%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-75 {
-    width: calc((100% - 25%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-80 {
-    width: calc((100% - 20%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-85 {
-    width: calc((100% - 15%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-90 {
-    width: calc((100% - 10%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-25 .col-flex-sm-95 {
-    width: calc((100% - 5%) - 25px * 2);
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-  }
-  .row-col-mar-30 {
-    margin-right: -30px;
-    margin-left: -30px;
-  }
-  .row-col-mar-30 .col-flex-sm-5 {
-    width: calc((100% - 95%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-10 {
-    width: calc((100% - 90%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-15 {
-    width: calc((100% - 85%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-20 {
-    width: calc((100% - 80%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-25 {
-    width: calc((100% - 75%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-30 {
-    width: calc((100% - 70%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-35 {
-    width: calc((100% - 65%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-40 {
-    width: calc((100% - 60%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-45 {
-    width: calc((100% - 55%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-50 {
-    width: calc((100% - 50%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-55 {
-    width: calc((100% - 45%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-60 {
-    width: calc((100% - 40%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-65 {
-    width: calc((100% - 35%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-70 {
-    width: calc((100% - 30%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-75 {
-    width: calc((100% - 25%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-80 {
-    width: calc((100% - 20%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-85 {
-    width: calc((100% - 15%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-90 {
-    width: calc((100% - 10%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
-  }
-  .row-col-mar-30 .col-flex-sm-95 {
-    width: calc((100% - 5%) - 30px * 2);
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 60px;
   }
   /*не одинаковые колонки меняю отступы*/
   [class*="row-col-mar"].col-sm-mar-5 {
