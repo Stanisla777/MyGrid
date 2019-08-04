@@ -178,7 +178,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 5px;
   margin-right: 5px;
 }
-.row-2-col-mar-5.mar-bottom .col-flex {
+.row-2-col-mar-5.mar-bottom > .col-flex {
   margin-bottom: 10px;
 }
 /*-------------------------------------------------------*/
@@ -192,7 +192,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 5px;
   margin-right: 5px;
 }
-.row-3-col-mar-5.mar-bottom .col-flex {
+.row-3-col-mar-5.mar-bottom > .col-flex {
   margin-bottom: 10px;
 }
 .row-4-col-mar-5 {
@@ -205,7 +205,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 5px;
   margin-right: 5px;
 }
-.row-4-col-mar-5.mar-bottom .col-flex {
+.row-4-col-mar-5.mar-bottom > .col-flex {
   margin-bottom: 10px;
 }
 /*------------------------------------------------------*/
@@ -221,7 +221,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 5px;
   margin-right: 5px;
 }
-.row-5-col-mar-5.mar-bottom .col-flex {
+.row-5-col-mar-5.mar-bottom > .col-flex {
   margin-bottom: 10px;
 }
 /*----------------------------------------------------------*/
@@ -237,7 +237,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 5px;
   margin-right: 5px;
 }
-.row-6-col-mar-5.mar-bottom .col-flex {
+.row-6-col-mar-5.mar-bottom > .col-flex {
   margin-bottom: 10px;
 }
 /*----------------------------------------------------------*/
@@ -253,7 +253,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 5px;
   margin-right: 5px;
 }
-.row-7-col-mar-5.mar-bottom .col-flex {
+.row-7-col-mar-5.mar-bottom > .col-flex {
   margin-bottom: 10px;
 }
 /*----------------------------------------------------------*/
@@ -269,7 +269,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 5px;
   margin-right: 5px;
 }
-.row-8-col-mar-5.mar-bottom .col-flex {
+.row-8-col-mar-5.mar-bottom > .col-flex {
   margin-bottom: 10px;
 }
 /*----------------------------------------------------------*/
@@ -285,7 +285,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 5px;
   margin-right: 5px;
 }
-.row-9-col-mar-5.mar-bottom .col-flex {
+.row-9-col-mar-5.mar-bottom > .col-flex {
   margin-bottom: 10px;
 }
 /*----------------------------------------------------------*/
@@ -299,7 +299,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 5px;
   margin-right: 5px;
 }
-.row-10-col-mar-5.mar-bottom .col-flex {
+.row-10-col-mar-5.mar-bottom > .col-flex {
   margin-bottom: 10px;
 }
 .row-11-col-mar-5 {
@@ -312,7 +312,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 5px;
   margin-right: 5px;
 }
-.row-11-col-mar-5.mar-bottom .col-flex {
+.row-11-col-mar-5.mar-bottom > .col-flex {
   margin-bottom: 10px;
 }
 .row-12-col-mar-5 {
@@ -325,7 +325,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 5px;
   margin-right: 5px;
 }
-.row-12-col-mar-5.mar-bottom .col-flex {
+.row-12-col-mar-5.mar-bottom > .col-flex {
   margin-bottom: 10px;
 }
 /*margin 10px*/
@@ -341,7 +341,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 10px;
   margin-right: 10px;
 }
-.row-2-col-mar-10.mar-bottom .col-flex {
+.row-2-col-mar-10.mar-bottom > .col-flex {
   margin-bottom: 20px;
 }
 /*----------------------------------------------------------*/
@@ -357,7 +357,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 10px;
   margin-right: 10px;
 }
-.row-3-col-mar-10.mar-bottom .col-flex {
+.row-3-col-mar-10.mar-bottom > .col-flex {
   margin-bottom: 20px;
 }
 /*----------------------------------------------------------*/
@@ -373,7 +373,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 10px;
   margin-right: 10px;
 }
-.row-4-col-mar-10.mar-bottom .col-flex {
+.row-4-col-mar-10.mar-bottom > .col-flex {
   margin-bottom: 20px;
 }
 /*----------------------------------------------------------*/
@@ -389,7 +389,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 10px;
   margin-right: 10px;
 }
-.row-5-col-mar-10.mar-bottom .col-flex {
+.row-5-col-mar-10.mar-bottom > .col-flex {
   margin-bottom: 20px;
 }
 /*----------------------------------------------------------*/
@@ -405,7 +405,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 10px;
   margin-right: 10px;
 }
-.row-6-col-mar-10.mar-bottom .col-flex {
+.row-6-col-mar-10.mar-bottom > .col-flex {
   margin-bottom: 20px;
 }
 /*----------------------------------------------------------*/
@@ -421,7 +421,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 10px;
   margin-right: 10px;
 }
-.row-7-col-mar-10.mar-bottom .col-flex {
+.row-7-col-mar-10.mar-bottom > .col-flex {
   margin-bottom: 20px;
 }
 /*----------------------------------------------------------*/
@@ -437,7 +437,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 10px;
   margin-right: 10px;
 }
-.row-8-col-mar-10.mar-bottom .col-flex {
+.row-8-col-mar-10.mar-bottom > .col-flex {
   margin-bottom: 20px;
 }
 /*----------------------------------------------------------*/
@@ -453,7 +453,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 10px;
   margin-right: 10px;
 }
-.row-9-col-mar-10.mar-bottom .col-flex {
+.row-9-col-mar-10.mar-bottom > .col-flex {
   margin-bottom: 20px;
 }
 /*----------------------------------------------------------*/
@@ -467,7 +467,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 10px;
   margin-right: 10px;
 }
-.row-10-col-mar-10.mar-bottom .col-flex {
+.row-10-col-mar-10.mar-bottom > .col-flex {
   margin-bottom: 20px;
 }
 .row-11-col-mar-10 {
@@ -505,7 +505,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 15px;
   margin-right: 15px;
 }
-.row-2-col-mar-15.mar-bottom .col-flex {
+.row-2-col-mar-15.mar-bottom > .col-flex {
   margin-bottom: 30px;
 }
 /*----------------------------------------------------------*/
@@ -521,7 +521,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 15px;
   margin-right: 15px;
 }
-.row-3-col-mar-15.mar-bottom .col-flex {
+.row-3-col-mar-15.mar-bottom > .col-flex {
   margin-bottom: 30px;
 }
 /*----------------------------------------------------------*/
@@ -537,7 +537,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 15px;
   margin-right: 15px;
 }
-.row-4-col-mar-15.mar-bottom .col-flex {
+.row-4-col-mar-15.mar-bottom > .col-flex {
   margin-bottom: 30px;
 }
 /*----------------------------------------------------------*/
@@ -553,7 +553,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 15px;
   margin-right: 15px;
 }
-.row-5-col-mar-15.mar-bottom .col-flex {
+.row-5-col-mar-15.mar-bottom > .col-flex {
   margin-bottom: 30px;
 }
 /*----------------------------------------------------------*/
@@ -569,7 +569,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 15px;
   margin-right: 15px;
 }
-.row-6-col-mar-15.mar-bottom .col-flex {
+.row-6-col-mar-15.mar-bottom > .col-flex {
   margin-bottom: 30px;
 }
 /*----------------------------------------------------------*/
@@ -585,7 +585,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 15px;
   margin-right: 15px;
 }
-.row-7-col-mar-15.mar-bottom .col-flex {
+.row-7-col-mar-15.mar-bottom > .col-flex {
   margin-bottom: 30px;
 }
 /*----------------------------------------------------------*/
@@ -601,7 +601,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 15px;
   margin-right: 15px;
 }
-.row-8-col-mar-15.mar-bottom .col-flex {
+.row-8-col-mar-15.mar-bottom > .col-flex {
   margin-bottom: 30px;
 }
 /*----------------------------------------------------------*/
@@ -617,7 +617,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 15px;
   margin-right: 15px;
 }
-.row-9-col-mar-15.mar-bottom .col-flex {
+.row-9-col-mar-15.mar-bottom > .col-flex {
   margin-bottom: 30px;
 }
 /*----------------------------------------------------------*/
@@ -631,7 +631,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 15px;
   margin-right: 15px;
 }
-.row-10-col-mar-15.mar-bottom .col-flex {
+.row-10-col-mar-15.mar-bottom > .col-flex {
   margin-bottom: 30px;
 }
 .row-11-col-mar-15 {
@@ -644,7 +644,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 15px;
   margin-right: 15px;
 }
-.row-11-col-mar-15.mar-bottom .col-flex {
+.row-11-col-mar-15.mar-bottom > .col-flex {
   margin-bottom: 30px;
 }
 .row-12-col-mar-15 {
@@ -657,7 +657,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 15px;
   margin-right: 15px;
 }
-.row-12-col-mar-15.mar-bottom .col-flex {
+.row-12-col-mar-15.mar-bottom > .col-flex {
   margin-bottom: 30px;
 }
 /*margin 20px*/
@@ -673,7 +673,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 20px;
   margin-right: 20px;
 }
-.row-2-col-mar-20.mar-bottom .col-flex {
+.row-2-col-mar-20.mar-bottom > .col-flex {
   margin-bottom: 40px;
 }
 /*----------------------------------------------------------*/
@@ -689,7 +689,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 20px;
   margin-right: 20px;
 }
-.row-3-col-mar-20.mar-bottom .col-flex {
+.row-3-col-mar-20.mar-bottom > .col-flex {
   margin-bottom: 40px;
 }
 /*----------------------------------------------------------*/
@@ -705,7 +705,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 20px;
   margin-right: 20px;
 }
-.row-4-col-mar-20.mar-bottom .col-flex {
+.row-4-col-mar-20.mar-bottom > .col-flex {
   margin-bottom: 40px;
 }
 /*----------------------------------------------------------*/
@@ -721,7 +721,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 20px;
   margin-right: 20px;
 }
-.row-5-col-mar-20.mar-bottom .col-flex {
+.row-5-col-mar-20.mar-bottom > .col-flex {
   margin-bottom: 40px;
 }
 /*----------------------------------------------------------*/
@@ -737,7 +737,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 20px;
   margin-right: 20px;
 }
-.row-6-col-mar-20.mar-bottom .col-flex {
+.row-6-col-mar-20.mar-bottom > .col-flex {
   margin-bottom: 40px;
 }
 /*----------------------------------------------------------*/
@@ -753,7 +753,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 20px;
   margin-right: 20px;
 }
-.row-7-col-mar-20.mar-bottom .col-flex {
+.row-7-col-mar-20.mar-bottom > .col-flex {
   margin-bottom: 40px;
 }
 /*----------------------------------------------------------*/
@@ -769,7 +769,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 20px;
   margin-right: 20px;
 }
-.row-8-col-mar-20.mar-bottom .col-flex {
+.row-8-col-mar-20.mar-bottom > .col-flex {
   margin-bottom: 40px;
 }
 /*----------------------------------------------------------*/
@@ -785,7 +785,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 20px;
   margin-right: 20px;
 }
-.row-9-col-mar-20.mar-bottom .col-flex {
+.row-9-col-mar-20.mar-bottom > .col-flex {
   margin-bottom: 40px;
 }
 /*----------------------------------------------------------*/
@@ -799,7 +799,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 20px;
   margin-right: 20px;
 }
-.row-10-col-mar-20.mar-bottom .col-flex {
+.row-10-col-mar-20.mar-bottom > .col-flex {
   margin-bottom: 40px;
 }
 .row-11-col-mar-20 {
@@ -812,7 +812,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 20px;
   margin-right: 20px;
 }
-.row-11-col-mar-20.mar-bottom .col-flex {
+.row-11-col-mar-20.mar-bottom > .col-flex {
   margin-bottom: 40px;
 }
 /*margin 25px*/
@@ -828,7 +828,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 25px;
   margin-right: 25px;
 }
-.row-2-col-mar-25.mar-bottom .col-flex {
+.row-2-col-mar-25.mar-bottom > .col-flex {
   margin-bottom: 50px;
 }
 /*----------------------------------------------------------*/
@@ -844,7 +844,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 25px;
   margin-right: 25px;
 }
-.row-3-col-mar-25.mar-bottom .col-flex {
+.row-3-col-mar-25.mar-bottom > .col-flex {
   margin-bottom: 50px;
 }
 /*----------------------------------------------------------*/
@@ -860,7 +860,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 25px;
   margin-right: 25px;
 }
-.row-4-col-mar-25.mar-bottom .col-flex {
+.row-4-col-mar-25.mar-bottom > .col-flex {
   margin-bottom: 50px;
 }
 /*----------------------------------------------------------*/
@@ -876,7 +876,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 25px;
   margin-right: 25px;
 }
-.row-5-col-mar-25.mar-bottom .col-flex {
+.row-5-col-mar-25.mar-bottom > .col-flex {
   margin-bottom: 50px;
 }
 /*----------------------------------------------------------*/
@@ -892,7 +892,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 25px;
   margin-right: 25px;
 }
-.row-6-col-mar-25.mar-bottom .col-flex {
+.row-6-col-mar-25.mar-bottom > .col-flex {
   margin-bottom: 50px;
 }
 /*----------------------------------------------------------*/
@@ -908,7 +908,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 25px;
   margin-right: 25px;
 }
-.row-7-col-mar-25.mar-bottom .col-flex {
+.row-7-col-mar-25.mar-bottom > .col-flex {
   margin-bottom: 50px;
 }
 /*----------------------------------------------------------*/
@@ -924,7 +924,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 25px;
   margin-right: 25px;
 }
-.row-8-col-mar-25.mar-bottom .col-flex {
+.row-8-col-mar-25.mar-bottom > .col-flex {
   margin-bottom: 50px;
 }
 /*----------------------------------------------------------*/
@@ -940,7 +940,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 25px;
   margin-right: 25px;
 }
-.row-9-col-mar-25.mar-bottom .col-flex {
+.row-9-col-mar-25.mar-bottom > .col-flex {
   margin-bottom: 50px;
 }
 /*----------------------------------------------------------*/
@@ -954,7 +954,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 25px;
   margin-right: 25px;
 }
-.row-10-col-mar-25.mar-bottom .col-flex {
+.row-10-col-mar-25.mar-bottom > .col-flex {
   margin-bottom: 50px;
 }
 .row-11-col-mar-25 {
@@ -967,7 +967,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 25px;
   margin-right: 25px;
 }
-.row-11-col-mar-25.mar-bottom .col-flex {
+.row-11-col-mar-25.mar-bottom > .col-flex {
   margin-bottom: 50px;
 }
 .row-12-col-mar-25 {
@@ -980,7 +980,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 25px;
   margin-right: 25px;
 }
-.row-12-col-mar-25.mar-bottom .col-flex {
+.row-12-col-mar-25.mar-bottom > .col-flex {
   margin-bottom: 50px;
 }
 /*margin 30px*/
@@ -996,7 +996,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 30px;
   margin-right: 30px;
 }
-.row-2-col-mar-30.mar-bottom .col-flex {
+.row-2-col-mar-30.mar-bottom > .col-flex {
   margin-bottom: 60px;
 }
 /*----------------------------------------------------------*/
@@ -1012,7 +1012,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 30px;
   margin-right: 30px;
 }
-.row-3-col-mar-30.mar-bottom .col-flex {
+.row-3-col-mar-30.mar-bottom > .col-flex {
   margin-bottom: 60px;
 }
 /*----------------------------------------------------------*/
@@ -1028,7 +1028,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 30px;
   margin-right: 30px;
 }
-.row-4-col-mar-30.mar-bottom .col-flex {
+.row-4-col-mar-30.mar-bottom > .col-flex {
   margin-bottom: 60px;
 }
 /*----------------------------------------------------------*/
@@ -1044,7 +1044,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 30px;
   margin-right: 30px;
 }
-.row-5-col-mar-30.mar-bottom .col-flex {
+.row-5-col-mar-30.mar-bottom > .col-flex {
   margin-bottom: 60px;
 }
 /*----------------------------------------------------------*/
@@ -1060,7 +1060,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 30px;
   margin-right: 30px;
 }
-.row-6-col-mar-30.mar-bottom .col-flex {
+.row-6-col-mar-30.mar-bottom > .col-flex {
   margin-bottom: 60px;
 }
 /*----------------------------------------------------------*/
@@ -1076,7 +1076,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 30px;
   margin-right: 30px;
 }
-.row-7-col-mar-30.mar-bottom .col-flex {
+.row-7-col-mar-30.mar-bottom > .col-flex {
   margin-bottom: 60px;
 }
 /*----------------------------------------------------------*/
@@ -1092,7 +1092,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 30px;
   margin-right: 30px;
 }
-.row-8-col-mar-30.mar-bottom .col-flex {
+.row-8-col-mar-30.mar-bottom > .col-flex {
   margin-bottom: 60px;
 }
 /*----------------------------------------------------------*/
@@ -1108,7 +1108,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 30px;
   margin-right: 30px;
 }
-.row-9-col-mar-30.mar-bottom .col-flex {
+.row-9-col-mar-30.mar-bottom > .col-flex {
   margin-bottom: 60px;
 }
 /*----------------------------------------------------------*/
@@ -1124,7 +1124,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 30px;
   margin-right: 30px;
 }
-.row-10-col-mar-30.mar-bottom .col-flex {
+.row-10-col-mar-30.mar-bottom > .col-flex {
   margin-bottom: 60px;
 }
 .row-11-col-mar-30 {
@@ -1137,7 +1137,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 30px;
   margin-right: 30px;
 }
-.row-11-col-mar-30.mar-bottom .col-flex {
+.row-11-col-mar-30.mar-bottom > .col-flex {
   margin-bottom: 60px;
 }
 .row-12-col-mar-30 {
@@ -1150,7 +1150,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   margin-left: 30px;
   margin-right: 30px;
 }
-.row-12-col-mar-30.mar-bottom .col-flex {
+.row-12-col-mar-30.mar-bottom > .col-flex {
   margin-bottom: 60px;
 }
 /*Сетка в ячейке*/
@@ -2487,7 +2487,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="mar-"].col-lg-2-mar-0 .col-flex {
+  [class*="mar-"].col-lg-2-mar-0 > .col-flex {
     width: calc(100%/2);
     margin-left: 0;
     margin-right: 0;
@@ -2497,7 +2497,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="mar-"].col-lg-2-mar-5 .col-flex {
+  [class*="mar-"].col-lg-2-mar-5 > .col-flex {
     width: calc(100%/2 - 5px*2);
     margin-left: 5px;
     margin-right: 5px;
@@ -2507,7 +2507,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="mar-"].col-lg-2-mar-10 .col-flex {
+  [class*="mar-"].col-lg-2-mar-10 > .col-flex {
     width: calc(100%/2 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
@@ -2517,7 +2517,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="mar-"].col-lg-2-mar-15 .col-flex {
+  [class*="mar-"].col-lg-2-mar-15 > .col-flex {
     width: calc(100%/2 - 15px*2);
     margin-left: 15px;
     margin-right: 15px;
@@ -2527,7 +2527,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="mar-"].col-lg-2-mar-20 .col-flex {
+  [class*="mar-"].col-lg-2-mar-20 > .col-flex {
     width: calc(100%/2 - 20px*2);
     margin-left: 20px;
     margin-right: 20px;
@@ -2537,7 +2537,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="mar-"].col-lg-2-mar-25 .col-flex {
+  [class*="mar-"].col-lg-2-mar-25 > .col-flex {
     width: calc(100%/2 - 25px*2);
     margin-left: 25px;
     margin-right: 25px;
@@ -2547,7 +2547,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="mar-"].col-lg-2-mar-30 .col-flex {
+  [class*="mar-"].col-lg-2-mar-30 > .col-flex {
     width: calc(100%/2 - 30px*2);
     margin-left: 30px;
     margin-right: 30px;
@@ -2557,7 +2557,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="mar-"].col-lg-3-mar-0 .col-flex {
+  [class*="mar-"].col-lg-3-mar-0 > .col-flex {
     width: calc(100%/3);
     margin-left: 0;
     margin-right: 0;
@@ -2567,7 +2567,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="mar-"].col-lg-3-mar-5 .col-flex {
+  [class*="mar-"].col-lg-3-mar-5 > .col-flex {
     width: calc(100%/3 - 5px*2);
     margin-left: 5px;
     margin-right: 5px;
@@ -2577,7 +2577,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="mar-"].col-lg-3-mar-10 .col-flex {
+  [class*="mar-"].col-lg-3-mar-10 > .col-flex {
     width: calc(100%/3 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
@@ -2587,7 +2587,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="mar-"].col-lg-3-mar-15 .col-flex {
+  [class*="mar-"].col-lg-3-mar-15 > .col-flex {
     width: calc(100%/3 - 15px*2);
     margin-left: 15px;
     margin-right: 15px;
@@ -2597,7 +2597,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="mar-"].col-lg-3-mar-20 .col-flex {
+  [class*="mar-"].col-lg-3-mar-20 > .col-flex {
     width: calc(100%/3 - 20px*2);
     margin-left: 20px;
     margin-right: 20px;
@@ -2607,7 +2607,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="mar-"].col-lg-3-mar-25 .col-flex {
+  [class*="mar-"].col-lg-3-mar-25 > .col-flex {
     width: calc(100%/3 - 25px*2);
     margin-left: 25px;
     margin-right: 25px;
@@ -2617,7 +2617,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="mar-"].col-lg-3-mar-30 .col-flex {
+  [class*="mar-"].col-lg-3-mar-30 > .col-flex {
     width: calc(100%/3 - 30px*2);
     margin-left: 30px;
     margin-right: 30px;
@@ -2627,7 +2627,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="mar-"].col-lg-4-mar-0 .col-flex {
+  [class*="mar-"].col-lg-4-mar-0 > .col-flex {
     width: calc(100%/4);
     margin-left: 0;
     margin-right: 0;
@@ -2637,7 +2637,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="mar-"].col-lg-4-mar-5 .col-flex {
+  [class*="mar-"].col-lg-4-mar-5 > .col-flex {
     width: calc(100%/4 - 5px*2);
     margin-left: 5px;
     margin-right: 5px;
@@ -2647,7 +2647,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="mar-"].col-lg-4-mar-10 .col-flex {
+  [class*="mar-"].col-lg-4-mar-10 > .col-flex {
     width: calc(100%/4 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
@@ -2657,7 +2657,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="mar-"].col-lg-4-mar-15 .col-flex {
+  [class*="mar-"].col-lg-4-mar-15 > .col-flex {
     width: calc(100%/4 - 15px*2);
     margin-left: 15px;
     margin-right: 15px;
@@ -2667,7 +2667,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="mar-"].col-lg-4-mar-20 .col-flex {
+  [class*="mar-"].col-lg-4-mar-20 > .col-flex {
     width: calc(100%/4 - 20px*2);
     margin-left: 20px;
     margin-right: 20px;
@@ -2677,7 +2677,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="mar-"].col-lg-4-mar-25 .col-flex {
+  [class*="mar-"].col-lg-4-mar-25 > .col-flex {
     width: calc(100%/4 - 25px*2);
     margin-left: 25px;
     margin-right: 25px;
@@ -2687,7 +2687,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="mar-"].col-lg-4-mar-30 .col-flex {
+  [class*="mar-"].col-lg-4-mar-30 > .col-flex {
     width: calc(100%/4 - 30px*2);
     margin-left: 30px;
     margin-right: 30px;
@@ -2697,7 +2697,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="mar-"].col-lg-5-mar-0 .col-flex {
+  [class*="mar-"].col-lg-5-mar-0 > .col-flex {
     width: calc(100%/5);
     margin-left: 0;
     margin-right: 0;
@@ -2707,7 +2707,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="mar-"].col-lg-5-mar-5 .col-flex {
+  [class*="mar-"].col-lg-5-mar-5 > .col-flex {
     width: calc(100%/5 - 5px*2);
     margin-left: 5px;
     margin-right: 5px;
@@ -2717,7 +2717,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="mar-"].col-lg-5-mar-10 .col-flex {
+  [class*="mar-"].col-lg-5-mar-10 > .col-flex {
     width: calc(100%/5 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
@@ -2727,7 +2727,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="mar-"].col-lg-5-mar-15 .col-flex {
+  [class*="mar-"].col-lg-5-mar-15 > .col-flex {
     width: calc(100%/5 - 15px*2);
     margin-left: 15px;
     margin-right: 15px;
@@ -2737,7 +2737,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="mar-"].col-lg-5-mar-20 .col-flex {
+  [class*="mar-"].col-lg-5-mar-20 > .col-flex {
     width: calc(100%/5 - 20px*2);
     margin-left: 20px;
     margin-right: 20px;
@@ -2747,7 +2747,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="mar-"].col-lg-5-mar-25 .col-flex {
+  [class*="mar-"].col-lg-5-mar-25 > .col-flex {
     width: calc(100%/5 - 25px*2);
     margin-left: 25px;
     margin-right: 25px;
@@ -2757,7 +2757,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="mar-"].col-lg-5-mar-30 .col-flex {
+  [class*="mar-"].col-lg-5-mar-30 > .col-flex {
     width: calc(100%/5 - 30px*2);
     margin-left: 30px;
     margin-right: 30px;
@@ -2767,7 +2767,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="mar-"].col-lg-6-mar-0 .col-flex {
+  [class*="mar-"].col-lg-6-mar-0 > .col-flex {
     width: calc(100%/6);
     margin-left: 0;
     margin-right: 0;
@@ -2777,7 +2777,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="mar-"].col-lg-6-mar-5 .col-flex {
+  [class*="mar-"].col-lg-6-mar-5 > .col-flex {
     width: calc(100%/6 - 5px*2);
     margin-left: 5px;
     margin-right: 5px;
@@ -2787,7 +2787,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="mar-"].col-lg-6-mar-10 .col-flex {
+  [class*="mar-"].col-lg-6-mar-10 > .col-flex {
     width: calc(100%/6 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
@@ -2797,7 +2797,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="mar-"].col-lg-6-mar-15 .col-flex {
+  [class*="mar-"].col-lg-6-mar-15 > .col-flex {
     width: calc(100%/6 - 15px*2);
     margin-left: 15px;
     margin-right: 15px;
@@ -2807,7 +2807,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="mar-"].col-lg-6-mar-20 .col-flex {
+  [class*="mar-"].col-lg-6-mar-20 > .col-flex {
     width: calc(100%/6 - 20px*2);
     margin-left: 20px;
     margin-right: 20px;
@@ -2817,7 +2817,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="mar-"].col-lg-6-mar-25 .col-flex {
+  [class*="mar-"].col-lg-6-mar-25 > .col-flex {
     width: calc(100%/6 - 25px*2);
     margin-left: 25px;
     margin-right: 25px;
@@ -2827,7 +2827,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="mar-"].col-lg-6-mar-30 .col-flex {
+  [class*="mar-"].col-lg-6-mar-30 > .col-flex {
     width: calc(100%/6 - 30px*2);
     margin-left: 30px;
     margin-right: 30px;
@@ -2837,7 +2837,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="mar-"].col-lg-7-mar-0 .col-flex {
+  [class*="mar-"].col-lg-7-mar-0 > .col-flex {
     width: calc(100%/7);
     margin-left: 0;
     margin-right: 0;
@@ -2847,7 +2847,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="mar-"].col-lg-7-mar-5 .col-flex {
+  [class*="mar-"].col-lg-7-mar-5 > .col-flex {
     width: calc(100%/7 - 5px*2);
     margin-left: 5px;
     margin-right: 5px;
@@ -2857,7 +2857,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="mar-"].col-lg-7-mar-10 .col-flex {
+  [class*="mar-"].col-lg-7-mar-10 > .col-flex {
     width: calc(100%/7 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
@@ -2867,7 +2867,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="mar-"].col-lg-7-mar-15 .col-flex {
+  [class*="mar-"].col-lg-7-mar-15 > .col-flex {
     width: calc(100%/7 - 15px*2);
     margin-left: 15px;
     margin-right: 15px;
@@ -2877,7 +2877,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="mar-"].col-lg-7-mar-20 .col-flex {
+  [class*="mar-"].col-lg-7-mar-20 > .col-flex {
     width: calc(100%/7 - 20px*2);
     margin-left: 20px;
     margin-right: 20px;
@@ -2887,7 +2887,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="mar-"].col-lg-7-mar-25 .col-flex {
+  [class*="mar-"].col-lg-7-mar-25 > .col-flex {
     width: calc(100%/7 - 25px*2);
     margin-left: 25px;
     margin-right: 25px;
@@ -2897,7 +2897,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="mar-"].col-lg-7-mar-30 .col-flex {
+  [class*="mar-"].col-lg-7-mar-30 > .col-flex {
     width: calc(100%/7 - 30px*2);
     margin-left: 30px;
     margin-right: 30px;
@@ -2907,7 +2907,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="mar-"].col-lg-8-mar-0 .col-flex {
+  [class*="mar-"].col-lg-8-mar-0 > .col-flex {
     width: calc(100%/8);
     margin-left: 0;
     margin-right: 0;
@@ -2917,7 +2917,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="mar-"].col-lg-8-mar-5 .col-flex {
+  [class*="mar-"].col-lg-8-mar-5 > .col-flex {
     width: calc(100%/8 - 5px*2);
     margin-left: 5px;
     margin-right: 5px;
@@ -2927,7 +2927,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="mar-"].col-lg-8-mar-10 .col-flex {
+  [class*="mar-"].col-lg-8-mar-10 > .col-flex {
     width: calc(100%/8 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
@@ -2937,7 +2937,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="mar-"].col-lg-8-mar-15 .col-flex {
+  [class*="mar-"].col-lg-8-mar-15 > .col-flex {
     width: calc(100%/8 - 15px*2);
     margin-left: 15px;
     margin-right: 15px;
@@ -2947,7 +2947,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="mar-"].col-lg-8-mar-20 .col-flex {
+  [class*="mar-"].col-lg-8-mar-20 > .col-flex {
     width: calc(100%/8 - 20px*2);
     margin-left: 20px;
     margin-right: 20px;
@@ -2957,7 +2957,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="mar-"].col-lg-8-mar-25 .col-flex {
+  [class*="mar-"].col-lg-8-mar-25 > .col-flex {
     width: calc(100%/8 - 25px*2);
     margin-left: 25px;
     margin-right: 25px;
@@ -2967,7 +2967,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="mar-"].col-lg-8-mar-30 .col-flex {
+  [class*="mar-"].col-lg-8-mar-30 > .col-flex {
     width: calc(100%/8 - 30px*2);
     margin-left: 30px;
     margin-right: 30px;
@@ -2977,7 +2977,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="mar-"].col-lg-9-mar-0 .col-flex {
+  [class*="mar-"].col-lg-9-mar-0 > .col-flex {
     width: calc(100%/9);
     margin-left: 0;
     margin-right: 0;
@@ -2987,7 +2987,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="mar-"].col-lg-9-mar-5 .col-flex {
+  [class*="mar-"].col-lg-9-mar-5 > .col-flex {
     width: calc(100%/9 - 5px*2);
     margin-left: 5px;
     margin-right: 5px;
@@ -2997,7 +2997,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="mar-"].col-lg-9-mar-10 .col-flex {
+  [class*="mar-"].col-lg-9-mar-10 > .col-flex {
     width: calc(100%/9 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
@@ -3007,7 +3007,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="mar-"].col-lg-9-mar-15 .col-flex {
+  [class*="mar-"].col-lg-9-mar-15 > .col-flex {
     width: calc(100%/9 - 15px*2);
     margin-left: 15px;
     margin-right: 15px;
@@ -3017,7 +3017,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="mar-"].col-lg-9-mar-20 .col-flex {
+  [class*="mar-"].col-lg-9-mar-20 > .col-flex {
     width: calc(100%/9 - 20px*2);
     margin-left: 20px;
     margin-right: 20px;
@@ -3027,7 +3027,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="mar-"].col-lg-9-mar-25 .col-flex {
+  [class*="mar-"].col-lg-9-mar-25 > .col-flex {
     width: calc(100%/9 - 25px*2);
     margin-left: 25px;
     margin-right: 25px;
@@ -3037,7 +3037,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="mar-"].col-lg-9-mar-30 .col-flex {
+  [class*="mar-"].col-lg-9-mar-30 > .col-flex {
     width: calc(100%/9 - 30px*2);
     margin-left: 30px;
     margin-right: 30px;
@@ -3047,7 +3047,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="mar-"].col-lg-10-mar-0 .col-flex {
+  [class*="mar-"].col-lg-10-mar-0 > .col-flex {
     width: calc(100%/10);
     margin-left: 0;
     margin-right: 0;
@@ -3057,7 +3057,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="mar-"].col-lg-10-mar-5 .col-flex {
+  [class*="mar-"].col-lg-10-mar-5 > .col-flex {
     width: calc(100%/10 - 5px*2);
     margin-left: 5px;
     margin-right: 5px;
@@ -3067,7 +3067,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="mar-"].col-lg-10-mar-10 .col-flex {
+  [class*="mar-"].col-lg-10-mar-10 > .col-flex {
     width: calc(100%/10 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
@@ -3077,7 +3077,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="mar-"].col-lg-10-mar-15 .col-flex {
+  [class*="mar-"].col-lg-10-mar-15 > .col-flex {
     width: calc(100%/10 - 15px*2);
     margin-left: 15px;
     margin-right: 15px;
@@ -3087,7 +3087,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="mar-"].col-lg-10-mar-20 .col-flex {
+  [class*="mar-"].col-lg-10-mar-20 > .col-flex {
     width: calc(100%/10 - 20px*2);
     margin-left: 20px;
     margin-right: 20px;
@@ -3097,7 +3097,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="mar-"].col-lg-10-mar-25 .col-flex {
+  [class*="mar-"].col-lg-10-mar-25 > .col-flex {
     width: calc(100%/10 - 25px*2);
     margin-left: 25px;
     margin-right: 25px;
@@ -3107,7 +3107,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="mar-"].col-lg-10-mar-30 .col-flex {
+  [class*="mar-"].col-lg-10-mar-30 > .col-flex {
     width: calc(100%/10 - 30px*2);
     margin-left: 30px;
     margin-right: 30px;
@@ -3117,7 +3117,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="mar-"].col-lg-11-mar-0 .col-flex {
+  [class*="mar-"].col-lg-11-mar-0 > .col-flex {
     width: calc(100%/11);
     margin-left: 0;
     margin-right: 0;
@@ -3127,7 +3127,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="mar-"].col-lg-11-mar-5 .col-flex {
+  [class*="mar-"].col-lg-11-mar-5 > .col-flex {
     width: calc(100%/11 - 5px*2);
     margin-left: 5px;
     margin-right: 5px;
@@ -3137,7 +3137,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="mar-"].col-lg-11-mar-10 .col-flex {
+  [class*="mar-"].col-lg-11-mar-10 > .col-flex {
     width: calc(100%/11 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
@@ -3147,7 +3147,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="mar-"].col-lg-11-mar-15 .col-flex {
+  [class*="mar-"].col-lg-11-mar-15 > .col-flex {
     width: calc(100%/11 - 15px*2);
     margin-left: 15px;
     margin-right: 15px;
@@ -3157,7 +3157,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="mar-"].col-lg-11-mar-20 .col-flex {
+  [class*="mar-"].col-lg-11-mar-20 > .col-flex {
     width: calc(100%/11 - 20px*2);
     margin-left: 20px;
     margin-right: 20px;
@@ -3167,7 +3167,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="mar-"].col-lg-11-mar-25 .col-flex {
+  [class*="mar-"].col-lg-11-mar-25 > .col-flex {
     width: calc(100%/11 - 25px*2);
     margin-left: 25px;
     margin-right: 25px;
@@ -3177,7 +3177,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="mar-"].col-lg-11-mar-30 .col-flex {
+  [class*="mar-"].col-lg-11-mar-30 > .col-flex {
     width: calc(100%/11 - 30px*2);
     margin-left: 30px;
     margin-right: 30px;
@@ -3187,7 +3187,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="mar-"].col-lg-12-mar-0 .col-flex {
+  [class*="mar-"].col-lg-12-mar-0 > .col-flex {
     width: calc(100%/12);
     margin-left: 0;
     margin-right: 0;
@@ -3197,7 +3197,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="mar-"].col-lg-12-mar-5 .col-flex {
+  [class*="mar-"].col-lg-12-mar-5 > .col-flex {
     width: calc(100%/12 - 5px*2);
     margin-left: 5px;
     margin-right: 5px;
@@ -3207,7 +3207,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="mar-"].col-lg-12-mar-10 .col-flex {
+  [class*="mar-"].col-lg-12-mar-10 > .col-flex {
     width: calc(100%/12 - 10px*2);
     margin-left: 10px;
     margin-right: 10px;
@@ -3217,7 +3217,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="mar-"].col-lg-12-mar-15 .col-flex {
+  [class*="mar-"].col-lg-12-mar-15 > .col-flex {
     width: calc(100%/12 - 15px*2);
     margin-left: 15px;
     margin-right: 15px;
@@ -3227,7 +3227,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="mar-"].col-lg-12-mar-20 .col-flex {
+  [class*="mar-"].col-lg-12-mar-20 > .col-flex {
     width: calc(100%/12 - 20px*2);
     margin-left: 20px;
     margin-right: 20px;
@@ -3237,7 +3237,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="mar-"].col-lg-12-mar-25 .col-flex {
+  [class*="mar-"].col-lg-12-mar-25 > .col-flex {
     width: calc(100%/12 - 25px*2);
     margin-left: 25px;
     margin-right: 25px;
@@ -3247,7 +3247,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="mar-"].col-lg-12-mar-30 .col-flex {
+  [class*="mar-"].col-lg-12-mar-30 > .col-flex {
     width: calc(100%/12 - 30px*2);
     margin-left: 30px;
     margin-right: 30px;
@@ -3261,7 +3261,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="-col-mar-5"].col-lg-12 .col-flex {
+  [class*="-col-mar-5"].col-lg-12 > .col-flex {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -3271,7 +3271,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="-col-mar-5"].col-lg-11 .col-flex {
+  [class*="-col-mar-5"].col-lg-11 > .col-flex {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -3281,7 +3281,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="-col-mar-5"].col-lg-10 .col-flex {
+  [class*="-col-mar-5"].col-lg-10 > .col-flex {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -3291,7 +3291,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="-col-mar-5"].col-lg-9 .col-flex {
+  [class*="-col-mar-5"].col-lg-9 > .col-flex {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -3301,7 +3301,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="-col-mar-5"].col-lg-8 .col-flex {
+  [class*="-col-mar-5"].col-lg-8 > .col-flex {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -3311,7 +3311,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="-col-mar-5"].col-lg-7 .col-flex {
+  [class*="-col-mar-5"].col-lg-7 > .col-flex {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -3321,7 +3321,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="-col-mar-5"].col-lg-6 .col-flex {
+  [class*="-col-mar-5"].col-lg-6 > .col-flex {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -3331,7 +3331,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="-col-mar-5"].col-lg-5 .col-flex {
+  [class*="-col-mar-5"].col-lg-5 > .col-flex {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -3341,7 +3341,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="-col-mar-5"].col-lg-4 .col-flex {
+  [class*="-col-mar-5"].col-lg-4 > .col-flex {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -3351,7 +3351,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="-col-mar-5"].col-lg-3 .col-flex {
+  [class*="-col-mar-5"].col-lg-3 > .col-flex {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -3361,7 +3361,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -5px;
     margin-right: -5px;
   }
-  [class*="-col-mar-5"].col-lg-2 .col-flex {
+  [class*="-col-mar-5"].col-lg-2 > .col-flex {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -3371,7 +3371,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="-col-mar-5"].col-lg-1 .col-flex {
+  [class*="-col-mar-5"].col-lg-1 > .col-flex {
     margin-left: 0;
     margin-right: 0;
     width: calc(100% / 1);
@@ -3380,7 +3380,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="-col-mar-10"].col-lg-12 .col-flex {
+  [class*="-col-mar-10"].col-lg-12 > .col-flex {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -3390,7 +3390,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="-col-mar-10"].col-lg-11 .col-flex {
+  [class*="-col-mar-10"].col-lg-11 > .col-flex {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -3400,7 +3400,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="-col-mar-10"].col-lg-10 .col-flex {
+  [class*="-col-mar-10"].col-lg-10 > .col-flex {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -3410,7 +3410,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="-col-mar-10"].col-lg-9 .col-flex {
+  [class*="-col-mar-10"].col-lg-9 > .col-flex {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -3420,7 +3420,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="-col-mar-10"].col-lg-8 .col-flex {
+  [class*="-col-mar-10"].col-lg-8 > .col-flex {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -3430,7 +3430,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="-col-mar-10"].col-lg-7 .col-flex {
+  [class*="-col-mar-10"].col-lg-7 > .col-flex {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -3440,7 +3440,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="-col-mar-10"].col-lg-6 .col-flex {
+  [class*="-col-mar-10"].col-lg-6 > .col-flex {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -3450,7 +3450,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="-col-mar-10"].col-lg-5 .col-flex {
+  [class*="-col-mar-10"].col-lg-5 > .col-flex {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -3460,7 +3460,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="-col-mar-10"].col-lg-4 .col-flex {
+  [class*="-col-mar-10"].col-lg-4 > .col-flex {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -3470,7 +3470,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="-col-mar-10"].col-lg-3 .col-flex {
+  [class*="-col-mar-10"].col-lg-3 > .col-flex {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -3480,7 +3480,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -10px;
     margin-right: -10px;
   }
-  [class*="-col-mar-10"].col-lg-2 .col-flex {
+  [class*="-col-mar-10"].col-lg-2 > .col-flex {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -3490,7 +3490,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="-col-mar-10"].col-lg-1 .col-flex {
+  [class*="-col-mar-10"].col-lg-1 > .col-flex {
     margin-left: 0;
     margin-right: 0;
     width: calc(100% / 1);
@@ -3499,7 +3499,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="-col-mar-15"].col-lg-12 .col-flex {
+  [class*="-col-mar-15"].col-lg-12 > .col-flex {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
@@ -3509,7 +3509,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="-col-mar-15"].col-lg-11 .col-flex {
+  [class*="-col-mar-15"].col-lg-11 > .col-flex {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
@@ -3519,7 +3519,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="-col-mar-15"].col-lg-10 .col-flex {
+  [class*="-col-mar-15"].col-lg-10 > .col-flex {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
@@ -3529,7 +3529,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="-col-mar-15"].col-lg-9 .col-flex {
+  [class*="-col-mar-15"].col-lg-9 > .col-flex {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
@@ -3539,7 +3539,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="-col-mar-15"].col-lg-8 .col-flex {
+  [class*="-col-mar-15"].col-lg-8 > .col-flex {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
@@ -3549,7 +3549,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="-col-mar-15"].col-lg-7 .col-flex {
+  [class*="-col-mar-15"].col-lg-7 > .col-flex {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
@@ -3559,7 +3559,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="-col-mar-15"].col-lg-6 .col-flex {
+  [class*="-col-mar-15"].col-lg-6 > .col-flex {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
@@ -3569,7 +3569,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="-col-mar-15"].col-lg-5 .col-flex {
+  [class*="-col-mar-15"].col-lg-5 > .col-flex {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
@@ -3579,7 +3579,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="-col-mar-15"].col-lg-4 .col-flex {
+  [class*="-col-mar-15"].col-lg-4 > .col-flex {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
@@ -3589,7 +3589,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="-col-mar-15"].col-lg-3 .col-flex {
+  [class*="-col-mar-15"].col-lg-3 > .col-flex {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
@@ -3599,7 +3599,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -15px;
     margin-right: -15px;
   }
-  [class*="-col-mar-15"].col-lg-2 .col-flex {
+  [class*="-col-mar-15"].col-lg-2 > .col-flex {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
@@ -3609,7 +3609,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="-col-mar-15"].col-lg-1 .col-flex {
+  [class*="-col-mar-15"].col-lg-1 > .col-flex {
     margin-left: 0;
     margin-right: 0;
     width: calc(100% / 1);
@@ -3618,7 +3618,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="-col-mar-20"].col-lg-12 .col-flex {
+  [class*="-col-mar-20"].col-lg-12 > .col-flex {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -3628,7 +3628,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="-col-mar-20"].col-lg-11 .col-flex {
+  [class*="-col-mar-20"].col-lg-11 > .col-flex {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -3638,7 +3638,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="-col-mar-20"].col-lg-10 .col-flex {
+  [class*="-col-mar-20"].col-lg-10 > .col-flex {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -3648,7 +3648,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="-col-mar-20"].col-lg-9 .col-flex {
+  [class*="-col-mar-20"].col-lg-9 > .col-flex {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -3658,7 +3658,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="-col-mar-20"].col-lg-8 .col-flex {
+  [class*="-col-mar-20"].col-lg-8 > .col-flex {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -3668,7 +3668,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="-col-mar-20"].col-lg-7 .col-flex {
+  [class*="-col-mar-20"].col-lg-7 > .col-flex {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -3678,7 +3678,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="-col-mar-20"].col-lg-6 .col-flex {
+  [class*="-col-mar-20"].col-lg-6 > .col-flex {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -3688,7 +3688,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="-col-mar-20"].col-lg-5 .col-flex {
+  [class*="-col-mar-20"].col-lg-5 > .col-flex {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -3698,7 +3698,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="-col-mar-20"].col-lg-4 .col-flex {
+  [class*="-col-mar-20"].col-lg-4 > .col-flex {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -3708,7 +3708,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="-col-mar-20"].col-lg-3 .col-flex {
+  [class*="-col-mar-20"].col-lg-3 > .col-flex {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -3718,7 +3718,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -20px;
     margin-right: -20px;
   }
-  [class*="-col-mar-20"].col-lg-2 .col-flex {
+  [class*="-col-mar-20"].col-lg-2 > .col-flex {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -3728,7 +3728,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="-col-mar-20"].col-lg-1 .col-flex {
+  [class*="-col-mar-20"].col-lg-1 > .col-flex {
     margin-left: 0;
     margin-right: 0;
     width: calc(100% / 1);
@@ -3737,7 +3737,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="-col-mar-25"].col-lg-12 .col-flex {
+  [class*="-col-mar-25"].col-lg-12 > .col-flex {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
@@ -3747,7 +3747,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="-col-mar-25"].col-lg-11 .col-flex {
+  [class*="-col-mar-25"].col-lg-11 > .col-flex {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
@@ -3757,7 +3757,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="-col-mar-25"].col-lg-10 .col-flex {
+  [class*="-col-mar-25"].col-lg-10 > .col-flex {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
@@ -3767,7 +3767,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="-col-mar-25"].col-lg-9 .col-flex {
+  [class*="-col-mar-25"].col-lg-9 > .col-flex {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
@@ -3777,7 +3777,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="-col-mar-25"].col-lg-8 .col-flex {
+  [class*="-col-mar-25"].col-lg-8 > .col-flex {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
@@ -3787,7 +3787,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="-col-mar-25"].col-lg-7 .col-flex {
+  [class*="-col-mar-25"].col-lg-7 > .col-flex {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
@@ -3797,7 +3797,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="-col-mar-25"].col-lg-6 .col-flex {
+  [class*="-col-mar-25"].col-lg-6 > .col-flex {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
@@ -3807,7 +3807,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="-col-mar-25"].col-lg-5 .col-flex {
+  [class*="-col-mar-25"].col-lg-5 > .col-flex {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
@@ -3817,7 +3817,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="-col-mar-25"].col-lg-4 .col-flex {
+  [class*="-col-mar-25"].col-lg-4 > .col-flex {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
@@ -3827,7 +3827,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="-col-mar-25"].col-lg-3 .col-flex {
+  [class*="-col-mar-25"].col-lg-3 > .col-flex {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
@@ -3837,7 +3837,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -25px;
     margin-right: -25px;
   }
-  [class*="-col-mar-25"].col-lg-2 .col-flex {
+  [class*="-col-mar-25"].col-lg-2 > .col-flex {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
@@ -3847,7 +3847,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="-col-mar-25"].col-lg-1 .col-flex {
+  [class*="-col-mar-25"].col-lg-1 > .col-flex {
     margin-left: 0;
     margin-right: 0;
     width: calc(100% / 1);
@@ -3856,7 +3856,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="-col-mar-30"].col-lg-12 .col-flex {
+  [class*="-col-mar-30"].col-lg-12 > .col-flex {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 60px;
@@ -3866,7 +3866,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="-col-mar-30"].col-lg-11 .col-flex {
+  [class*="-col-mar-30"].col-lg-11 > .col-flex {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 60px;
@@ -3876,7 +3876,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="-col-mar-30"].col-lg-10 .col-flex {
+  [class*="-col-mar-30"].col-lg-10 > .col-flex {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 60px;
@@ -3886,7 +3886,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="-col-mar-30"].col-lg-9 .col-flex {
+  [class*="-col-mar-30"].col-lg-9 > .col-flex {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 60px;
@@ -3896,7 +3896,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="-col-mar-30"].col-lg-8 .col-flex {
+  [class*="-col-mar-30"].col-lg-8 > .col-flex {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 60px;
@@ -3906,7 +3906,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="-col-mar-30"].col-lg-7 .col-flex {
+  [class*="-col-mar-30"].col-lg-7 > .col-flex {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 60px;
@@ -3916,7 +3916,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="-col-mar-30"].col-lg-6 .col-flex {
+  [class*="-col-mar-30"].col-lg-6 > .col-flex {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 60px;
@@ -3926,7 +3926,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="-col-mar-30"].col-lg-5 .col-flex {
+  [class*="-col-mar-30"].col-lg-5 > .col-flex {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 60px;
@@ -3936,7 +3936,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="-col-mar-30"].col-lg-4 .col-flex {
+  [class*="-col-mar-30"].col-lg-4 > .col-flex {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 60px;
@@ -3946,7 +3946,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="-col-mar-30"].col-lg-3 .col-flex {
+  [class*="-col-mar-30"].col-lg-3 > .col-flex {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 60px;
@@ -3956,7 +3956,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: -30px;
     margin-right: -30px;
   }
-  [class*="-col-mar-30"].col-lg-2 .col-flex {
+  [class*="-col-mar-30"].col-lg-2 > .col-flex {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 60px;
@@ -3966,7 +3966,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     margin-left: 0;
     margin-right: 0;
   }
-  [class*="-col-mar-30"].col-lg-1 .col-flex {
+  [class*="-col-mar-30"].col-lg-1 > .col-flex {
     margin-left: 0;
     margin-right: 0;
     width: calc(100% / 1);
