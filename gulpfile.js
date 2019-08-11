@@ -11,6 +11,9 @@ const gcmq = require('gulp-group-css-media-queries');//собирает меди
 const cleanCSS = require('gulp-clean-css');//сжимает css
 const preproc = require('gulp-less');//преобразует less в css
 
+const cssmin = require('gulp-cssmin'); //сжатие css
+const rename = require('gulp-rename');//добавление min в сжатый css
+
 
 
 const config = {
@@ -30,6 +33,10 @@ const config = {
 
     }
 };
+
+
+
+
 
 
 //любые изменение в файле отображаются в браузере, при этом запускается задача build со всем её содержимым
@@ -102,12 +109,21 @@ gulp.task('autoprefixer', function () {
 
     //даем префиксы стилям
         .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
+            browsers: ['last 3 versions'],
             cascade: false
         }))
 
         .pipe(gulp.dest('./src/dist/css')); //вывод результирующего файла в папку назначения (dest — пункт назначения)
 
+});
+
+//сжатие css
+
+gulp.task('cssmin', function () {
+    gulp.src('./src/dist/css/**/style.css')
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('./src/dist/css'));
 });
 
 
