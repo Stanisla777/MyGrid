@@ -92,7 +92,7 @@ section,header,footer{
 .col-sm-(1-4) -
 
 отступ при медиа меняется то записывается так:
-col-lg-(1-6)-mar-(5-30) -при медиа сколько будет колонок и какой отступ
+row-col-lg-(1-6)-mar-(5-30) -при медиа сколько будет колонок и какой отступ
 col-md-(1-6)-mar-(5-30)
 col-sm-(1-6)-mar-(5-30)
 
@@ -108,15 +108,15 @@ col-sm-(1-6)-mar-(5-30)
 
 МЕДИА ЗАПРОСЫ:
 В РЯДУ:
-col-lg-mar-(5-30) - изменение отсупа в медиа запросах
+row-col-lg-mar-(5-30) - изменение отсупа в медиа запросах
 при этом если у нас во ВСЕХ!!! медиа будут меняться только отсупы, достаточно записать значение отсупов
 в классе ряда. Пример:
-<div class="row-col-mar-30 col-lg-mar-20 col-md-mar-10 col-sm-mar-5">
+<div class="row-col-mar-30 row-col-lg-mar-20 col-md-mar-10 col-sm-mar-5">
   <div class="good col-flex-40"></div>
 
 Если у нас в каком то запросе меняется ширина какой-то колонки, нужно менять класс и в ряду
 и в колонке. Пример:
-<div class="row-col-mar-20 col-lg-mar-30 col-md-mar-10 col-sm-mar-5">
+<div class="row-col-mar-20 row-col-lg-mar-30 col-md-mar-10 col-sm-mar-5">
   <div class="good col-flex-40 col-flex-lg-10 col-flex-md-10 col-flex-sm-20"></div>
 
 В КОЛОНКЕ:
@@ -4101,7 +4101,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="mar-"].col-lg-1-mar-0,[class*="row-col-mar"].col-lg-1-mar-0{
+  [class*="mar-"].row-col-lg-1-mar-0,[class*="row-col-mar"].row-col-lg-1-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4118,7 +4118,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 
 
-  [class*="mar-"].col-lg-2-mar-0,[class*="row-col-mar"].col-lg-2-mar-0{
+  [class*="mar-"].row-col-lg-2-mar-0,[class*="row-col-mar"].row-col-lg-2-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4134,7 +4134,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-3-mar-0,[class*="row-col-mar"].col-lg-3-mar-0{
+  [class*="mar-"].row-col-lg-3-mar-0,[class*="row-col-mar"].row-col-lg-3-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4150,7 +4150,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-4-mar-0,[class*="row-col-mar"].col-lg-4-mar-0{
+  [class*="mar-"].row-col-lg-4-mar-0,[class*="row-col-mar"].row-col-lg-4-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4166,7 +4166,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-5-mar-0,[class*="row-col-mar"].col-lg-5-mar-0{
+  [class*="mar-"].row-col-lg-5-mar-0,[class*="row-col-mar"].row-col-lg-5-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4182,7 +4182,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-6-mar-0,[class*="row-col-mar"].col-lg-6-mar-0{
+  [class*="mar-"].row-col-lg-6-mar-0,[class*="row-col-mar"].row-col-lg-6-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4198,7 +4198,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-7-mar-0,[class*="row-col-mar"].col-lg-7-mar-0{
+  [class*="mar-"].row-col-lg-7-mar-0,[class*="row-col-mar"].row-col-lg-7-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4214,7 +4214,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-8-mar-0,[class*="row-col-mar"].col-lg-8-mar-0{
+  [class*="mar-"].row-col-lg-8-mar-0,[class*="row-col-mar"].row-col-lg-8-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4230,7 +4230,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-9-mar-0,[class*="row-col-mar"].col-lg-9-mar-0{
+  [class*="mar-"].row-col-lg-9-mar-0,[class*="row-col-mar"].row-col-lg-9-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4246,7 +4246,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-10-mar-0,[class*="row-col-mar"].col-lg-10-mar-0{
+  [class*="mar-"].row-col-lg-10-mar-0,[class*="row-col-mar"].row-col-lg-10-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4262,7 +4262,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-11-mar-0,[class*="row-col-mar"].col-lg-11-mar-0{
+  [class*="mar-"].row-col-lg-11-mar-0,[class*="row-col-mar"].row-col-lg-11-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4278,7 +4278,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-12-mar-0,[class*="row-col-mar"].col-lg-12-mar-0{
+  [class*="mar-"].row-col-lg-12-mar-0,[class*="row-col-mar"].row-col-lg-12-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4300,7 +4300,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="mar-"].col-lg-1-mar-5,[class*="row-col-mar"].col-lg-1-mar-5{
+  [class*="mar-"].row-col-lg-1-mar-5,[class*="row-col-mar"].row-col-lg-1-mar-5{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4316,7 +4316,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-1-mar-10,[class*="row-col-mar"].col-lg-1-mar-10{
+  [class*="mar-"].row-col-lg-1-mar-10,[class*="row-col-mar"].row-col-lg-1-mar-10{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4332,7 +4332,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-1-mar-15,[class*="row-col-mar"].col-lg-1-mar-15{
+  [class*="mar-"].row-col-lg-1-mar-15,[class*="row-col-mar"].row-col-lg-1-mar-15{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4348,7 +4348,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-1-mar-20,[class*="row-col-mar"].col-lg-1-mar-20{
+  [class*="mar-"].row-col-lg-1-mar-20,[class*="row-col-mar"].row-col-lg-1-mar-20{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4364,7 +4364,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-1-mar-25,[class*="row-col-mar"].col-lg-1-mar-25{
+  [class*="mar-"].row-col-lg-1-mar-25,[class*="row-col-mar"].row-col-lg-1-mar-25{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4380,7 +4380,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-1-mar-30,[class*="row-col-mar"].col-lg-1-mar-30{
+  [class*="mar-"].row-col-lg-1-mar-30,[class*="row-col-mar"].row-col-lg-1-mar-30{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4396,7 +4396,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-1-mar-35,[class*="row-col-mar"].col-lg-1-mar-35{
+  [class*="mar-"].row-col-lg-1-mar-35,[class*="row-col-mar"].row-col-lg-1-mar-35{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4412,7 +4412,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-1-mar-40,[class*="row-col-mar"].col-lg-1-mar-40{
+  [class*="mar-"].row-col-lg-1-mar-40,[class*="row-col-mar"].row-col-lg-1-mar-40{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4428,7 +4428,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-1-mar-45,[class*="row-col-mar"].col-lg-1-mar-45{
+  [class*="mar-"].row-col-lg-1-mar-45,[class*="row-col-mar"].row-col-lg-1-mar-45{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4444,7 +4444,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-1-mar-50,[class*="row-col-mar"].col-lg-1-mar-50{
+  [class*="mar-"].row-col-lg-1-mar-50,[class*="row-col-mar"].row-col-lg-1-mar-50{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -4460,7 +4460,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-2-mar-5 ,[class*="row-col-mar"].col-lg-2-mar-5{
+  [class*="mar-"].row-col-lg-2-mar-5 ,[class*="row-col-mar"].row-col-lg-2-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4476,7 +4476,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-2-mar-10 ,[class*="row-col-mar"].col-lg-2-mar-10{
+  [class*="mar-"].row-col-lg-2-mar-10 ,[class*="row-col-mar"].row-col-lg-2-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4492,7 +4492,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-2-mar-15,[class*="row-col-mar"].col-lg-2-mar-15{
+  [class*="mar-"].row-col-lg-2-mar-15,[class*="row-col-mar"].row-col-lg-2-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     >[class*="col-flex"], [class*='col-flex'][class*='col-flex'] {
@@ -4508,7 +4508,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-2-mar-20 ,[class*="row-col-mar"].col-lg-2-mar-20{
+  [class*="mar-"].row-col-lg-2-mar-20 ,[class*="row-col-mar"].row-col-lg-2-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4524,7 +4524,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-2-mar-25 ,[class*="row-col-mar"].col-lg-2-mar-25{
+  [class*="mar-"].row-col-lg-2-mar-25 ,[class*="row-col-mar"].row-col-lg-2-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4540,7 +4540,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-2-mar-30 ,[class*="row-col-mar"].col-lg-2-mar-30{
+  [class*="mar-"].row-col-lg-2-mar-30 ,[class*="row-col-mar"].row-col-lg-2-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4556,7 +4556,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-3-mar-5 ,[class*="row-col-mar"].col-lg-3-mar-5{
+  [class*="mar-"].row-col-lg-3-mar-5 ,[class*="row-col-mar"].row-col-lg-3-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4572,7 +4572,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-3-mar-10 ,[class*="row-col-mar"].col-lg-3-mar-10{
+  [class*="mar-"].row-col-lg-3-mar-10 ,[class*="row-col-mar"].row-col-lg-3-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4588,7 +4588,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-3-mar-15 ,[class*="row-col-mar"].col-lg-3-mar-15{
+  [class*="mar-"].row-col-lg-3-mar-15 ,[class*="row-col-mar"].row-col-lg-3-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4604,7 +4604,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-3-mar-20 ,[class*="row-col-mar"].col-lg-3-mar-20{
+  [class*="mar-"].row-col-lg-3-mar-20 ,[class*="row-col-mar"].row-col-lg-3-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4620,7 +4620,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-3-mar-25 ,[class*="row-col-mar"].col-lg-3-mar-25{
+  [class*="mar-"].row-col-lg-3-mar-25 ,[class*="row-col-mar"].row-col-lg-3-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4636,7 +4636,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-3-mar-30 ,[class*="row-col-mar"].col-lg-3-mar-30{
+  [class*="mar-"].row-col-lg-3-mar-30 ,[class*="row-col-mar"].row-col-lg-3-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4652,7 +4652,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-4-mar-5 ,[class*="row-col-mar"].col-lg-4-mar-5{
+  [class*="mar-"].row-col-lg-4-mar-5 ,[class*="row-col-mar"].row-col-lg-4-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4668,7 +4668,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-4-mar-10 ,[class*="row-col-mar"].col-lg-4-mar-10{
+  [class*="mar-"].row-col-lg-4-mar-10 ,[class*="row-col-mar"].row-col-lg-4-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4684,7 +4684,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-4-mar-15 ,[class*="row-col-mar"].col-lg-4-mar-15{
+  [class*="mar-"].row-col-lg-4-mar-15 ,[class*="row-col-mar"].row-col-lg-4-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4700,7 +4700,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-4-mar-20 ,[class*="row-col-mar"].col-lg-4-mar-20{
+  [class*="mar-"].row-col-lg-4-mar-20 ,[class*="row-col-mar"].row-col-lg-4-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4716,7 +4716,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-4-mar-25 ,[class*="row-col-mar"].col-lg-4-mar-25{
+  [class*="mar-"].row-col-lg-4-mar-25 ,[class*="row-col-mar"].row-col-lg-4-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4732,7 +4732,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-4-mar-30 ,[class*="row-col-mar"].col-lg-4-mar-30{
+  [class*="mar-"].row-col-lg-4-mar-30 ,[class*="row-col-mar"].row-col-lg-4-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4748,7 +4748,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-5-mar-5 ,[class*="row-col-mar"].col-lg-5-mar-5{
+  [class*="mar-"].row-col-lg-5-mar-5 ,[class*="row-col-mar"].row-col-lg-5-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4764,7 +4764,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-5-mar-10 ,[class*="row-col-mar"].col-lg-5-mar-10{
+  [class*="mar-"].row-col-lg-5-mar-10 ,[class*="row-col-mar"].row-col-lg-5-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4780,7 +4780,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-5-mar-15 ,[class*="row-col-mar"].col-lg-5-mar-15{
+  [class*="mar-"].row-col-lg-5-mar-15 ,[class*="row-col-mar"].row-col-lg-5-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4796,7 +4796,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-5-mar-20 ,[class*="row-col-mar"].col-lg-5-mar-20{
+  [class*="mar-"].row-col-lg-5-mar-20 ,[class*="row-col-mar"].row-col-lg-5-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4812,7 +4812,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-5-mar-25 ,[class*="row-col-mar"].col-lg-5-mar-25{
+  [class*="mar-"].row-col-lg-5-mar-25 ,[class*="row-col-mar"].row-col-lg-5-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4828,7 +4828,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-5-mar-30 ,[class*="row-col-mar"].col-lg-5-mar-30{
+  [class*="mar-"].row-col-lg-5-mar-30 ,[class*="row-col-mar"].row-col-lg-5-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4844,7 +4844,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-6-mar-5 ,[class*="row-col-mar"].col-lg-6-mar-5{
+  [class*="mar-"].row-col-lg-6-mar-5 ,[class*="row-col-mar"].row-col-lg-6-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4860,7 +4860,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-6-mar-10 ,[class*="row-col-mar"].col-lg-6-mar-10{
+  [class*="mar-"].row-col-lg-6-mar-10 ,[class*="row-col-mar"].row-col-lg-6-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4876,7 +4876,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-6-mar-15 ,[class*="row-col-mar"].col-lg-6-mar-15{
+  [class*="mar-"].row-col-lg-6-mar-15 ,[class*="row-col-mar"].row-col-lg-6-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4892,7 +4892,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-6-mar-20 ,[class*="row-col-mar"].col-lg-6-mar-20{
+  [class*="mar-"].row-col-lg-6-mar-20 ,[class*="row-col-mar"].row-col-lg-6-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4908,7 +4908,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-6-mar-25 ,[class*="row-col-mar"].col-lg-6-mar-25{
+  [class*="mar-"].row-col-lg-6-mar-25 ,[class*="row-col-mar"].row-col-lg-6-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4924,7 +4924,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-6-mar-30 ,[class*="row-col-mar"].col-lg-6-mar-30{
+  [class*="mar-"].row-col-lg-6-mar-30 ,[class*="row-col-mar"].row-col-lg-6-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4940,7 +4940,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-7-mar-5 ,[class*="row-col-mar"].col-lg-7-mar-5{
+  [class*="mar-"].row-col-lg-7-mar-5 ,[class*="row-col-mar"].row-col-lg-7-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4956,7 +4956,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-7-mar-10 ,[class*="row-col-mar"].col-lg-7-mar-10{
+  [class*="mar-"].row-col-lg-7-mar-10 ,[class*="row-col-mar"].row-col-lg-7-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4972,7 +4972,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-7-mar-15 ,[class*="row-col-mar"].col-lg-7-mar-15{
+  [class*="mar-"].row-col-lg-7-mar-15 ,[class*="row-col-mar"].row-col-lg-7-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -4988,7 +4988,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-7-mar-20 ,[class*="row-col-mar"].col-lg-7-mar-20{
+  [class*="mar-"].row-col-lg-7-mar-20 ,[class*="row-col-mar"].row-col-lg-7-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5004,7 +5004,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-7-mar-25 ,[class*="row-col-mar"].col-lg-7-mar-25{
+  [class*="mar-"].row-col-lg-7-mar-25 ,[class*="row-col-mar"].row-col-lg-7-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5020,7 +5020,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-7-mar-30 ,[class*="row-col-mar"].col-lg-7-mar-30{
+  [class*="mar-"].row-col-lg-7-mar-30 ,[class*="row-col-mar"].row-col-lg-7-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5036,7 +5036,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-8-mar-5 ,[class*="row-col-mar"].col-lg-8-mar-5{
+  [class*="mar-"].row-col-lg-8-mar-5 ,[class*="row-col-mar"].row-col-lg-8-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5052,7 +5052,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-8-mar-10 ,[class*="row-col-mar"].col-lg-8-mar-10{
+  [class*="mar-"].row-col-lg-8-mar-10 ,[class*="row-col-mar"].row-col-lg-8-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5068,7 +5068,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-8-mar-15 ,[class*="row-col-mar"].col-lg-8-mar-15{
+  [class*="mar-"].row-col-lg-8-mar-15 ,[class*="row-col-mar"].row-col-lg-8-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5084,7 +5084,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-8-mar-20 ,[class*="row-col-mar"].col-lg-8-mar-20{
+  [class*="mar-"].row-col-lg-8-mar-20 ,[class*="row-col-mar"].row-col-lg-8-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5100,7 +5100,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-8-mar-25 ,[class*="row-col-mar"].col-lg-8-mar-25{
+  [class*="mar-"].row-col-lg-8-mar-25 ,[class*="row-col-mar"].row-col-lg-8-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5116,7 +5116,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-8-mar-30 ,[class*="row-col-mar"].col-lg-8-mar-30{
+  [class*="mar-"].row-col-lg-8-mar-30 ,[class*="row-col-mar"].row-col-lg-8-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5132,7 +5132,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-9-mar-5 ,[class*="row-col-mar"].col-lg-9-mar-5{
+  [class*="mar-"].row-col-lg-9-mar-5 ,[class*="row-col-mar"].row-col-lg-9-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5148,7 +5148,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-9-mar-10 ,[class*="row-col-mar"].col-lg-9-mar-10{
+  [class*="mar-"].row-col-lg-9-mar-10 ,[class*="row-col-mar"].row-col-lg-9-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5164,7 +5164,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-9-mar-15 ,[class*="row-col-mar"].col-lg-9-mar-15{
+  [class*="mar-"].row-col-lg-9-mar-15 ,[class*="row-col-mar"].row-col-lg-9-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5180,7 +5180,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-9-mar-20 ,[class*="row-col-mar"].col-lg-9-mar-20{
+  [class*="mar-"].row-col-lg-9-mar-20 ,[class*="row-col-mar"].row-col-lg-9-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5196,7 +5196,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-9-mar-25 ,[class*="row-col-mar"].col-lg-9-mar-25{
+  [class*="mar-"].row-col-lg-9-mar-25 ,[class*="row-col-mar"].row-col-lg-9-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5212,7 +5212,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-9-mar-30 ,[class*="row-col-mar"].col-lg-9-mar-30{
+  [class*="mar-"].row-col-lg-9-mar-30 ,[class*="row-col-mar"].row-col-lg-9-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5228,7 +5228,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-10-mar-5 ,[class*="row-col-mar"].col-lg-10-mar-5{
+  [class*="mar-"].row-col-lg-10-mar-5 ,[class*="row-col-mar"].row-col-lg-10-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5244,7 +5244,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-10-mar-10 ,[class*="row-col-mar"].col-lg-10-mar-10{
+  [class*="mar-"].row-col-lg-10-mar-10 ,[class*="row-col-mar"].row-col-lg-10-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5260,7 +5260,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-10-mar-15 ,[class*="row-col-mar"].col-lg-10-mar-15{
+  [class*="mar-"].row-col-lg-10-mar-15 ,[class*="row-col-mar"].row-col-lg-10-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5276,7 +5276,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-10-mar-20 ,[class*="row-col-mar"].col-lg-10-mar-20{
+  [class*="mar-"].row-col-lg-10-mar-20 ,[class*="row-col-mar"].row-col-lg-10-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5292,7 +5292,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-10-mar-25 ,[class*="row-col-mar"].col-lg-10-mar-25{
+  [class*="mar-"].row-col-lg-10-mar-25 ,[class*="row-col-mar"].row-col-lg-10-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5308,7 +5308,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-10-mar-30 ,[class*="row-col-mar"].col-lg-10-mar-30{
+  [class*="mar-"].row-col-lg-10-mar-30 ,[class*="row-col-mar"].row-col-lg-10-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5324,7 +5324,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-11-mar-5 ,[class*="row-col-mar"].col-lg-11-mar-5{
+  [class*="mar-"].row-col-lg-11-mar-5 ,[class*="row-col-mar"].row-col-lg-11-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5340,7 +5340,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-11-mar-10 ,[class*="row-col-mar"].col-lg-11-mar-10{
+  [class*="mar-"].row-col-lg-11-mar-10 ,[class*="row-col-mar"].row-col-lg-11-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5356,7 +5356,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-11-mar-15 ,[class*="row-col-mar"].col-lg-11-mar-15{
+  [class*="mar-"].row-col-lg-11-mar-15 ,[class*="row-col-mar"].row-col-lg-11-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5372,7 +5372,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-11-mar-20 ,[class*="row-col-mar"].col-lg-11-mar-20{
+  [class*="mar-"].row-col-lg-11-mar-20 ,[class*="row-col-mar"].row-col-lg-11-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5388,7 +5388,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-11-mar-25 ,[class*="row-col-mar"].col-lg-11-mar-25{
+  [class*="mar-"].row-col-lg-11-mar-25 ,[class*="row-col-mar"].row-col-lg-11-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5404,7 +5404,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-11-mar-30 ,[class*="row-col-mar"].col-lg-11-mar-30{
+  [class*="mar-"].row-col-lg-11-mar-30 ,[class*="row-col-mar"].row-col-lg-11-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5420,7 +5420,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-12-mar-5 ,[class*="row-col-mar"].col-lg-12-mar-5{
+  [class*="mar-"].row-col-lg-12-mar-5 ,[class*="row-col-mar"].row-col-lg-12-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5436,7 +5436,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-12-mar-10 ,[class*="row-col-mar"].col-lg-12-mar-10{
+  [class*="mar-"].row-col-lg-12-mar-10 ,[class*="row-col-mar"].row-col-lg-12-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5452,7 +5452,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-12-mar-15 ,[class*="row-col-mar"].col-lg-12-mar-15{
+  [class*="mar-"].row-col-lg-12-mar-15 ,[class*="row-col-mar"].row-col-lg-12-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5468,7 +5468,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-12-mar-20 ,[class*="row-col-mar"].col-lg-12-mar-20{
+  [class*="mar-"].row-col-lg-12-mar-20 ,[class*="row-col-mar"].row-col-lg-12-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5484,7 +5484,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-12-mar-25 ,[class*="row-col-mar"].col-lg-12-mar-25{
+  [class*="mar-"].row-col-lg-12-mar-25 ,[class*="row-col-mar"].row-col-lg-12-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5500,7 +5500,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-lg-12-mar-30 ,[class*="row-col-mar"].col-lg-12-mar-30{
+  [class*="mar-"].row-col-lg-12-mar-30 ,[class*="row-col-mar"].row-col-lg-12-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -5524,7 +5524,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   /*---mar5-----*/
 
 
-  [class*="-col-mar-5"].col-lg-12{
+  [class*="-col-mar-5"].row-col-lg-12{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex']{
@@ -5542,7 +5542,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-lg-11{
+  [class*="-col-mar-5"].row-col-lg-11{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex']{
@@ -5560,7 +5560,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-lg-10{
+  [class*="-col-mar-5"].row-col-lg-10{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex']{
@@ -5580,7 +5580,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-5"].col-lg-9{
+  [class*="-col-mar-5"].row-col-lg-9{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex']{
@@ -5598,7 +5598,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
   //
-  [class*="-col-mar-5"].col-lg-8 {
+  [class*="-col-mar-5"].row-col-lg-8 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -5615,7 +5615,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-lg-7 {
+  [class*="-col-mar-5"].row-col-lg-7 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -5632,7 +5632,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-lg-6 {
+  [class*="-col-mar-5"].row-col-lg-6 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -5649,7 +5649,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-lg-5 {
+  [class*="-col-mar-5"].row-col-lg-5 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -5666,7 +5666,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-lg-4 {
+  [class*="-col-mar-5"].row-col-lg-4 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -5683,7 +5683,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-lg-3 {
+  [class*="-col-mar-5"].row-col-lg-3 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -5700,7 +5700,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-lg-2 {
+  [class*="-col-mar-5"].row-col-lg-2 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -5717,7 +5717,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-lg-1 {
+  [class*="-col-mar-5"].row-col-lg-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -5730,7 +5730,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-10"].col-lg-12{
+  [class*="-col-mar-10"].row-col-lg-12{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex']{
@@ -5747,7 +5747,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-lg-11{
+  [class*="-col-mar-10"].row-col-lg-11{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex']{
@@ -5764,7 +5764,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-lg-10{
+  [class*="-col-mar-10"].row-col-lg-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex']{
@@ -5783,7 +5783,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-10"].col-lg-9{
+  [class*="-col-mar-10"].row-col-lg-9{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex']{
@@ -5800,7 +5800,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
   //
-  [class*="-col-mar-10"].col-lg-8 {
+  [class*="-col-mar-10"].row-col-lg-8 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -5817,7 +5817,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-lg-7 {
+  [class*="-col-mar-10"].row-col-lg-7 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -5834,7 +5834,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-lg-6 {
+  [class*="-col-mar-10"].row-col-lg-6 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -5851,7 +5851,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-lg-5 {
+  [class*="-col-mar-10"].row-col-lg-5 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -5868,7 +5868,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-lg-4 {
+  [class*="-col-mar-10"].row-col-lg-4 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -5885,7 +5885,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-lg-3 {
+  [class*="-col-mar-10"].row-col-lg-3 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -5902,7 +5902,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-lg-2 {
+  [class*="-col-mar-10"].row-col-lg-2 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -5919,7 +5919,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-lg-1 {
+  [class*="-col-mar-10"].row-col-lg-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -5933,7 +5933,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-15"].col-lg-12{
+  [class*="-col-mar-15"].row-col-lg-12{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex']{
@@ -5951,7 +5951,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-lg-11{
+  [class*="-col-mar-15"].row-col-lg-11{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex']{
@@ -5969,7 +5969,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-lg-10{
+  [class*="-col-mar-15"].row-col-lg-10{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex']{
@@ -5989,7 +5989,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-15"].col-lg-9{
+  [class*="-col-mar-15"].row-col-lg-9{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex']{
@@ -6007,7 +6007,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
   //
-  [class*="-col-mar-15"].col-lg-8 {
+  [class*="-col-mar-15"].row-col-lg-8 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -6025,7 +6025,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-lg-7 {
+  [class*="-col-mar-15"].row-col-lg-7 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -6043,7 +6043,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-lg-6 {
+  [class*="-col-mar-15"].row-col-lg-6 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -6061,7 +6061,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-lg-5 {
+  [class*="-col-mar-15"].row-col-lg-5 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -6079,7 +6079,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-lg-4 {
+  [class*="-col-mar-15"].row-col-lg-4 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -6097,7 +6097,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-lg-3 {
+  [class*="-col-mar-15"].row-col-lg-3 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -6115,7 +6115,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-lg-2 {
+  [class*="-col-mar-15"].row-col-lg-2 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -6133,7 +6133,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-lg-1 {
+  [class*="-col-mar-15"].row-col-lg-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -6147,7 +6147,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-20"].col-lg-12{
+  [class*="-col-mar-20"].row-col-lg-12{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex']{
@@ -6164,7 +6164,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-lg-11{
+  [class*="-col-mar-20"].row-col-lg-11{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex']{
@@ -6181,7 +6181,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-lg-10{
+  [class*="-col-mar-20"].row-col-lg-10{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex']{
@@ -6201,7 +6201,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-20"].col-lg-9{
+  [class*="-col-mar-20"].row-col-lg-9{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex']{
@@ -6218,7 +6218,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
   //
-  [class*="-col-mar-20"].col-lg-8 {
+  [class*="-col-mar-20"].row-col-lg-8 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -6235,7 +6235,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-lg-7 {
+  [class*="-col-mar-20"].row-col-lg-7 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -6252,7 +6252,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-lg-6 {
+  [class*="-col-mar-20"].row-col-lg-6 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -6269,7 +6269,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-lg-5 {
+  [class*="-col-mar-20"].row-col-lg-5 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -6286,7 +6286,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-lg-4 {
+  [class*="-col-mar-20"].row-col-lg-4 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -6303,7 +6303,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-lg-3 {
+  [class*="-col-mar-20"].row-col-lg-3 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -6320,7 +6320,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-lg-2 {
+  [class*="-col-mar-20"].row-col-lg-2 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -6337,7 +6337,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-lg-1 {
+  [class*="-col-mar-20"].row-col-lg-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -6350,7 +6350,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-25"].col-lg-12{
+  [class*="-col-mar-25"].row-col-lg-12{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex']{
@@ -6368,7 +6368,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-lg-11{
+  [class*="-col-mar-25"].row-col-lg-11{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex']{
@@ -6386,7 +6386,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-lg-10{
+  [class*="-col-mar-25"].row-col-lg-10{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex']{
@@ -6406,7 +6406,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-25"].col-lg-9{
+  [class*="-col-mar-25"].row-col-lg-9{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex']{
@@ -6424,7 +6424,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
   //
-  [class*="-col-mar-25"].col-lg-8 {
+  [class*="-col-mar-25"].row-col-lg-8 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -6442,7 +6442,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-lg-7 {
+  [class*="-col-mar-25"].row-col-lg-7 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -6460,7 +6460,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-lg-6 {
+  [class*="-col-mar-25"].row-col-lg-6 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -6478,7 +6478,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-lg-5 {
+  [class*="-col-mar-25"].row-col-lg-5 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -6496,7 +6496,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-lg-4 {
+  [class*="-col-mar-25"].row-col-lg-4 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -6514,7 +6514,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-lg-3 {
+  [class*="-col-mar-25"].row-col-lg-3 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -6532,7 +6532,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-lg-2 {
+  [class*="-col-mar-25"].row-col-lg-2 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -6550,7 +6550,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-lg-1 {
+  [class*="-col-mar-25"].row-col-lg-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -6563,7 +6563,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-30"].col-lg-12{
+  [class*="-col-mar-30"].row-col-lg-12{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex']{
@@ -6580,7 +6580,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-lg-11{
+  [class*="-col-mar-30"].row-col-lg-11{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex']{
@@ -6597,7 +6597,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-lg-10{
+  [class*="-col-mar-30"].row-col-lg-10{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex']{
@@ -6617,7 +6617,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-30"].col-lg-9{
+  [class*="-col-mar-30"].row-col-lg-9{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex']{
@@ -6634,7 +6634,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
   //
-  [class*="-col-mar-30"].col-lg-8 {
+  [class*="-col-mar-30"].row-col-lg-8 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -6651,7 +6651,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-lg-7 {
+  [class*="-col-mar-30"].row-col-lg-7 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -6668,7 +6668,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-lg-6 {
+  [class*="-col-mar-30"].row-col-lg-6 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -6685,7 +6685,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-lg-5 {
+  [class*="-col-mar-30"].row-col-lg-5 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -6702,7 +6702,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-lg-4 {
+  [class*="-col-mar-30"].row-col-lg-4 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -6719,7 +6719,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-lg-3 {
+  [class*="-col-mar-30"].row-col-lg-3 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -6736,7 +6736,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-lg-2 {
+  [class*="-col-mar-30"].row-col-lg-2 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -6753,7 +6753,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-lg-1 {
+  [class*="-col-mar-30"].row-col-lg-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -7546,6 +7546,8 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
       //margin-bottom: 2*@margin30;
     }
   }
+
+
 
 
 
@@ -8862,7 +8864,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   /*---mar5-----*/
 
 
-  [class*="-col-mar-5"].col-md-12{
+  [class*="-col-mar-5"].row-col-md-12{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex']{
@@ -8879,7 +8881,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-md-11{
+  [class*="-col-mar-5"].row-col-md-11{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex']{
@@ -8896,7 +8898,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-md-10{
+  [class*="-col-mar-5"].row-col-md-10{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex']{
@@ -8915,7 +8917,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-5"].col-md-9{
+  [class*="-col-mar-5"].row-col-md-9{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex']{
@@ -8932,7 +8934,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
   //
-  [class*="-col-mar-5"].col-md-8 {
+  [class*="-col-mar-5"].row-col-md-8 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -8949,7 +8951,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-md-7 {
+  [class*="-col-mar-5"].row-col-md-7 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -8966,7 +8968,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-md-6 {
+  [class*="-col-mar-5"].row-col-md-6 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -8983,7 +8985,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-md-5 {
+  [class*="-col-mar-5"].row-col-md-5 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -9000,7 +9002,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-md-4 {
+  [class*="-col-mar-5"].row-col-md-4 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -9017,7 +9019,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-md-3 {
+  [class*="-col-mar-5"].row-col-md-3 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -9034,7 +9036,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-md-2 {
+  [class*="-col-mar-5"].row-col-md-2 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -9051,7 +9053,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-md-1 {
+  [class*="-col-mar-5"].row-col-md-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -9064,7 +9066,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-10"].col-md-12{
+  [class*="-col-mar-10"].row-col-md-12{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex']{
@@ -9081,7 +9083,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-md-11{
+  [class*="-col-mar-10"].row-col-md-11{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex']{
@@ -9098,7 +9100,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-md-10{
+  [class*="-col-mar-10"].row-col-md-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex']{
@@ -9117,7 +9119,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-10"].col-md-9{
+  [class*="-col-mar-10"].row-col-md-9{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex']{
@@ -9134,7 +9136,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
   //
-  [class*="-col-mar-10"].col-md-8 {
+  [class*="-col-mar-10"].row-col-md-8 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -9151,7 +9153,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-md-7 {
+  [class*="-col-mar-10"].row-col-md-7 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -9168,7 +9170,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-md-6 {
+  [class*="-col-mar-10"].row-col-md-6 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -9185,7 +9187,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-md-5 {
+  [class*="-col-mar-10"].row-col-md-5 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -9202,7 +9204,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-md-4 {
+  [class*="-col-mar-10"].row-col-md-4 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -9219,7 +9221,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-md-3 {
+  [class*="-col-mar-10"].row-col-md-3 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -9236,7 +9238,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-md-2 {
+  [class*="-col-mar-10"].row-col-md-2 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -9253,7 +9255,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-md-1 {
+  [class*="-col-mar-10"].row-col-md-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -9267,7 +9269,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-15"].col-md-12{
+  [class*="-col-mar-15"].row-col-md-12{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex']{
@@ -9285,7 +9287,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-md-11{
+  [class*="-col-mar-15"].row-col-md-11{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex']{
@@ -9303,7 +9305,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-md-10{
+  [class*="-col-mar-15"].row-col-md-10{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex']{
@@ -9323,7 +9325,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-15"].col-md-9{
+  [class*="-col-mar-15"].row-col-md-9{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex']{
@@ -9341,7 +9343,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
   //
-  [class*="-col-mar-15"].col-md-8 {
+  [class*="-col-mar-15"].row-col-md-8 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -9359,7 +9361,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-md-7 {
+  [class*="-col-mar-15"].row-col-md-7 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -9377,7 +9379,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-md-6 {
+  [class*="-col-mar-15"].row-col-md-6 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -9395,7 +9397,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-md-5 {
+  [class*="-col-mar-15"].row-col-md-5 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -9413,7 +9415,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-md-4 {
+  [class*="-col-mar-15"].row-col-md-4 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -9431,7 +9433,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-md-3 {
+  [class*="-col-mar-15"].row-col-md-3 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -9449,7 +9451,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-md-2 {
+  [class*="-col-mar-15"].row-col-md-2 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -9467,7 +9469,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-md-1 {
+  [class*="-col-mar-15"].row-col-md-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -9481,7 +9483,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-20"].col-md-12{
+  [class*="-col-mar-20"].row-col-md-12{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex']{
@@ -9498,7 +9500,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-md-11{
+  [class*="-col-mar-20"].row-col-md-11{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex']{
@@ -9515,7 +9517,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-md-10{
+  [class*="-col-mar-20"].row-col-md-10{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex']{
@@ -9535,7 +9537,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-20"].col-md-9{
+  [class*="-col-mar-20"].row-col-md-9{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex']{
@@ -9552,7 +9554,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
   //
-  [class*="-col-mar-20"].col-md-8 {
+  [class*="-col-mar-20"].row-col-md-8 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -9569,7 +9571,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-md-7 {
+  [class*="-col-mar-20"].row-col-md-7 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -9586,7 +9588,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-md-6 {
+  [class*="-col-mar-20"].row-col-md-6 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -9603,7 +9605,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-md-5 {
+  [class*="-col-mar-20"].row-col-md-5 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -9620,7 +9622,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-md-4 {
+  [class*="-col-mar-20"].row-col-md-4 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -9637,7 +9639,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-md-3 {
+  [class*="-col-mar-20"].row-col-md-3 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -9654,7 +9656,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-md-2 {
+  [class*="-col-mar-20"].row-col-md-2 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -9671,7 +9673,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-md-1 {
+  [class*="-col-mar-20"].row-col-md-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -9684,7 +9686,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-25"].col-md-12{
+  [class*="-col-mar-25"].row-col-md-12{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex']{
@@ -9702,7 +9704,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-md-11{
+  [class*="-col-mar-25"].row-col-md-11{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex']{
@@ -9720,7 +9722,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-md-10{
+  [class*="-col-mar-25"].row-col-md-10{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex']{
@@ -9740,7 +9742,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-25"].col-md-9{
+  [class*="-col-mar-25"].row-col-md-9{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex']{
@@ -9758,7 +9760,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
   //
-  [class*="-col-mar-25"].col-md-8 {
+  [class*="-col-mar-25"].row-col-md-8 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -9776,7 +9778,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-md-7 {
+  [class*="-col-mar-25"].row-col-md-7 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -9794,7 +9796,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-md-6 {
+  [class*="-col-mar-25"].row-col-md-6 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -9812,7 +9814,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-md-5 {
+  [class*="-col-mar-25"].row-col-md-5 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -9830,7 +9832,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-md-4 {
+  [class*="-col-mar-25"].row-col-md-4 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -9848,7 +9850,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-md-3 {
+  [class*="-col-mar-25"].row-col-md-3 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -9866,7 +9868,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-md-2 {
+  [class*="-col-mar-25"].row-col-md-2 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -9884,7 +9886,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-md-1 {
+  [class*="-col-mar-25"].row-col-md-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -9897,7 +9899,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-30"].col-md-12{
+  [class*="-col-mar-30"].row-col-md-12{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex']{
@@ -9914,7 +9916,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-md-11{
+  [class*="-col-mar-30"].row-col-md-11{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex']{
@@ -9931,7 +9933,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-md-10{
+  [class*="-col-mar-30"].row-col-md-10{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex']{
@@ -9951,7 +9953,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-30"].col-md-9{
+  [class*="-col-mar-30"].row-col-md-9{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex']{
@@ -9968,7 +9970,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
   //
-  [class*="-col-mar-30"].col-md-8 {
+  [class*="-col-mar-30"].row-col-md-8 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -9985,7 +9987,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-md-7 {
+  [class*="-col-mar-30"].row-col-md-7 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -10002,7 +10004,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-md-6 {
+  [class*="-col-mar-30"].row-col-md-6 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -10019,7 +10021,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-md-5 {
+  [class*="-col-mar-30"].row-col-md-5 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -10036,7 +10038,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-md-4 {
+  [class*="-col-mar-30"].row-col-md-4 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -10053,7 +10055,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-md-3 {
+  [class*="-col-mar-30"].row-col-md-3 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -10070,7 +10072,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-md-2 {
+  [class*="-col-mar-30"].row-col-md-2 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -10086,7 +10088,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-md-1 {
+  [class*="-col-mar-30"].row-col-md-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -10099,7 +10101,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="mar-"].col-md-1-mar-0{
+  [class*="mar-"].row-col-md-1-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10116,7 +10118,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 
 
-  [class*="mar-"].col-md-2-mar-0,[class*="row-col-mar"].col-md-2-mar-0{
+  [class*="mar-"].row-col-md-2-mar-0,[class*="row-col-mar"].row-col-md-2-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10132,7 +10134,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-3-mar-0,[class*="row-col-mar"].col-md-3-mar-0{
+  [class*="mar-"].row-col-md-3-mar-0,[class*="row-col-mar"].row-col-md-3-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10148,7 +10150,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-4-mar-0,[class*="row-col-mar"].col-md-4-mar-0{
+  [class*="mar-"].row-col-md-4-mar-0,[class*="row-col-mar"].row-col-md-4-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10164,7 +10166,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-5-mar-0,[class*="row-col-mar"].col-md-5-mar-0{
+  [class*="mar-"].row-col-md-5-mar-0,[class*="row-col-mar"].row-col-md-5-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10180,7 +10182,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-6-mar-0,[class*="row-col-mar"].col-md-6-mar-0{
+  [class*="mar-"].row-col-md-6-mar-0,[class*="row-col-mar"].row-col-md-6-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10196,7 +10198,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-7-mar-0,[class*="row-col-mar"].col-md-7-mar-0{
+  [class*="mar-"].row-col-md-7-mar-0,[class*="row-col-mar"].row-col-md-7-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10212,7 +10214,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-8-mar-0,[class*="row-col-mar"].col-md-8-mar-0{
+  [class*="mar-"].row-col-md-8-mar-0,[class*="row-col-mar"].row-col-md-8-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10228,7 +10230,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-9-mar-0,[class*="row-col-mar"].col-md-9-mar-0{
+  [class*="mar-"].row-col-md-9-mar-0,[class*="row-col-mar"].row-col-md-9-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10244,7 +10246,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-10-mar-0,[class*="row-col-mar"].col-md-10-mar-0{
+  [class*="mar-"].row-col-md-10-mar-0,[class*="row-col-mar"].row-col-md-10-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10260,7 +10262,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-11-mar-0,[class*="row-col-mar"].col-md-11-mar-0{
+  [class*="mar-"].row-col-md-11-mar-0,[class*="row-col-mar"].row-col-md-11-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10276,7 +10278,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-12-mar-0,[class*="row-col-mar"].col-md-12-mar-0{
+  [class*="mar-"].row-col-md-12-mar-0,[class*="row-col-mar"].row-col-md-12-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10298,7 +10300,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="mar-"].col-md-1-mar-5,[class*="row-col-mar"].col-md-1-mar-5{
+  [class*="mar-"].row-col-md-1-mar-5,[class*="row-col-mar"].row-col-md-1-mar-5{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10314,7 +10316,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-1-mar-10,[class*="row-col-mar"].col-md-1-mar-10{
+  [class*="mar-"].row-col-md-1-mar-10,[class*="row-col-mar"].row-col-md-1-mar-10{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10330,7 +10332,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-1-mar-15,[class*="row-col-mar"].col-md-1-mar-15{
+  [class*="mar-"].row-col-md-1-mar-15,[class*="row-col-mar"].row-col-md-1-mar-15{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10346,7 +10348,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-1-mar-20,[class*="row-col-mar"].col-md-1-mar-20{
+  [class*="mar-"].row-col-md-1-mar-20,[class*="row-col-mar"].row-col-md-1-mar-20{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10362,7 +10364,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-1-mar-25,[class*="row-col-mar"].col-md-1-mar-25{
+  [class*="mar-"].row-col-md-1-mar-25,[class*="row-col-mar"].row-col-md-1-mar-25{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10378,7 +10380,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-1-mar-30,[class*="row-col-mar"].col-md-1-mar-30{
+  [class*="mar-"].row-col-md-1-mar-30,[class*="row-col-mar"].row-col-md-1-mar-30{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10394,7 +10396,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-1-mar-35,[class*="row-col-mar"].col-md-1-mar-35{
+  [class*="mar-"].row-col-md-1-mar-35,[class*="row-col-mar"].row-col-md-1-mar-35{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10410,7 +10412,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-1-mar-40,[class*="row-col-mar"].col-md-1-mar-40{
+  [class*="mar-"].row-col-md-1-mar-40,[class*="row-col-mar"].row-col-md-1-mar-40{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10426,7 +10428,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-1-mar-45,[class*="row-col-mar"].col-md-1-mar-45{
+  [class*="mar-"].row-col-md-1-mar-45,[class*="row-col-mar"].row-col-md-1-mar-45{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10442,7 +10444,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-1-mar-50,[class*="row-col-mar"].col-md-1-mar-50{
+  [class*="mar-"].row-col-md-1-mar-50,[class*="row-col-mar"].row-col-md-1-mar-50{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -10458,7 +10460,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-2-mar-5 ,[class*="row-col-mar"].col-md-2-mar-5{
+  [class*="mar-"].row-col-md-2-mar-5 ,[class*="row-col-mar"].row-col-md-2-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10474,7 +10476,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-2-mar-10 ,[class*="row-col-mar"].col-md-2-mar-10{
+  [class*="mar-"].row-col-md-2-mar-10 ,[class*="row-col-mar"].row-col-md-2-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10490,7 +10492,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-2-mar-15,[class*="row-col-mar"].col-md-2-mar-15{
+  [class*="mar-"].row-col-md-2-mar-15,[class*="row-col-mar"].row-col-md-2-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     >[class*="col-flex"], [class*='col-flex'][class*='col-flex'] {
@@ -10506,7 +10508,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-2-mar-20 ,[class*="row-col-mar"].col-md-2-mar-20{
+  [class*="mar-"].row-col-md-2-mar-20 ,[class*="row-col-mar"].row-col-md-2-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10522,7 +10524,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-2-mar-25 ,[class*="row-col-mar"].col-md-2-mar-25{
+  [class*="mar-"].row-col-md-2-mar-25 ,[class*="row-col-mar"].row-col-md-2-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10538,7 +10540,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-2-mar-30 ,[class*="row-col-mar"].col-md-2-mar-30{
+  [class*="mar-"].row-col-md-2-mar-30 ,[class*="row-col-mar"].row-col-md-2-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10554,7 +10556,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-3-mar-5 ,[class*="row-col-mar"].col-md-3-mar-5{
+  [class*="mar-"].row-col-md-3-mar-5 ,[class*="row-col-mar"].row-col-md-3-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10570,7 +10572,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-3-mar-10 ,[class*="row-col-mar"].col-md-3-mar-10{
+  [class*="mar-"].row-col-md-3-mar-10 ,[class*="row-col-mar"].row-col-md-3-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10586,7 +10588,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-3-mar-15 ,[class*="row-col-mar"].col-md-3-mar-15{
+  [class*="mar-"].row-col-md-3-mar-15 ,[class*="row-col-mar"].row-col-md-3-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10602,7 +10604,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-3-mar-20 ,[class*="row-col-mar"].col-md-3-mar-20{
+  [class*="mar-"].row-col-md-3-mar-20 ,[class*="row-col-mar"].row-col-md-3-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10618,7 +10620,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-3-mar-25 ,[class*="row-col-mar"].col-md-3-mar-25{
+  [class*="mar-"].row-col-md-3-mar-25 ,[class*="row-col-mar"].row-col-md-3-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10634,7 +10636,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-3-mar-30 ,[class*="row-col-mar"].col-md-3-mar-30{
+  [class*="mar-"].row-col-md-3-mar-30 ,[class*="row-col-mar"].row-col-md-3-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10650,7 +10652,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-4-mar-5 ,[class*="row-col-mar"].col-md-4-mar-5{
+  [class*="mar-"].row-col-md-4-mar-5 ,[class*="row-col-mar"].row-col-md-4-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10666,7 +10668,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-4-mar-10 ,[class*="row-col-mar"].col-md-4-mar-10{
+  [class*="mar-"].row-col-md-4-mar-10 ,[class*="row-col-mar"].row-col-md-4-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10682,7 +10684,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-4-mar-15 ,[class*="row-col-mar"].col-md-4-mar-15{
+  [class*="mar-"].row-col-md-4-mar-15 ,[class*="row-col-mar"].row-col-md-4-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10698,7 +10700,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-4-mar-20 ,[class*="row-col-mar"].col-md-4-mar-20{
+  [class*="mar-"].row-col-md-4-mar-20 ,[class*="row-col-mar"].row-col-md-4-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10714,7 +10716,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-4-mar-25 ,[class*="row-col-mar"].col-md-4-mar-25{
+  [class*="mar-"].row-col-md-4-mar-25 ,[class*="row-col-mar"].row-col-md-4-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10730,7 +10732,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-4-mar-30 ,[class*="row-col-mar"].col-md-4-mar-30{
+  [class*="mar-"].row-col-md-4-mar-30 ,[class*="row-col-mar"].row-col-md-4-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10746,7 +10748,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-5-mar-5 ,[class*="row-col-mar"].col-md-5-mar-5{
+  [class*="mar-"].row-col-md-5-mar-5 ,[class*="row-col-mar"].row-col-md-5-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10762,7 +10764,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-5-mar-10 ,[class*="row-col-mar"].col-md-5-mar-10{
+  [class*="mar-"].row-col-md-5-mar-10 ,[class*="row-col-mar"].row-col-md-5-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10778,7 +10780,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-5-mar-15 ,[class*="row-col-mar"].col-md-5-mar-15{
+  [class*="mar-"].row-col-md-5-mar-15 ,[class*="row-col-mar"].row-col-md-5-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10794,7 +10796,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-5-mar-20 ,[class*="row-col-mar"].col-md-5-mar-20{
+  [class*="mar-"].row-col-md-5-mar-20 ,[class*="row-col-mar"].row-col-md-5-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10810,7 +10812,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-5-mar-25 ,[class*="row-col-mar"].col-md-5-mar-25{
+  [class*="mar-"].row-col-md-5-mar-25 ,[class*="row-col-mar"].row-col-md-5-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10826,7 +10828,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-5-mar-30 ,[class*="row-col-mar"].col-md-5-mar-30{
+  [class*="mar-"].row-col-md-5-mar-30 ,[class*="row-col-mar"].row-col-md-5-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10842,7 +10844,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-6-mar-5 ,[class*="row-col-mar"].col-md-6-mar-5{
+  [class*="mar-"].row-col-md-6-mar-5 ,[class*="row-col-mar"].row-col-md-6-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10858,7 +10860,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-6-mar-10 ,[class*="row-col-mar"].col-md-6-mar-10{
+  [class*="mar-"].row-col-md-6-mar-10 ,[class*="row-col-mar"].row-col-md-6-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10874,7 +10876,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-6-mar-15 ,[class*="row-col-mar"].col-md-6-mar-15{
+  [class*="mar-"].row-col-md-6-mar-15 ,[class*="row-col-mar"].row-col-md-6-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10890,7 +10892,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-6-mar-20 ,[class*="row-col-mar"].col-md-6-mar-20{
+  [class*="mar-"].row-col-md-6-mar-20 ,[class*="row-col-mar"].row-col-md-6-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10906,7 +10908,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-6-mar-25 ,[class*="row-col-mar"].col-md-6-mar-25{
+  [class*="mar-"].row-col-md-6-mar-25 ,[class*="row-col-mar"].row-col-md-6-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10922,7 +10924,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-6-mar-30 ,[class*="row-col-mar"].col-md-6-mar-30{
+  [class*="mar-"].row-col-md-6-mar-30 ,[class*="row-col-mar"].row-col-md-6-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10938,7 +10940,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-7-mar-5 ,[class*="row-col-mar"].col-md-7-mar-5{
+  [class*="mar-"].row-col-md-7-mar-5 ,[class*="row-col-mar"].row-col-md-7-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10954,7 +10956,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-7-mar-10 ,[class*="row-col-mar"].col-md-7-mar-10{
+  [class*="mar-"].row-col-md-7-mar-10 ,[class*="row-col-mar"].row-col-md-7-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10970,7 +10972,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-7-mar-15 ,[class*="row-col-mar"].col-md-7-mar-15{
+  [class*="mar-"].row-col-md-7-mar-15 ,[class*="row-col-mar"].row-col-md-7-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -10986,7 +10988,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-7-mar-20 ,[class*="row-col-mar"].col-md-7-mar-20{
+  [class*="mar-"].row-col-md-7-mar-20 ,[class*="row-col-mar"].row-col-md-7-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11002,7 +11004,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-7-mar-25 ,[class*="row-col-mar"].col-md-7-mar-25{
+  [class*="mar-"].row-col-md-7-mar-25 ,[class*="row-col-mar"].row-col-md-7-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11018,7 +11020,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-7-mar-30 ,[class*="row-col-mar"].col-md-7-mar-30{
+  [class*="mar-"].row-col-md-7-mar-30 ,[class*="row-col-mar"].row-col-md-7-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11034,7 +11036,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-8-mar-5 ,[class*="row-col-mar"].col-md-8-mar-5{
+  [class*="mar-"].row-col-md-8-mar-5 ,[class*="row-col-mar"].row-col-md-8-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11050,7 +11052,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-8-mar-10 ,[class*="row-col-mar"].col-md-8-mar-10{
+  [class*="mar-"].row-col-md-8-mar-10 ,[class*="row-col-mar"].row-col-md-8-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11066,7 +11068,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-8-mar-15 ,[class*="row-col-mar"].col-md-8-mar-15{
+  [class*="mar-"].row-col-md-8-mar-15 ,[class*="row-col-mar"].row-col-md-8-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11082,7 +11084,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-8-mar-20 ,[class*="row-col-mar"].col-md-8-mar-20{
+  [class*="mar-"].row-col-md-8-mar-20 ,[class*="row-col-mar"].row-col-md-8-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11098,7 +11100,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-8-mar-25 ,[class*="row-col-mar"].col-md-8-mar-25{
+  [class*="mar-"].row-col-md-8-mar-25 ,[class*="row-col-mar"].row-col-md-8-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11114,7 +11116,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-8-mar-30 ,[class*="row-col-mar"].col-md-8-mar-30{
+  [class*="mar-"].row-col-md-8-mar-30 ,[class*="row-col-mar"].row-col-md-8-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11130,7 +11132,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-9-mar-5 ,[class*="row-col-mar"].col-md-9-mar-5{
+  [class*="mar-"].row-col-md-9-mar-5 ,[class*="row-col-mar"].row-col-md-9-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11146,7 +11148,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-9-mar-10 ,[class*="row-col-mar"].col-md-9-mar-10{
+  [class*="mar-"].row-col-md-9-mar-10 ,[class*="row-col-mar"].row-col-md-9-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11162,7 +11164,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-9-mar-15 ,[class*="row-col-mar"].col-md-9-mar-15{
+  [class*="mar-"].row-col-md-9-mar-15 ,[class*="row-col-mar"].row-col-md-9-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11178,7 +11180,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-9-mar-20 ,[class*="row-col-mar"].col-md-9-mar-20{
+  [class*="mar-"].row-col-md-9-mar-20 ,[class*="row-col-mar"].row-col-md-9-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11194,7 +11196,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-9-mar-25 ,[class*="row-col-mar"].col-md-9-mar-25{
+  [class*="mar-"].row-col-md-9-mar-25 ,[class*="row-col-mar"].row-col-md-9-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11210,7 +11212,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-9-mar-30 ,[class*="row-col-mar"].col-md-9-mar-30{
+  [class*="mar-"].row-col-md-9-mar-30 ,[class*="row-col-mar"].row-col-md-9-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11226,7 +11228,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-10-mar-5 ,[class*="row-col-mar"].col-md-10-mar-5{
+  [class*="mar-"].row-col-md-10-mar-5 ,[class*="row-col-mar"].row-col-md-10-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11242,7 +11244,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-10-mar-10 ,[class*="row-col-mar"].col-md-10-mar-10{
+  [class*="mar-"].row-col-md-10-mar-10 ,[class*="row-col-mar"].row-col-md-10-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11258,7 +11260,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-10-mar-15 ,[class*="row-col-mar"].col-md-10-mar-15{
+  [class*="mar-"].row-col-md-10-mar-15 ,[class*="row-col-mar"].row-col-md-10-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11274,7 +11276,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-10-mar-20 ,[class*="row-col-mar"].col-md-10-mar-20{
+  [class*="mar-"].row-col-md-10-mar-20 ,[class*="row-col-mar"].row-col-md-10-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11290,7 +11292,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-10-mar-25 ,[class*="row-col-mar"].col-md-10-mar-25{
+  [class*="mar-"].row-col-md-10-mar-25 ,[class*="row-col-mar"].row-col-md-10-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11306,7 +11308,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-10-mar-30 ,[class*="row-col-mar"].col-md-10-mar-30{
+  [class*="mar-"].row-col-md-10-mar-30 ,[class*="row-col-mar"].row-col-md-10-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11322,7 +11324,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-11-mar-5 ,[class*="row-col-mar"].col-md-11-mar-5{
+  [class*="mar-"].row-col-md-11-mar-5 ,[class*="row-col-mar"].row-col-md-11-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11338,7 +11340,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-11-mar-10 ,[class*="row-col-mar"].col-md-11-mar-10{
+  [class*="mar-"].row-col-md-11-mar-10 ,[class*="row-col-mar"].row-col-md-11-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11354,7 +11356,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-11-mar-15 ,[class*="row-col-mar"].col-md-11-mar-15{
+  [class*="mar-"].row-col-md-11-mar-15 ,[class*="row-col-mar"].row-col-md-11-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11370,7 +11372,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-11-mar-20 ,[class*="row-col-mar"].col-md-11-mar-20{
+  [class*="mar-"].row-col-md-11-mar-20 ,[class*="row-col-mar"].row-col-md-11-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11386,7 +11388,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-11-mar-25 ,[class*="row-col-mar"].col-md-11-mar-25{
+  [class*="mar-"].row-col-md-11-mar-25 ,[class*="row-col-mar"].row-col-md-11-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11402,7 +11404,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-11-mar-30 ,[class*="row-col-mar"].col-md-11-mar-30{
+  [class*="mar-"].row-col-md-11-mar-30 ,[class*="row-col-mar"].row-col-md-11-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11418,7 +11420,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-12-mar-5 ,[class*="row-col-mar"].col-md-12-mar-5{
+  [class*="mar-"].row-col-md-12-mar-5 ,[class*="row-col-mar"].row-col-md-12-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11434,7 +11436,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-12-mar-10 ,[class*="row-col-mar"].col-md-12-mar-10{
+  [class*="mar-"].row-col-md-12-mar-10 ,[class*="row-col-mar"].row-col-md-12-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11450,7 +11452,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-12-mar-15 ,[class*="row-col-mar"].col-md-12-mar-15{
+  [class*="mar-"].row-col-md-12-mar-15 ,[class*="row-col-mar"].row-col-md-12-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11466,7 +11468,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-12-mar-20 ,[class*="row-col-mar"].col-md-12-mar-20{
+  [class*="mar-"].row-col-md-12-mar-20 ,[class*="row-col-mar"].row-col-md-12-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11482,7 +11484,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-12-mar-25 ,[class*="row-col-mar"].col-md-12-mar-25{
+  [class*="mar-"].row-col-md-12-mar-25 ,[class*="row-col-mar"].row-col-md-12-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -11498,7 +11500,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-md-12-mar-30 ,[class*="row-col-mar"].col-md-12-mar-30{
+  [class*="mar-"].row-col-md-12-mar-30 ,[class*="row-col-mar"].row-col-md-12-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -13609,7 +13611,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   /*---mar5-----*/
 
 
-  [class*="-col-mar-5"].col-sm-12{
+  [class*="-col-mar-5"].row-col-sm-12{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex']{
@@ -13626,7 +13628,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-sm-11{
+  [class*="-col-mar-5"].row-col-sm-11{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex']{
@@ -13643,7 +13645,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-sm-10{
+  [class*="-col-mar-5"].row-col-sm-10{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex']{
@@ -13662,7 +13664,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-5"].col-sm-9{
+  [class*="-col-mar-5"].row-col-sm-9{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex']{
@@ -13679,7 +13681,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
   //
-  [class*="-col-mar-5"].col-sm-8 {
+  [class*="-col-mar-5"].row-col-sm-8 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -13696,7 +13698,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-sm-7 {
+  [class*="-col-mar-5"].row-col-sm-7 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -13713,7 +13715,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-sm-6 {
+  [class*="-col-mar-5"].row-col-sm-6 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -13730,7 +13732,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-sm-5 {
+  [class*="-col-mar-5"].row-col-sm-5 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -13747,7 +13749,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-sm-4 {
+  [class*="-col-mar-5"].row-col-sm-4 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -13764,7 +13766,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-sm-3 {
+  [class*="-col-mar-5"].row-col-sm-3 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -13781,7 +13783,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-sm-2 {
+  [class*="-col-mar-5"].row-col-sm-2 {
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'] {
@@ -13798,7 +13800,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-5"].col-sm-1 {
+  [class*="-col-mar-5"].row-col-sm-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -13817,7 +13819,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-10"].col-sm-12{
+  [class*="-col-mar-10"].row-col-sm-12{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex']{
@@ -13834,7 +13836,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-sm-11{
+  [class*="-col-mar-10"].row-col-sm-11{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex']{
@@ -13851,7 +13853,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-sm-10{
+  [class*="-col-mar-10"].row-col-sm-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex']{
@@ -13870,7 +13872,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-10"].col-sm-9{
+  [class*="-col-mar-10"].row-col-sm-9{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex']{
@@ -13887,7 +13889,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
   //
-  [class*="-col-mar-10"].col-sm-8 {
+  [class*="-col-mar-10"].row-col-sm-8 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -13904,7 +13906,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-sm-7 {
+  [class*="-col-mar-10"].row-col-sm-7 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -13921,7 +13923,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-sm-6 {
+  [class*="-col-mar-10"].row-col-sm-6 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -13938,7 +13940,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-sm-5 {
+  [class*="-col-mar-10"].row-col-sm-5 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -13955,7 +13957,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-sm-4 {
+  [class*="-col-mar-10"].row-col-sm-4 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -13972,7 +13974,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-sm-3 {
+  [class*="-col-mar-10"].row-col-sm-3 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -13989,7 +13991,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-sm-2 {
+  [class*="-col-mar-10"].row-col-sm-2 {
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'] {
@@ -14006,7 +14008,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-10"].col-sm-1 {
+  [class*="-col-mar-10"].row-col-sm-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -14020,7 +14022,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-15"].col-sm-12{
+  [class*="-col-mar-15"].row-col-sm-12{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex']{
@@ -14038,7 +14040,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-sm-11{
+  [class*="-col-mar-15"].row-col-sm-11{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex']{
@@ -14056,7 +14058,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-sm-10{
+  [class*="-col-mar-15"].row-col-sm-10{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex']{
@@ -14076,7 +14078,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-15"].col-sm-9{
+  [class*="-col-mar-15"].row-col-sm-9{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex']{
@@ -14094,7 +14096,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
   //
-  [class*="-col-mar-15"].col-sm-8 {
+  [class*="-col-mar-15"].row-col-sm-8 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -14112,7 +14114,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-sm-7 {
+  [class*="-col-mar-15"].row-col-sm-7 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -14130,7 +14132,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-sm-6 {
+  [class*="-col-mar-15"].row-col-sm-6 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -14148,7 +14150,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-sm-5 {
+  [class*="-col-mar-15"].row-col-sm-5 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -14166,7 +14168,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-sm-4 {
+  [class*="-col-mar-15"].row-col-sm-4 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -14184,7 +14186,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-sm-3 {
+  [class*="-col-mar-15"].row-col-sm-3 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -14202,7 +14204,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-sm-2 {
+  [class*="-col-mar-15"].row-col-sm-2 {
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'] {
@@ -14220,7 +14222,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-15"].col-sm-1 {
+  [class*="-col-mar-15"].row-col-sm-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -14234,7 +14236,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-20"].col-sm-12{
+  [class*="-col-mar-20"].row-col-sm-12{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex']{
@@ -14251,7 +14253,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-sm-11{
+  [class*="-col-mar-20"].row-col-sm-11{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex']{
@@ -14268,7 +14270,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-sm-10{
+  [class*="-col-mar-20"].row-col-sm-10{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex']{
@@ -14288,7 +14290,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-20"].col-sm-9{
+  [class*="-col-mar-20"].row-col-sm-9{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex']{
@@ -14305,7 +14307,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
   //
-  [class*="-col-mar-20"].col-sm-8 {
+  [class*="-col-mar-20"].row-col-sm-8 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -14322,7 +14324,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-sm-7 {
+  [class*="-col-mar-20"].row-col-sm-7 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -14339,7 +14341,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-sm-6 {
+  [class*="-col-mar-20"].row-col-sm-6 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -14356,7 +14358,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-sm-5 {
+  [class*="-col-mar-20"].row-col-sm-5 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -14373,7 +14375,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-sm-4 {
+  [class*="-col-mar-20"].row-col-sm-4 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -14390,7 +14392,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-sm-3 {
+  [class*="-col-mar-20"].row-col-sm-3 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -14407,7 +14409,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-sm-2 {
+  [class*="-col-mar-20"].row-col-sm-2 {
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'] {
@@ -14424,7 +14426,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-20"].col-sm-1 {
+  [class*="-col-mar-20"].row-col-sm-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -14437,7 +14439,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-25"].col-sm-12{
+  [class*="-col-mar-25"].row-col-sm-12{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex']{
@@ -14455,7 +14457,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-sm-11{
+  [class*="-col-mar-25"].row-col-sm-11{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex']{
@@ -14473,7 +14475,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-sm-10{
+  [class*="-col-mar-25"].row-col-sm-10{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex']{
@@ -14493,7 +14495,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-25"].col-sm-9{
+  [class*="-col-mar-25"].row-col-sm-9{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex']{
@@ -14511,7 +14513,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
   //
-  [class*="-col-mar-25"].col-sm-8 {
+  [class*="-col-mar-25"].row-col-sm-8 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -14529,7 +14531,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-sm-7 {
+  [class*="-col-mar-25"].row-col-sm-7 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -14547,7 +14549,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-sm-6 {
+  [class*="-col-mar-25"].row-col-sm-6 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -14565,7 +14567,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-sm-5 {
+  [class*="-col-mar-25"].row-col-sm-5 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -14583,7 +14585,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-sm-4 {
+  [class*="-col-mar-25"].row-col-sm-4 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -14601,7 +14603,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-sm-3 {
+  [class*="-col-mar-25"].row-col-sm-3 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -14619,7 +14621,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-sm-2 {
+  [class*="-col-mar-25"].row-col-sm-2 {
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'] {
@@ -14637,7 +14639,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
   }
 
-  [class*="-col-mar-25"].col-sm-1 {
+  [class*="-col-mar-25"].row-col-sm-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -14650,7 +14652,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-30"].col-sm-12{
+  [class*="-col-mar-30"].row-col-sm-12{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex']{
@@ -14667,7 +14669,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-sm-11{
+  [class*="-col-mar-30"].row-col-sm-11{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex']{
@@ -14684,7 +14686,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-sm-10{
+  [class*="-col-mar-30"].row-col-sm-10{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex']{
@@ -14704,7 +14706,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="-col-mar-30"].col-sm-9{
+  [class*="-col-mar-30"].row-col-sm-9{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex']{
@@ -14721,7 +14723,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
   //
-  [class*="-col-mar-30"].col-sm-8 {
+  [class*="-col-mar-30"].row-col-sm-8 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -14738,7 +14740,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-sm-7 {
+  [class*="-col-mar-30"].row-col-sm-7 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -14755,7 +14757,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-sm-6 {
+  [class*="-col-mar-30"].row-col-sm-6 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -14772,7 +14774,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-sm-5 {
+  [class*="-col-mar-30"].row-col-sm-5 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -14789,7 +14791,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-sm-4 {
+  [class*="-col-mar-30"].row-col-sm-4 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -14806,7 +14808,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-sm-3 {
+  [class*="-col-mar-30"].row-col-sm-3 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -14823,7 +14825,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-sm-2 {
+  [class*="-col-mar-30"].row-col-sm-2 {
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'] {
@@ -14839,7 +14841,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="-col-mar-30"].col-sm-1 {
+  [class*="-col-mar-30"].row-col-sm-1 {
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'] {
@@ -14850,7 +14852,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 
 
-  [class*="mar-"].col-sm-1-mar-0,[class*="row-col-mar"].col-sm-1-mar-0{
+  [class*="mar-"].row-col-sm-1-mar-0,[class*="row-col-mar"].row-col-sm-1-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -14867,7 +14869,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
   }
 
 
-  [class*="mar-"].col-sm-2-mar-0,[class*="row-col-mar"].col-sm-2-mar-0{
+  [class*="mar-"].row-col-sm-2-mar-0,[class*="row-col-mar"].row-col-sm-2-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -14883,7 +14885,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-3-mar-0,[class*="row-col-mar"].col-sm-3-mar-0{
+  [class*="mar-"].row-col-sm-3-mar-0,[class*="row-col-mar"].row-col-sm-3-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -14899,7 +14901,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-4-mar-0,[class*="row-col-mar"].col-sm-4-mar-0{
+  [class*="mar-"].row-col-sm-4-mar-0,[class*="row-col-mar"].row-col-sm-4-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -14915,7 +14917,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-5-mar-0,[class*="row-col-mar"].col-sm-5-mar-0{
+  [class*="mar-"].row-col-sm-5-mar-0,[class*="row-col-mar"].row-col-sm-5-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -14931,7 +14933,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-6-mar-0,[class*="row-col-mar"].col-sm-6-mar-0{
+  [class*="mar-"].row-col-sm-6-mar-0,[class*="row-col-mar"].row-col-sm-6-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -14947,7 +14949,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-7-mar-0,[class*="row-col-mar"].col-sm-7-mar-0{
+  [class*="mar-"].row-col-sm-7-mar-0,[class*="row-col-mar"].row-col-sm-7-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -14963,7 +14965,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-8-mar-0,[class*="row-col-mar"].col-sm-8-mar-0{
+  [class*="mar-"].row-col-sm-8-mar-0,[class*="row-col-mar"].row-col-sm-8-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -14979,7 +14981,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-9-mar-0,[class*="row-col-mar"].col-sm-9-mar-0{
+  [class*="mar-"].row-col-sm-9-mar-0,[class*="row-col-mar"].row-col-sm-9-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -14995,7 +14997,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-10-mar-0,[class*="row-col-mar"].col-sm-10-mar-0{
+  [class*="mar-"].row-col-sm-10-mar-0,[class*="row-col-mar"].row-col-sm-10-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15011,7 +15013,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-11-mar-0,[class*="row-col-mar"].col-sm-11-mar-0{
+  [class*="mar-"].row-col-sm-11-mar-0,[class*="row-col-mar"].row-col-sm-11-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15027,7 +15029,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-12-mar-0,[class*="row-col-mar"].col-sm-12-mar-0{
+  [class*="mar-"].row-col-sm-12-mar-0,[class*="row-col-mar"].row-col-sm-12-mar-0{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15049,7 +15051,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
 
 
 
-  [class*="mar-"].col-sm-1-mar-5,[class*="row-col-mar"].col-sm-1-mar-5{
+  [class*="mar-"].row-col-sm-1-mar-5,[class*="row-col-mar"].row-col-sm-1-mar-5{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15065,7 +15067,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-1-mar-10,[class*="row-col-mar"].col-sm-1-mar-10{
+  [class*="mar-"].row-col-sm-1-mar-10,[class*="row-col-mar"].row-col-sm-1-mar-10{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15081,7 +15083,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-1-mar-15,[class*="row-col-mar"].col-sm-1-mar-15{
+  [class*="mar-"].row-col-sm-1-mar-15,[class*="row-col-mar"].row-col-sm-1-mar-15{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15097,7 +15099,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-1-mar-20,[class*="row-col-mar"].col-sm-1-mar-20{
+  [class*="mar-"].row-col-sm-1-mar-20,[class*="row-col-mar"].row-col-sm-1-mar-20{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15113,7 +15115,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-1-mar-25,[class*="row-col-mar"].col-sm-1-mar-25{
+  [class*="mar-"].row-col-sm-1-mar-25,[class*="row-col-mar"].row-col-sm-1-mar-25{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15129,7 +15131,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-1-mar-30,[class*="row-col-mar"].col-sm-1-mar-30{
+  [class*="mar-"].row-col-sm-1-mar-30,[class*="row-col-mar"].row-col-sm-1-mar-30{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15145,7 +15147,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-1-mar-35,[class*="row-col-mar"].col-sm-1-mar-35{
+  [class*="mar-"].row-col-sm-1-mar-35,[class*="row-col-mar"].row-col-sm-1-mar-35{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15161,7 +15163,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-1-mar-40,[class*="row-col-mar"].col-sm-1-mar-40{
+  [class*="mar-"].row-col-sm-1-mar-40,[class*="row-col-mar"].row-col-sm-1-mar-40{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15177,7 +15179,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-1-mar-45,[class*="row-col-mar"].col-sm-1-mar-45{
+  [class*="mar-"].row-col-sm-1-mar-45,[class*="row-col-mar"].row-col-sm-1-mar-45{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15193,7 +15195,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-1-mar-50,[class*="row-col-mar"].col-sm-1-mar-50{
+  [class*="mar-"].row-col-sm-1-mar-50,[class*="row-col-mar"].row-col-sm-1-mar-50{
     margin-left: 0;
     margin-right: 0;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex']{
@@ -15209,7 +15211,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-2-mar-5 ,[class*="row-col-mar"].col-sm-2-mar-5{
+  [class*="mar-"].row-col-sm-2-mar-5 ,[class*="row-col-mar"].row-col-sm-2-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15225,7 +15227,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-2-mar-10 ,[class*="row-col-mar"].col-sm-2-mar-10{
+  [class*="mar-"].row-col-sm-2-mar-10 ,[class*="row-col-mar"].row-col-sm-2-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15241,7 +15243,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-2-mar-15,[class*="row-col-mar"].col-sm-2-mar-15{
+  [class*="mar-"].row-col-sm-2-mar-15,[class*="row-col-mar"].row-col-sm-2-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     >[class*="col-flex"], [class*='col-flex'][class*='col-flex'] {
@@ -15257,7 +15259,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-2-mar-20 ,[class*="row-col-mar"].col-sm-2-mar-20{
+  [class*="mar-"].row-col-sm-2-mar-20 ,[class*="row-col-mar"].row-col-sm-2-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15273,7 +15275,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-2-mar-25 ,[class*="row-col-mar"].col-sm-2-mar-25{
+  [class*="mar-"].row-col-sm-2-mar-25 ,[class*="row-col-mar"].row-col-sm-2-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15289,7 +15291,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-2-mar-30 ,[class*="row-col-mar"].col-sm-2-mar-30{
+  [class*="mar-"].row-col-sm-2-mar-30 ,[class*="row-col-mar"].row-col-sm-2-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15305,7 +15307,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-3-mar-5 ,[class*="row-col-mar"].col-sm-3-mar-5{
+  [class*="mar-"].row-col-sm-3-mar-5 ,[class*="row-col-mar"].row-col-sm-3-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15321,7 +15323,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-3-mar-10 ,[class*="row-col-mar"].col-sm-3-mar-10{
+  [class*="mar-"].row-col-sm-3-mar-10 ,[class*="row-col-mar"].row-col-sm-3-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15337,7 +15339,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-3-mar-15 ,[class*="row-col-mar"].col-sm-3-mar-15{
+  [class*="mar-"].row-col-sm-3-mar-15 ,[class*="row-col-mar"].row-col-sm-3-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15353,7 +15355,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-3-mar-20 ,[class*="row-col-mar"].col-sm-3-mar-20{
+  [class*="mar-"].row-col-sm-3-mar-20 ,[class*="row-col-mar"].row-col-sm-3-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15369,7 +15371,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-3-mar-25 ,[class*="row-col-mar"].col-sm-3-mar-25{
+  [class*="mar-"].row-col-sm-3-mar-25 ,[class*="row-col-mar"].row-col-sm-3-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15385,7 +15387,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-3-mar-30 ,[class*="row-col-mar"].col-sm-3-mar-30{
+  [class*="mar-"].row-col-sm-3-mar-30 ,[class*="row-col-mar"].row-col-sm-3-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15401,7 +15403,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-4-mar-5 ,[class*="row-col-mar"].col-sm-4-mar-5{
+  [class*="mar-"].row-col-sm-4-mar-5 ,[class*="row-col-mar"].row-col-sm-4-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15417,7 +15419,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-4-mar-10 ,[class*="row-col-mar"].col-sm-4-mar-10{
+  [class*="mar-"].row-col-sm-4-mar-10 ,[class*="row-col-mar"].row-col-sm-4-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15433,7 +15435,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-4-mar-15 ,[class*="row-col-mar"].col-sm-4-mar-15{
+  [class*="mar-"].row-col-sm-4-mar-15 ,[class*="row-col-mar"].row-col-sm-4-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15449,7 +15451,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-4-mar-20 ,[class*="row-col-mar"].col-sm-4-mar-20{
+  [class*="mar-"].row-col-sm-4-mar-20 ,[class*="row-col-mar"].row-col-sm-4-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15465,7 +15467,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-4-mar-25 ,[class*="row-col-mar"].col-sm-4-mar-25{
+  [class*="mar-"].row-col-sm-4-mar-25 ,[class*="row-col-mar"].row-col-sm-4-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15481,7 +15483,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-4-mar-30 ,[class*="row-col-mar"].col-sm-4-mar-30{
+  [class*="mar-"].row-col-sm-4-mar-30 ,[class*="row-col-mar"].row-col-sm-4-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15497,7 +15499,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-5-mar-5 ,[class*="row-col-mar"].col-sm-5-mar-5{
+  [class*="mar-"].row-col-sm-5-mar-5 ,[class*="row-col-mar"].row-col-sm-5-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15513,7 +15515,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-5-mar-10 ,[class*="row-col-mar"].col-sm-5-mar-10{
+  [class*="mar-"].row-col-sm-5-mar-10 ,[class*="row-col-mar"].row-col-sm-5-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15529,7 +15531,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-5-mar-15 ,[class*="row-col-mar"].col-sm-5-mar-15{
+  [class*="mar-"].row-col-sm-5-mar-15 ,[class*="row-col-mar"].row-col-sm-5-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15545,7 +15547,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-5-mar-20 ,[class*="row-col-mar"].col-sm-5-mar-20{
+  [class*="mar-"].row-col-sm-5-mar-20 ,[class*="row-col-mar"].row-col-sm-5-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15561,7 +15563,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-5-mar-25 ,[class*="row-col-mar"].col-sm-5-mar-25{
+  [class*="mar-"].row-col-sm-5-mar-25 ,[class*="row-col-mar"].row-col-sm-5-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15577,7 +15579,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-5-mar-30 ,[class*="row-col-mar"].col-sm-5-mar-30{
+  [class*="mar-"].row-col-sm-5-mar-30 ,[class*="row-col-mar"].row-col-sm-5-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15593,7 +15595,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-6-mar-5 ,[class*="row-col-mar"].col-sm-6-mar-5{
+  [class*="mar-"].row-col-sm-6-mar-5 ,[class*="row-col-mar"].row-col-sm-6-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15609,7 +15611,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-6-mar-10 ,[class*="row-col-mar"].col-sm-6-mar-10{
+  [class*="mar-"].row-col-sm-6-mar-10 ,[class*="row-col-mar"].row-col-sm-6-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15625,7 +15627,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-6-mar-15 ,[class*="row-col-mar"].col-sm-6-mar-15{
+  [class*="mar-"].row-col-sm-6-mar-15 ,[class*="row-col-mar"].row-col-sm-6-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15641,7 +15643,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-6-mar-20 ,[class*="row-col-mar"].col-sm-6-mar-20{
+  [class*="mar-"].row-col-sm-6-mar-20 ,[class*="row-col-mar"].row-col-sm-6-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15657,7 +15659,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-6-mar-25 ,[class*="row-col-mar"].col-sm-6-mar-25{
+  [class*="mar-"].row-col-sm-6-mar-25 ,[class*="row-col-mar"].row-col-sm-6-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15673,7 +15675,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-6-mar-30 ,[class*="row-col-mar"].col-sm-6-mar-30{
+  [class*="mar-"].row-col-sm-6-mar-30 ,[class*="row-col-mar"].row-col-sm-6-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15689,7 +15691,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-7-mar-5 ,[class*="row-col-mar"].col-sm-7-mar-5{
+  [class*="mar-"].row-col-sm-7-mar-5 ,[class*="row-col-mar"].row-col-sm-7-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15705,7 +15707,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-7-mar-10 ,[class*="row-col-mar"].col-sm-7-mar-10{
+  [class*="mar-"].row-col-sm-7-mar-10 ,[class*="row-col-mar"].row-col-sm-7-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15721,7 +15723,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-7-mar-15 ,[class*="row-col-mar"].col-sm-7-mar-15{
+  [class*="mar-"].row-col-sm-7-mar-15 ,[class*="row-col-mar"].row-col-sm-7-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15737,7 +15739,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-7-mar-20 ,[class*="row-col-mar"].col-sm-7-mar-20{
+  [class*="mar-"].row-col-sm-7-mar-20 ,[class*="row-col-mar"].row-col-sm-7-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15753,7 +15755,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-7-mar-25 ,[class*="row-col-mar"].col-sm-7-mar-25{
+  [class*="mar-"].row-col-sm-7-mar-25 ,[class*="row-col-mar"].row-col-sm-7-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15769,7 +15771,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-7-mar-30 ,[class*="row-col-mar"].col-sm-7-mar-30{
+  [class*="mar-"].row-col-sm-7-mar-30 ,[class*="row-col-mar"].row-col-sm-7-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15785,7 +15787,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-8-mar-5 ,[class*="row-col-mar"].col-sm-8-mar-5{
+  [class*="mar-"].row-col-sm-8-mar-5 ,[class*="row-col-mar"].row-col-sm-8-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15801,7 +15803,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-8-mar-10 ,[class*="row-col-mar"].col-sm-8-mar-10{
+  [class*="mar-"].row-col-sm-8-mar-10 ,[class*="row-col-mar"].row-col-sm-8-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15817,7 +15819,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-8-mar-15 ,[class*="row-col-mar"].col-sm-8-mar-15{
+  [class*="mar-"].row-col-sm-8-mar-15 ,[class*="row-col-mar"].row-col-sm-8-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15833,7 +15835,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-8-mar-20 ,[class*="row-col-mar"].col-sm-8-mar-20{
+  [class*="mar-"].row-col-sm-8-mar-20 ,[class*="row-col-mar"].row-col-sm-8-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15849,7 +15851,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-8-mar-25 ,[class*="row-col-mar"].col-sm-8-mar-25{
+  [class*="mar-"].row-col-sm-8-mar-25 ,[class*="row-col-mar"].row-col-sm-8-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15865,7 +15867,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-8-mar-30 ,[class*="row-col-mar"].col-sm-8-mar-30{
+  [class*="mar-"].row-col-sm-8-mar-30 ,[class*="row-col-mar"].row-col-sm-8-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15881,7 +15883,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-9-mar-5 ,[class*="row-col-mar"].col-sm-9-mar-5{
+  [class*="mar-"].row-col-sm-9-mar-5 ,[class*="row-col-mar"].row-col-sm-9-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15897,7 +15899,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-9-mar-10 ,[class*="row-col-mar"].col-sm-9-mar-10{
+  [class*="mar-"].row-col-sm-9-mar-10 ,[class*="row-col-mar"].row-col-sm-9-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15913,7 +15915,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-9-mar-15 ,[class*="row-col-mar"].col-sm-9-mar-15{
+  [class*="mar-"].row-col-sm-9-mar-15 ,[class*="row-col-mar"].row-col-sm-9-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15929,7 +15931,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-9-mar-20 ,[class*="row-col-mar"].col-sm-9-mar-20{
+  [class*="mar-"].row-col-sm-9-mar-20 ,[class*="row-col-mar"].row-col-sm-9-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15945,7 +15947,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-9-mar-25 ,[class*="row-col-mar"].col-sm-9-mar-25{
+  [class*="mar-"].row-col-sm-9-mar-25 ,[class*="row-col-mar"].row-col-sm-9-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15961,7 +15963,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-9-mar-30 ,[class*="row-col-mar"].col-sm-9-mar-30{
+  [class*="mar-"].row-col-sm-9-mar-30 ,[class*="row-col-mar"].row-col-sm-9-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15977,7 +15979,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-10-mar-5 ,[class*="row-col-mar"].col-sm-10-mar-5{
+  [class*="mar-"].row-col-sm-10-mar-5 ,[class*="row-col-mar"].row-col-sm-10-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -15993,7 +15995,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-10-mar-10 ,[class*="row-col-mar"].col-sm-10-mar-10{
+  [class*="mar-"].row-col-sm-10-mar-10 ,[class*="row-col-mar"].row-col-sm-10-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16009,7 +16011,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-10-mar-15 ,[class*="row-col-mar"].col-sm-10-mar-15{
+  [class*="mar-"].row-col-sm-10-mar-15 ,[class*="row-col-mar"].row-col-sm-10-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16025,7 +16027,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-10-mar-20 ,[class*="row-col-mar"].col-sm-10-mar-20{
+  [class*="mar-"].row-col-sm-10-mar-20 ,[class*="row-col-mar"].row-col-sm-10-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16041,7 +16043,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-10-mar-25 ,[class*="row-col-mar"].col-sm-10-mar-25{
+  [class*="mar-"].row-col-sm-10-mar-25 ,[class*="row-col-mar"].row-col-sm-10-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16057,7 +16059,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-10-mar-30 ,[class*="row-col-mar"].col-sm-10-mar-30{
+  [class*="mar-"].row-col-sm-10-mar-30 ,[class*="row-col-mar"].row-col-sm-10-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16073,7 +16075,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-11-mar-5 ,[class*="row-col-mar"].col-sm-11-mar-5{
+  [class*="mar-"].row-col-sm-11-mar-5 ,[class*="row-col-mar"].row-col-sm-11-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16089,7 +16091,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-11-mar-10 ,[class*="row-col-mar"].col-sm-11-mar-10{
+  [class*="mar-"].row-col-sm-11-mar-10 ,[class*="row-col-mar"].row-col-sm-11-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16105,7 +16107,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-11-mar-15 ,[class*="row-col-mar"].col-sm-11-mar-15{
+  [class*="mar-"].row-col-sm-11-mar-15 ,[class*="row-col-mar"].row-col-sm-11-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16121,7 +16123,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-11-mar-20 ,[class*="row-col-mar"].col-sm-11-mar-20{
+  [class*="mar-"].row-col-sm-11-mar-20 ,[class*="row-col-mar"].row-col-sm-11-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16137,7 +16139,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-11-mar-25 ,[class*="row-col-mar"].col-sm-11-mar-25{
+  [class*="mar-"].row-col-sm-11-mar-25 ,[class*="row-col-mar"].row-col-sm-11-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16153,7 +16155,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-11-mar-30 ,[class*="row-col-mar"].col-sm-11-mar-30{
+  [class*="mar-"].row-col-sm-11-mar-30 ,[class*="row-col-mar"].row-col-sm-11-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16169,7 +16171,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-12-mar-5 ,[class*="row-col-mar"].col-sm-12-mar-5{
+  [class*="mar-"].row-col-sm-12-mar-5 ,[class*="row-col-mar"].row-col-sm-12-mar-5{
     margin-left: -@margin5;
     margin-right: -@margin5;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16185,7 +16187,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-12-mar-10 ,[class*="row-col-mar"].col-sm-12-mar-10{
+  [class*="mar-"].row-col-sm-12-mar-10 ,[class*="row-col-mar"].row-col-sm-12-mar-10{
     margin-left: -@margin10;
     margin-right: -@margin10;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16201,7 +16203,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-12-mar-15 ,[class*="row-col-mar"].col-sm-12-mar-15{
+  [class*="mar-"].row-col-sm-12-mar-15 ,[class*="row-col-mar"].row-col-sm-12-mar-15{
     margin-left: -@margin15;
     margin-right: -@margin15;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16217,7 +16219,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-12-mar-20 ,[class*="row-col-mar"].col-sm-12-mar-20{
+  [class*="mar-"].row-col-sm-12-mar-20 ,[class*="row-col-mar"].row-col-sm-12-mar-20{
     margin-left: -@margin20;
     margin-right: -@margin20;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16233,7 +16235,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-12-mar-25 ,[class*="row-col-mar"].col-sm-12-mar-25{
+  [class*="mar-"].row-col-sm-12-mar-25 ,[class*="row-col-mar"].row-col-sm-12-mar-25{
     margin-left: -@margin25;
     margin-right: -@margin25;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
@@ -16249,7 +16251,7 @@ col-lg-mar-(5-30) - изменение отсупа в медиа запроса
     }
   }
 
-  [class*="mar-"].col-sm-12-mar-30 ,[class*="row-col-mar"].col-sm-12-mar-30{
+  [class*="mar-"].row-col-sm-12-mar-30 ,[class*="row-col-mar"].row-col-sm-12-mar-30{
     margin-left: -@margin30;
     margin-right: -@margin30;
     > [class*='col-flex'], [class*='col-flex'][class*='col-flex'] {
