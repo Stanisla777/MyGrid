@@ -105,7 +105,7 @@ gulp.task('build-all', function () {
 
 //Автопрефиксы
 gulp.task('autoprefixer', function () {
-    gulp.src('./src/app/css/**/style2.css')//выборка файлов по конкретному пути
+    gulp.src('./src/app/css/**/style.css')//выборка файлов по конкретному пути
 
     //даем префиксы стилям
         .pipe(autoprefixer({
@@ -120,7 +120,7 @@ gulp.task('autoprefixer', function () {
 //сжатие css
 
 gulp.task('cssmin', function () {
-    gulp.src('./src/dist/css/**/style2.css')
+    gulp.src('./src/dist/css/**/style.css')
         .pipe(cssmin())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('./src/dist/css'));
